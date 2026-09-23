@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="880" viewBox="0 0 640 880" role="img" aria-labelledby="title desc">
+<title id="title">Do host ao próximo salto</title><desc id="desc">Host A usa IP e porta de origem para comunicar com Host B por um roteador gateway. O exemplo é TCP e o destino remoto usa endereço reservado.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="880" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / REDES</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Do host ao próximo salto</text>
+<rect x="32" y="118" width="576" height="132" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="104" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Host A: processo cliente</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">IP origem: 192.168.1.10/24</text>
+<text x="54" y="215" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Porta origem: 52341 | Transporte: TCP</text>
+<path d="M320 258 L320 302" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="340" y="286" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Quadro ao MAC do gateway</text>
+<rect x="32" y="316" width="576" height="132" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="330" width="4" height="104" rx="2" fill="#61e0dd"/>
+<text x="54" y="352" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Roteador: gateway local</text>
+<text x="54" y="384" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">192.168.1.1 no enlace do Host A</text>
+<text x="54" y="413" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Escolhe a próxima rota</text>
+<path d="M320 456 L320 500" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="514" width="576" height="132" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="528" width="4" height="104" rx="2" fill="#99bfff"/>
+<text x="54" y="550" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Outra rede ou internet</text>
+<text x="54" y="582" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Outros saltos podem existir</text>
+<text x="54" y="611" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Novo enquadramento em cada enlace</text>
+<path d="M320 654 L320 694" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="708" width="576" height="96" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="722" width="4" height="68" rx="2" fill="#61e0dd"/>
+<text x="54" y="744" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Host B: serviço</text>
+<text x="54" y="776" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">IP destino: 203.0.113.10 | Porta: 443</text>
+<text x="32" y="852" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Destino fictício de documentação; NAT foi omitido.</text>
+</g></svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="730" viewBox="0 0 640 730" role="img" aria-labelledby="title desc">
+<title id="title">TCP: estabelecimento</title><desc id="desc">Cliente envia SYN, servidor responde SYN ACK e cliente envia ACK. O fluxo usual estabelece a conexão antes da troca de dados.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="730" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / REDES</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">TCP: estabelecimento</text>
+<rect x="32" y="120" width="240" height="70" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="134" width="4" height="42" rx="2" fill="#61e0dd"/>
+<text x="54" y="156" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Cliente</text>
+<rect x="368" y="120" width="240" height="70" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="368" y="134" width="4" height="42" rx="2" fill="#61e0dd"/>
+<text x="390" y="156" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Servidor</text>
+<path d="M150 195 L150 575" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M490 195 L490 575" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<text x="320" y="252" font-size="26" fill="#eff7ff" text-anchor="middle" font-weight="bold">1  SYN</text>
+<path d="M150 270 L490 270" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="320" y="362" font-size="26" fill="#eff7ff" text-anchor="middle" font-weight="bold">2  SYN/ACK</text>
+<path d="M490 380 L150 380" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="320" y="472" font-size="26" fill="#eff7ff" text-anchor="middle" font-weight="bold">3  ACK</text>
+<path d="M150 490 L490 490" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="596" width="576" height="96" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="610" width="4" height="68" rx="2" fill="#61e0dd"/>
+<text x="54" y="632" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Conexão estabelecida</text>
+<text x="54" y="664" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Dados podem fluir nos dois sentidos</text>
+</g></svg>

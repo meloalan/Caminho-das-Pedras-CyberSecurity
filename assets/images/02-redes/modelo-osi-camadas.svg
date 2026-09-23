@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1030" viewBox="0 0 640 1030" role="img" aria-labelledby="title desc">
+<title id="title">OSI: organizar as perguntas</title><desc id="desc">Sete camadas verticalmente, com exemplos de aplicação, transporte, rede, enlace e física e funções conceituais de sessão e apresentação.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1030" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / REDES</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">OSI: organizar as perguntas</text>
+<rect x="32" y="116" width="576" height="96" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="130" width="4" height="68" rx="2" fill="#99bfff"/>
+<text x="54" y="152" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">7  Aplicação</text>
+<text x="54" y="184" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">HTTP e DNS: mensagens da aplicação</text>
+<path d="M320 215 L320 231" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="235" width="576" height="96" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="249" width="4" height="68" rx="2" fill="#99bfff"/>
+<text x="54" y="271" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">6  Apresentação</text>
+<text x="54" y="303" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Representação e transformação de dados</text>
+<path d="M320 334 L320 350" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="354" width="576" height="96" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="368" width="4" height="68" rx="2" fill="#99bfff"/>
+<text x="54" y="390" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">5  Sessão</text>
+<text x="54" y="422" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Organização e continuidade do diálogo</text>
+<path d="M320 453 L320 469" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="473" width="576" height="96" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="487" width="4" height="68" rx="2" fill="#61e0dd"/>
+<text x="54" y="509" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">4  Transporte</text>
+<text x="54" y="541" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">TCP e UDP: entrega entre endpoints</text>
+<path d="M320 572 L320 588" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="592" width="576" height="96" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="606" width="4" height="68" rx="2" fill="#61e0dd"/>
+<text x="54" y="628" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">3  Rede</text>
+<text x="54" y="660" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">IP: endereçamento e roteamento</text>
+<path d="M320 691 L320 707" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="711" width="576" height="96" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="725" width="4" height="68" rx="2" fill="#61e0dd"/>
+<text x="54" y="747" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">2  Enlace</text>
+<text x="54" y="779" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Ethernet e Wi-Fi: entrega no segmento</text>
+<path d="M320 810 L320 826" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="830" width="576" height="96" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="844" width="4" height="68" rx="2" fill="#61e0dd"/>
+<text x="54" y="866" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">1  Física</text>
+<text x="54" y="898" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Cabo, fibra e rádio: sinais no meio</text>
+<text x="32" y="976" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Modelo de referência, não encaixe rígido de protocolos.</text>
+<text x="32" y="1002" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">A pilha real pode reunir responsabilidades.</text>
+</g></svg>

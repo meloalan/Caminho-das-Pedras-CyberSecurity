@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1100" viewBox="0 0 640 1100" role="img" aria-labelledby="title desc">
+<title id="title">Uma navegação, várias evidências</title><desc id="desc">A aplicação obtém nome e endereço, escolhe rota, estabelece transporte e recebe resposta. Fontes distintas observam partes do caminho.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1100" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / REDES</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Uma navegação, várias evidências</text>
+<rect x="32" y="116" width="576" height="124" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="130" width="4" height="96" rx="2" fill="#61e0dd"/>
+<text x="54" y="152" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">01  Aplicação e nome</text>
+<text x="54" y="184" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Browser solicita example.com</text>
+<text x="54" y="213" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Endpoint pode relacionar o processo</text>
+<path d="M320 244 L320 270" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="278" width="576" height="124" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="292" width="4" height="96" rx="2" fill="#61e0dd"/>
+<text x="54" y="314" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">02  Resolução de nome</text>
+<text x="54" y="346" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Cache ou consulta ao resolvedor</text>
+<text x="54" y="375" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">DNS pode registrar consulta e resposta</text>
+<path d="M320 406 L320 432" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="440" width="576" height="124" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="454" width="4" height="96" rx="2" fill="#61e0dd"/>
+<text x="54" y="476" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">03  Endereço e rota</text>
+<text x="54" y="508" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Interface e próximo salto</text>
+<text x="54" y="537" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Gateway quando a rota exigir</text>
+<path d="M320 568 L320 594" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="602" width="576" height="124" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="616" width="4" height="96" rx="2" fill="#61e0dd"/>
+<text x="54" y="638" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">04  Transporte e proteção</text>
+<text x="54" y="670" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">TCP + TLS ou QUIC/UDP com TLS</text>
+<text x="54" y="699" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Firewall pode registrar o fluxo</text>
+<path d="M320 730 L320 756" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="764" width="576" height="124" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="778" width="4" height="96" rx="2" fill="#61e0dd"/>
+<text x="54" y="800" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">05  Requisição e resposta</text>
+<text x="54" y="832" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">HTTP entre cliente e serviço</text>
+<text x="54" y="861" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Proxy e servidor podem gerar logs</text>
+<path d="M320 892 L320 918" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="936" width="576" height="98" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="950" width="4" height="70" rx="2" fill="#99bfff"/>
+<text x="54" y="972" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Correlacionar com contexto</text>
+<text x="54" y="1004" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Tempo, ativo, processo e ponto de coleta</text>
+<text x="32" y="1072" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Nenhuma fonte observa necessariamente tudo.</text>
+</g></svg>

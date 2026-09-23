@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1050" viewBox="0 0 640 1050" role="img" aria-labelledby="title desc">
+<title id="title">Do pacote à hipótese</title><desc id="desc">Captura autorizada gera pacotes; filtro de exibição seleciona uma visão; pacote escolhido revela detalhes que sustentam perguntas de investigação com limitações.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1050" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / REDES</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Do pacote à hipótese</text>
+<rect x="32" y="118" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">01  Captura autorizada</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Interface e intervalo do próprio laboratório</text>
+<path d="M320 232 L320 260" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="268" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="282" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="304" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">02  Pacotes armazenados</text>
+<text x="54" y="336" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Apenas o que o ponto conseguiu registrar</text>
+<path d="M320 382 L320 410" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="418" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="432" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="454" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">03  Filtro de exibição</text>
+<text x="54" y="486" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Seleciona a visão; não apaga o arquivo</text>
+<path d="M320 532 L320 560" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="568" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="582" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="604" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">04  Seleção de um pacote</text>
+<text x="54" y="636" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Compare direção, tempo e conversa</text>
+<path d="M320 682 L320 710" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="718" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="732" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="754" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">05  Detalhes dos protocolos</text>
+<text x="54" y="786" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">IP, portas, flags e campos visíveis</text>
+<path d="M320 832 L320 860" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="868" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="882" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="904" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">06  Investigação</text>
+<text x="54" y="936" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Hipótese + outra fonte + limitações</text>
+<text x="32" y="1022" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Não publique PCAP bruto nem comunicações de terceiros.</text>
+</g></svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="870" viewBox="0 0 640 870" role="img" aria-labelledby="title desc">
+<title id="title">HTTPS: dois transportes</title><desc id="desc">Browser obtém nome por DNS ou cache. HTTPS pode usar HTTP um ou dois sobre TLS e TCP, ou HTTP três sobre QUIC UDP com TLS integrado. Servidor recebe e responde.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="870" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / REDES</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">HTTPS: dois transportes</text>
+<rect x="32" y="118" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Browser: nome do serviço</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">DNS ou cache fornece endereços</text>
+<path d="M320 224 L320 256" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="320" y="287" font-size="23" fill="#bdd1e5" text-anchor="middle" font-weight="normal">Alternativas conforme negociação</text>
+<rect x="32" y="324" width="280" height="164" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="338" width="4" height="136" rx="2" fill="#61e0dd"/>
+<text x="54" y="360" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">HTTP/1.1 ou HTTP/2</text>
+<text x="54" y="392" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">TCP + TLS</text>
+<text x="54" y="421" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Transporte e proteção</text>
+<rect x="330" y="324" width="278" height="164" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="330" y="338" width="4" height="136" rx="2" fill="#99bfff"/>
+<text x="352" y="360" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">HTTP/3</text>
+<text x="352" y="392" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">QUIC sobre UDP</text>
+<text x="352" y="421" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">TLS 1.3 integrado</text>
+<path d="M172 496 L172 537" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M469 496 L469 537" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 537 L469 537" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M320 537 L320 571" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="584" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="598" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="620" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">HTTP: requisição ao servidor</text>
+<text x="54" y="652" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Método, alvo e demais campos</text>
+<path d="M320 692 L320 722" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="736" width="576" height="98" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="750" width="4" height="70" rx="2" fill="#61e0dd"/>
+<text x="54" y="772" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Resposta ao browser</text>
+<text x="54" y="804" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Status, campos e conteúdo aplicável</text>
+</g></svg>
