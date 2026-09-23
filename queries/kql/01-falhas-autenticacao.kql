@@ -1,0 +1,6 @@
+// SecurityEvent: Windows Security Events via AMA. Exemplo educacional.
+SecurityEvent
+| where TimeGenerated >= ago(24h)
+| where EventID == 4625
+| project TimeGenerated, Computer, TargetAccount, IpAddress, LogonType, Status, SubStatus
+| sort by TimeGenerated desc

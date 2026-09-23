@@ -1,0 +1,6 @@
+// Verifica apenas hosts presentes: não detecta sozinho hosts totalmente ausentes.
+SecurityEvent
+| where TimeGenerated >= ago(24h)
+| summarize Events = count(), LastSeen = max(TimeGenerated) by Computer
+| extend Silence = now() - LastSeen
+| sort by LastSeen asc

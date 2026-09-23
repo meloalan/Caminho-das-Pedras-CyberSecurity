@@ -1,0 +1,22 @@
+title: Windows User Account Created - Educational Baseline
+id: 95ff3f77-8494-47b4-8ab9-e1b012be0a8d
+status: experimental
+description: Detects event 4720 for educational triage. Confirm local or domain scope before assigning a sub-technique.
+references:
+    - https://attack.mitre.org/techniques/T1136/
+author: meloalan
+date: 2026-09-23
+tags:
+    - attack.persistence
+    - attack.t1136
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4720
+    condition: selection
+falsepositives:
+    - Authorized account provisioning
+    - Administrative maintenance
+level: low

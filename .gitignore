@@ -1,0 +1,39 @@
+# Segredos e configurações locais
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+secrets*
+credentials*
+tokens*
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+# Evidências brutas ficam fora do Git
+*.evtx
+*.etl
+*.pcap
+*.pcapng
+*.dmp
+*.log
+evidence-private/
+raw-logs/
+# Temporários e ambientes
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+__pycache__/
+.venv/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

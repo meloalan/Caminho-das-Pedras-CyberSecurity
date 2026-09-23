@@ -1,0 +1,91 @@
+// DADOS SINTETICOS: nenhuma autenticação é gerada. Execute o arquivo completo.
+let Now = now();
+let SecurityEvent = datatable(OffsetMinutes:long, EventID:int, TargetAccount:string, Computer:string, IpAddress:string, LogonType:int)
+[
+    -6, 4625, "positivo", "LAB-01", "192.0.2.10", 3,
+    -5, 4625, "positivo", "LAB-01", "192.0.2.10", 3,
+    -4, 4625, "positivo", "LAB-01", "192.0.2.10", 3,
+    -3, 4625, "positivo", "LAB-01", "192.0.2.10", 3,
+    -2, 4625, "positivo", "LAB-01", "192.0.2.10", 3,
+    -1, 4624, "positivo", "LAB-01", "192.0.2.10", 3,
+    -11, 4625, "limite-inclusivo", "LAB-01", "192.0.2.10", 3,
+    -10, 4625, "limite-inclusivo", "LAB-01", "192.0.2.10", 3,
+    -9, 4625, "limite-inclusivo", "LAB-01", "192.0.2.10", 3,
+    -8, 4625, "limite-inclusivo", "LAB-01", "192.0.2.10", 3,
+    -7, 4625, "limite-inclusivo", "LAB-01", "192.0.2.10", 3,
+    -1, 4624, "limite-inclusivo", "LAB-01", "192.0.2.10", 3,
+    -5, 4625, "quatro-falhas", "LAB-01", "192.0.2.10", 3,
+    -4, 4625, "quatro-falhas", "LAB-01", "192.0.2.10", 3,
+    -3, 4625, "quatro-falhas", "LAB-01", "192.0.2.10", 3,
+    -2, 4625, "quatro-falhas", "LAB-01", "192.0.2.10", 3,
+    -1, 4624, "quatro-falhas", "LAB-01", "192.0.2.10", 3,
+    -6, 4625, "sucesso-anterior", "LAB-01", "192.0.2.10", 3,
+    -5, 4625, "sucesso-anterior", "LAB-01", "192.0.2.10", 3,
+    -4, 4625, "sucesso-anterior", "LAB-01", "192.0.2.10", 3,
+    -3, 4625, "sucesso-anterior", "LAB-01", "192.0.2.10", 3,
+    -2, 4625, "sucesso-anterior", "LAB-01", "192.0.2.10", 3,
+    -7, 4624, "sucesso-anterior", "LAB-01", "192.0.2.10", 3,
+    -16, 4625, "fora-da-janela", "LAB-01", "192.0.2.10", 3,
+    -15, 4625, "fora-da-janela", "LAB-01", "192.0.2.10", 3,
+    -14, 4625, "fora-da-janela", "LAB-01", "192.0.2.10", 3,
+    -13, 4625, "fora-da-janela", "LAB-01", "192.0.2.10", 3,
+    -12, 4625, "fora-da-janela", "LAB-01", "192.0.2.10", 3,
+    -1, 4624, "fora-da-janela", "LAB-01", "192.0.2.10", 3,
+    -6, 4625, "ip-diferente", "LAB-01", "192.0.2.10", 3,
+    -5, 4625, "ip-diferente", "LAB-01", "192.0.2.10", 3,
+    -4, 4625, "ip-diferente", "LAB-01", "192.0.2.10", 3,
+    -3, 4625, "ip-diferente", "LAB-01", "192.0.2.10", 3,
+    -2, 4625, "ip-diferente", "LAB-01", "192.0.2.10", 3,
+    -1, 4624, "ip-diferente", "LAB-01", "192.0.2.20", 3,
+    -5, 4625, "mesmo-instante", "LAB-01", "192.0.2.10", 3,
+    -4, 4625, "mesmo-instante", "LAB-01", "192.0.2.10", 3,
+    -3, 4625, "mesmo-instante", "LAB-01", "192.0.2.10", 3,
+    -2, 4625, "mesmo-instante", "LAB-01", "192.0.2.10", 3,
+    -1, 4625, "mesmo-instante", "LAB-01", "192.0.2.10", 3,
+    -1, 4624, "mesmo-instante", "LAB-01", "192.0.2.10", 3,
+    -6, 4625, "ip-vazio", "LAB-01", "", 3,
+    -5, 4625, "ip-vazio", "LAB-01", "", 3,
+    -4, 4625, "ip-vazio", "LAB-01", "", 3,
+    -3, 4625, "ip-vazio", "LAB-01", "", 3,
+    -2, 4625, "ip-vazio", "LAB-01", "", 3,
+    -1, 4624, "ip-vazio", "LAB-01", "", 3,
+    -6, 4625, "host-diferente", "LAB-01", "192.0.2.10", 3,
+    -5, 4625, "host-diferente", "LAB-01", "192.0.2.10", 3,
+    -4, 4625, "host-diferente", "LAB-01", "192.0.2.10", 3,
+    -3, 4625, "host-diferente", "LAB-01", "192.0.2.10", 3,
+    -2, 4625, "host-diferente", "LAB-01", "192.0.2.10", 3,
+    -1, 4624, "host-diferente", "LAB-02", "192.0.2.10", 3,
+    -6, 4625, "tipo-diferente", "LAB-01", "192.0.2.10", 3,
+    -5, 4625, "tipo-diferente", "LAB-01", "192.0.2.10", 3,
+    -4, 4625, "tipo-diferente", "LAB-01", "192.0.2.10", 3,
+    -3, 4625, "tipo-diferente", "LAB-01", "192.0.2.10", 3,
+    -2, 4625, "tipo-diferente", "LAB-01", "192.0.2.10", 3,
+    -1, 4624, "tipo-diferente", "LAB-01", "192.0.2.10", 10
+]
+| extend TimeGenerated = Now + OffsetMinutes * 1m;
+// Regra educacional: >=5 falhas nos 10 minutos estritamente anteriores a cada sucesso.
+// Conta + IP + host + tipo de logon. Campos vazios são excluídos (lacuna conhecida).
+let Window = 10m;
+let Threshold = 5;
+let Base = SecurityEvent
+| where TimeGenerated >= ago(70m)
+| where EventID in (4624, 4625)
+| extend AccountKey = tolower(TargetAccount), HostKey = tolower(Computer),
+         SourceIP = tostring(IpAddress), LogonKey = tostring(LogonType)
+| where isnotempty(AccountKey) and AccountKey != "-"
+| where isnotempty(SourceIP) and SourceIP != "-"
+| where isnotempty(HostKey) and isnotempty(LogonKey);
+let Failures = Base
+| where EventID == 4625
+| project FailureTime = TimeGenerated, AccountKey, HostKey, SourceIP, LogonKey;
+let Successes = Base
+| where EventID == 4624 and TimeGenerated >= ago(1h)
+| project SuccessTime = TimeGenerated, AccountKey, HostKey, SourceIP, LogonKey;
+Successes
+| join kind=inner (Failures) on AccountKey, HostKey, SourceIP, LogonKey
+| where FailureTime < SuccessTime and FailureTime >= SuccessTime - Window
+| summarize FailureCount = count(), FirstFailure = min(FailureTime), LastFailure = max(FailureTime)
+    by SuccessTime, AccountKey, HostKey, SourceIP, LogonKey
+| where FailureCount >= Threshold
+| project SuccessTime, AccountKey, HostKey, SourceIP, LogonKey, FailureCount, FirstFailure, LastFailure
+| sort by SuccessTime desc

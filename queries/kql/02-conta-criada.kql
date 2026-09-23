@@ -1,0 +1,6 @@
+// Confirmar se a conta criada é local ou de domínio antes do mapeamento MITRE.
+SecurityEvent
+| where TimeGenerated >= ago(24h)
+| where EventID == 4720
+| project TimeGenerated, Computer, SubjectAccount, TargetAccount, TargetSid
+| sort by TimeGenerated desc

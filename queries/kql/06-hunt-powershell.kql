@@ -1,0 +1,10 @@
+// Hipótese de triagem: relações pai/filho pouco frequentes merecem contexto.
+WindowsEvent
+| where TimeGenerated >= ago(7d)
+| where Provider == "Microsoft-Windows-Sysmon" and EventID == 1
+| extend Image = tostring(EventData.Image), ParentImage = tostring(EventData.ParentImage),
+         CommandLine = tostring(EventData.CommandLine)
+| where Image endswith @"\powershell.exe" or Image endswith @"\pwsh.exe"
+| summarize Executions = count(), FirstSeen = min(TimeGenerated), LastSeen = max(TimeGenerated),
+            Examples = make_set(CommandLine, 3) by Computer, Image, ParentImage
+| top 20 by Executions asc

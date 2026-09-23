@@ -1,0 +1,8 @@
+// Pressupõe Sysmon coletado na tabela WindowsEvent com EventData dinâmico.
+WindowsEvent
+| where TimeGenerated >= ago(24h)
+| where Provider == "Microsoft-Windows-Sysmon" and EventID == 1
+| extend Image = tostring(EventData.Image), CommandLine = tostring(EventData.CommandLine),
+         ParentImage = tostring(EventData.ParentImage), ProcessGuid = tostring(EventData.ProcessGuid)
+| project TimeGenerated, Computer, Image, ParentImage, CommandLine, ProcessGuid
+| sort by TimeGenerated desc

@@ -1,0 +1,26 @@
+// Regra educacional: >=5 falhas nos 10 minutos estritamente anteriores a cada sucesso.
+// Conta + IP + host + tipo de logon. Campos vazios são excluídos (lacuna conhecida).
+let Window = 10m;
+let Threshold = 5;
+let Base = SecurityEvent
+| where TimeGenerated >= ago(70m)
+| where EventID in (4624, 4625)
+| extend AccountKey = tolower(TargetAccount), HostKey = tolower(Computer),
+         SourceIP = tostring(IpAddress), LogonKey = tostring(LogonType)
+| where isnotempty(AccountKey) and AccountKey != "-"
+| where isnotempty(SourceIP) and SourceIP != "-"
+| where isnotempty(HostKey) and isnotempty(LogonKey);
+let Failures = Base
+| where EventID == 4625
+| project FailureTime = TimeGenerated, AccountKey, HostKey, SourceIP, LogonKey;
+let Successes = Base
+| where EventID == 4624 and TimeGenerated >= ago(1h)
+| project SuccessTime = TimeGenerated, AccountKey, HostKey, SourceIP, LogonKey;
+Successes
+| join kind=inner (Failures) on AccountKey, HostKey, SourceIP, LogonKey
+| where FailureTime < SuccessTime and FailureTime >= SuccessTime - Window
+| summarize FailureCount = count(), FirstFailure = min(FailureTime), LastFailure = max(FailureTime)
+    by SuccessTime, AccountKey, HostKey, SourceIP, LogonKey
+| where FailureCount >= Threshold
+| project SuccessTime, AccountKey, HostKey, SourceIP, LogonKey, FailureCount, FirstFailure, LastFailure
+| sort by SuccessTime desc
