@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1090" viewBox="0 0 640 1090" role="img" aria-labelledby="title desc">
+<title id="title">Timeline do caso fictício</title><desc id="desc">Em 20 de setembro de 2026, três falhas antecedem um sucesso. Sessão, processo e rede exigem chaves; criação de conta usa outro ator.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1090" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SIEM NA PRÁTICA</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Timeline do caso fictício</text>
+<rect x="32" y="118" width="576" height="105" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="77" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">08:01 a 08:02 | Security 4625</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Três falhas da chave LAB / lab-user</text>
+<path d="M320 229 L320 251" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<rect x="32" y="258" width="576" height="105" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="272" width="4" height="77" rx="2" fill="#61e0dd"/>
+<text x="54" y="294" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">08:04 | Security 4624</text>
+<text x="54" y="326" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Sucesso e sessão 0xA100 em WIN-LAB01</text>
+<path d="M320 369 L320 391" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<rect x="32" y="398" width="576" height="105" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="412" width="4" height="77" rx="2" fill="#61e0dd"/>
+<text x="54" y="434" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">08:05 | Security 4672</text>
+<text x="54" y="466" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Privilégios na sessão: conferir LogonId</text>
+<path d="M320 509 L320 531" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<rect x="32" y="538" width="576" height="105" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="552" width="4" height="77" rx="2" fill="#61e0dd"/>
+<text x="54" y="574" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">08:08 | Sysmon 1</text>
+<text x="54" y="606" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">PowerShell: conferir ProcessGuid e pai</text>
+<path d="M320 649 L320 671" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<rect x="32" y="678" width="576" height="105" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="692" width="4" height="77" rx="2" fill="#61e0dd"/>
+<text x="54" y="714" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">08:10 | Sysmon 3</text>
+<text x="54" y="746" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">TCP: mesmo ProcessGuid sintético</text>
+<path d="M320 789 L320 811" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<rect x="32" y="818" width="576" height="105" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="832" width="4" height="77" rx="2" fill="#99bfff"/>
+<text x="54" y="854" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">08:15 | Security 4720</text>
+<text x="54" y="886" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">admin-lab cria novo-lab: outro ator</text>
+<text x="32" y="1036" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">UTC / observações sintéticas / relação não é intenção.</text>
+<text x="32" y="1062" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Eventos E09 e E10 não pertencem à chave candidata.</text>
+</g></svg>

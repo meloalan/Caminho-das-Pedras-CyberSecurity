@@ -1,6 +1,6 @@
 # 07 — KQL
 
-[← Voltar para página principal](../README.md)
+[← Módulo 06: SIEM na Prática](../06-SIEM-na-Pratica/README.md) · [Página principal](../README.md)
 
 Aprenda a consultar tabelas, resumir comportamentos e correlacionar eventos. Execute uma consulta por vez.
 

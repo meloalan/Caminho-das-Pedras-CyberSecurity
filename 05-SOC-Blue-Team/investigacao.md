@@ -2,7 +2,7 @@
 
 <!-- markdownlint-configure-file {"MD033": {"allowed_elements": ["details", "summary"]}} -->
 
-[← Tópico anterior](triagem.md) · [↑ Índice do módulo](README.md) · [Página principal](../README.md) · [Próximo tópico →](../06-Microsoft-Sentinel/README.md)
+[← Tópico anterior](triagem.md) · [↑ Índice do módulo](README.md) · [Página principal](../README.md) · [Próximo tópico →](../06-SIEM-na-Pratica/README.md)
 
 ## Objetivo
 
@@ -205,6 +205,6 @@ Quando os dados disponíveis não distinguem as hipóteses relevantes. Registre 
 
 ## Resumo e próximo passo
 
-Investigar é testar explicações e registrar limites. No [Módulo 06, Microsoft Sentinel](../06-Microsoft-Sentinel/README.md), aplique essas perguntas a tabelas, consultas KQL, regras e incidentes, preservando o raciocínio que se transfere entre plataformas.
+Investigar é testar explicações e registrar limites. No [Módulo 06, SIEM na Prática](../06-SIEM-na-Pratica/README.md), aplique essas perguntas à coleta, pesquisa, regras e investigação em Wazuh, Splunk, QRadar e Sentinel.
 
-[← Tópico anterior](triagem.md) · [↑ Índice do módulo](README.md) · [Página principal](../README.md) · [Próximo tópico →](../06-Microsoft-Sentinel/README.md)
+[← Tópico anterior](triagem.md) · [↑ Índice do módulo](README.md) · [Página principal](../README.md) · [Próximo tópico →](../06-SIEM-na-Pratica/README.md)

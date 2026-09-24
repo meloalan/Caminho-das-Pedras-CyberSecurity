@@ -328,6 +328,6 @@ Registrar a limitação, avaliar seu impacto na confiança e definir responsáve
 
 ## Resumo e próximo passo
 
-Siga para [estrutura SOC](estrutura-soc.md). Ao terminar o módulo, o [06 Microsoft Sentinel](../06-Microsoft-Sentinel/README.md) aplicará parte desse ciclo em uma plataforma real; o raciocínio continua transferível para Elastic, Splunk, QRadar, Wazuh e outras soluções.
+Siga para [estrutura SOC](estrutura-soc.md). Ao terminar o módulo, o [06 SIEM na Prática](../06-SIEM-na-Pratica/README.md) aplicará esse ciclo em Wazuh, Splunk, QRadar e Microsoft Sentinel, comparando dados, consultas e decisões entre plataformas.
 
 [← Tópico anterior](../04-Seguranca-da-Informacao/README.md) · [↑ Índice do módulo](README.md) · [Página principal](../README.md) · [Próximo tópico →](estrutura-soc.md)

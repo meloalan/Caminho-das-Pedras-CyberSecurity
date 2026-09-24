@@ -47,7 +47,7 @@ Por exemplo, a pergunta “quais contas tiveram falhas na janela?” exige campo
 
 No contexto dos próximos labs, Log Analytics oferece workspace e tabelas para dados consultados por KQL. Analytics rules aplicam lógica de detecção e podem produzir alertas e agrupamentos chamados incidents. A existência desse objeto não confirma automaticamente um incidente de segurança.
 
-Conectores, schema, permissões e retenção precisam ser verificados antes de copiar uma query. O [módulo 06](../06-Microsoft-Sentinel/README.md) aprofundará a aplicação; consulte a [visão oficial](https://learn.microsoft.com/en-us/azure/sentinel/overview) para capacidades e terminologia atuais.
+Conectores, schema, permissões e retenção precisam ser verificados antes de copiar uma query. O [módulo 06](../06-SIEM-na-Pratica/README.md) compara essa aplicação com outras plataformas; consulte a [visão oficial](https://learn.microsoft.com/en-us/azure/sentinel/overview) para capacidades e terminologia atuais.
 
 ### Splunk
 

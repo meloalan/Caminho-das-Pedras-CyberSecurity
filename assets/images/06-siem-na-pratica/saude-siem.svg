@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="870" viewBox="0 0 640 870" role="img" aria-labelledby="title desc">
+<title id="title">Saúde antes da detecção</title><desc id="desc">Compare fontes esperadas e observadas, atraso e parsing, confirme acesso e retenção. Falha de cobertura exige correção e novo teste.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="870" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SIEM NA PRÁTICA</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Saúde antes da detecção</text>
+<rect x="32" y="115" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="129" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="151" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Inventário esperado</text>
+<text x="54" y="183" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Quais fontes deveriam enviar dados?</text>
+<path d="M320 220 L320 243" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="248" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="262" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="284" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Observação recente</text>
+<text x="54" y="316" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Quais enviaram no intervalo esperado?</text>
+<path d="M320 353 L320 376" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="381" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="395" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="417" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Qualidade e atraso</text>
+<text x="54" y="449" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Volume, campos, relógios e filas</text>
+<path d="M320 486 L320 509" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="514" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="528" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="550" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Acesso e retenção</text>
+<text x="54" y="582" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">O analista consegue recuperar o registro?</text>
+<path d="M320 619 L320 642" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="647" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="661" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="683" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Correção e novo teste</text>
+<text x="54" y="715" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Responsável, evidência e prazo</text>
+<text x="32" y="842" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Zero alertas não comprova saúde da coleta.</text>
+</g></svg>

@@ -10,7 +10,7 @@ Avance por entregas, não por prazo fixo. Linux e Windows acompanham os fundamen
 | 2 — [Redes](../02-Redes/README.md) | TCP/IP, OSI, DNS, DHCP, HTTP/HTTPS, portas e Wireshark | Explicar uma conexão com captura anonimizada |
 | 3 — [Segurança](../04-Seguranca-da-Informacao/README.md) | CIA, vulnerabilidade, risco, ameaça, hardening, criptografia e IAM | Baseline com controle, teste e reversão |
 | 4 — [Blue Team / SOC](../05-SOC-Blue-Team/README.md) | Logs, SIEM, EDR, alertas, incidentes, triagem e investigação | Triagem de evento Windows com hipótese alternativa |
-| 5 — [Microsoft Security](../06-Microsoft-Sentinel/README.md) | Sentinel, Log Analytics, Defender, Entra ID, Microsoft 365 e KQL | Validar chegada de um evento e executar query |
+| 5 — [SIEM na Prática](../06-SIEM-na-Pratica/README.md) | Pipeline, pesquisa e detecção em Wazuh, Splunk, QRadar e Sentinel | Validar chegada de um evento e executar query |
 | 6 — [Detection Engineering](../08-Detection-Engineering/README.md) | Casos de uso, regras, tuning, false positives, Sigma e MITRE ATT&CK | Regra documentada com testes positivos e negativos |
 | 7 — [Threat Hunting](../09-Threat-Hunting/README.md) | Hipóteses, TTPs, IoCs, comportamentos, KQL e investigação avançada | Relatório de hunt com conclusão e limites |
 

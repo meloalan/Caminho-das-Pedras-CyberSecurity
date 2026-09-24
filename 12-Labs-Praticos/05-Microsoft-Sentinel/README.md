@@ -30,7 +30,7 @@ Windows, Event Viewer e PowerShell; Sysmon quando aplicável; Microsoft Sentinel
 2. Crie ou selecione workspace de laboratório e habilite Sentinel conforme a documentação oficial.
 3. No catálogo de conectores, siga Windows Security Events via AMA: associe DCR ao host e inclua os eventos necessários aos labs. Confirme política de auditoria no Windows.
 4. Gere um 4625 benigno e verifique SecurityEvent por computador e horário. Não considere só o estado visual do conector.
-5. Para Sysmon, siga o [roteiro WEF → coletor → AMA → WindowsEvent](../../06-Microsoft-Sentinel/sysmon-wef.md), com filtro e consulta de conferência. Confirme tabela e propriedades reais; não suponha que o conector Security colete Sysmon.
+5. Para Sysmon, siga o [roteiro WEF → coletor → AMA → WindowsEvent](../../06-SIEM-na-Pratica/sysmon-wef.md), com filtro e consulta de conferência. Confirme tabela e propriedades reais; não suponha que o conector Security colete Sysmon.
 6. Execute a query de saúde, compare com inventário e documente atraso.
 7. Ao terminar, remova associações e recursos criados exclusivamente para o lab após salvar notas; confira custos e recursos remanescentes.
 

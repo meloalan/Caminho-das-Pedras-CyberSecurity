@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+<title id="title">Módulo 06: SIEM na Prática</title><desc id="desc">Logs, SIEM, correlação, detecção e investigação. Wazuh, Splunk, IBM QRadar e Microsoft Sentinel.</desc>
+<rect width="1600" height="520" fill="#0b141c"/>
+<g font-family="Arial, sans-serif">
+<path d="M875 40V450" stroke="#172734"/>
+<path d="M921 40V450" stroke="#172734"/>
+<path d="M967 40V450" stroke="#172734"/>
+<path d="M1013 40V450" stroke="#172734"/>
+<path d="M1059 40V450" stroke="#172734"/>
+<path d="M1105 40V450" stroke="#172734"/>
+<path d="M1151 40V450" stroke="#172734"/>
+<path d="M1197 40V450" stroke="#172734"/>
+<path d="M1243 40V450" stroke="#172734"/>
+<path d="M1289 40V450" stroke="#172734"/>
+<path d="M1335 40V450" stroke="#172734"/>
+<path d="M1381 40V450" stroke="#172734"/>
+<path d="M1427 40V450" stroke="#172734"/>
+<path d="M1473 40V450" stroke="#172734"/>
+<path d="M1519 40V450" stroke="#172734"/>
+<path d="M1565 40V450" stroke="#172734"/>
+<path d="M875 40H1565" stroke="#172734"/>
+<path d="M875 86H1565" stroke="#172734"/>
+<path d="M875 132H1565" stroke="#172734"/>
+<path d="M875 178H1565" stroke="#172734"/>
+<path d="M875 224H1565" stroke="#172734"/>
+<path d="M875 270H1565" stroke="#172734"/>
+<path d="M875 316H1565" stroke="#172734"/>
+<path d="M875 362H1565" stroke="#172734"/>
+<path d="M875 408H1565" stroke="#172734"/>
+<rect x="70" y="56" width="11" height="71" rx="5" fill="#2e80f7"/>
+<text x="104" y="73" font-size="19" fill="#becbd5" font-weight="normal">CAMINHO DAS PEDRAS  •  CYBERSECURITY</text>
+<text x="1430" y="75" font-size="17" fill="#8195a6" font-weight="normal">MÓDULO 06</text>
+<text x="70" y="234" font-size="118" fill="#2e80f7" font-weight="bold">06</text>
+<text x="236" y="199" font-size="59" fill="#f0f5fa" font-weight="bold">SIEM NA</text>
+<text x="236" y="261" font-size="59" fill="#f0f5fa" font-weight="bold">PRÁTICA</text>
+<text x="74" y="331" font-size="25" fill="#becbd5" font-weight="normal">Transforme logs em perguntas, evidências e decisões.</text>
+<text x="74" y="373" font-size="20" fill="#9fb0bc" font-weight="normal">Coleta  •  normalização  •  correlação  •  contexto</text>
+<rect x="890" y="137" width="124" height="157" rx="12" fill="#13232e" stroke="#2b4050"/>
+<text x="902" y="159" font-size="13" fill="#7892a5" font-weight="normal">01</text>
+<rect x="933" y="174" width="38" height="30" rx="5" fill="none" stroke="#4fa4ff" stroke-width="2"/><path d="M940 186H964 M940 193H958" stroke="#4fa4ff" stroke-width="2"/>
+<text x="898" y="230" font-size="14" fill="#f0f5fa" font-weight="bold">LOGS</text>
+<text x="904" y="257" font-size="15" fill="#becbd5" font-weight="normal">Fontes</text>
+<text x="904" y="278" font-size="15" fill="#becbd5" font-weight="normal">Eventos</text>
+<rect x="1025" y="137" width="124" height="157" rx="12" fill="#13232e" stroke="#2b4050"/>
+<text x="1037" y="159" font-size="13" fill="#7892a5" font-weight="normal">02</text>
+<rect x="1068" y="174" width="38" height="30" rx="5" fill="none" stroke="#4fa4ff" stroke-width="2"/><path d="M1075 186H1099 M1075 193H1093" stroke="#4fa4ff" stroke-width="2"/>
+<text x="1033" y="230" font-size="14" fill="#f0f5fa" font-weight="bold">SIEM</text>
+<text x="1039" y="257" font-size="15" fill="#becbd5" font-weight="normal">Pesquisa</text>
+<text x="1039" y="278" font-size="15" fill="#becbd5" font-weight="normal">Contexto</text>
+<rect x="1160" y="137" width="124" height="157" rx="12" fill="#13232e" stroke="#2b4050"/>
+<text x="1172" y="159" font-size="13" fill="#7892a5" font-weight="normal">03</text>
+<rect x="1203" y="174" width="38" height="30" rx="5" fill="none" stroke="#4fa4ff" stroke-width="2"/><path d="M1210 186H1234 M1210 193H1228" stroke="#4fa4ff" stroke-width="2"/>
+<text x="1168" y="230" font-size="14" fill="#f0f5fa" font-weight="bold">CORRELAÇÃO</text>
+<text x="1174" y="257" font-size="15" fill="#becbd5" font-weight="normal">Entidades</text>
+<text x="1174" y="278" font-size="15" fill="#becbd5" font-weight="normal">Tempo</text>
+<rect x="1295" y="137" width="124" height="157" rx="12" fill="#13232e" stroke="#2b4050"/>
+<text x="1307" y="159" font-size="13" fill="#7892a5" font-weight="normal">04</text>
+<rect x="1338" y="174" width="38" height="30" rx="5" fill="none" stroke="#4fa4ff" stroke-width="2"/><path d="M1345 186H1369 M1345 193H1363" stroke="#4fa4ff" stroke-width="2"/>
+<text x="1303" y="230" font-size="14" fill="#f0f5fa" font-weight="bold">DETECÇÃO</text>
+<text x="1309" y="257" font-size="15" fill="#becbd5" font-weight="normal">Regras</text>
+<text x="1309" y="278" font-size="15" fill="#becbd5" font-weight="normal">Alertas</text>
+<rect x="1430" y="137" width="124" height="157" rx="12" fill="#13232e" stroke="#2b4050"/>
+<text x="1442" y="159" font-size="13" fill="#7892a5" font-weight="normal">05</text>
+<rect x="1473" y="174" width="38" height="30" rx="5" fill="none" stroke="#4fa4ff" stroke-width="2"/><path d="M1480 186H1504 M1480 193H1498" stroke="#4fa4ff" stroke-width="2"/>
+<text x="1438" y="230" font-size="14" fill="#f0f5fa" font-weight="bold">INVESTIGAÇÃO</text>
+<text x="1444" y="257" font-size="15" fill="#becbd5" font-weight="normal">Hipóteses</text>
+<text x="1444" y="278" font-size="15" fill="#becbd5" font-weight="normal">Evidências</text>
+<path d="M900 333H1539" stroke="#2e80f7" stroke-width="3"/><path d="M1537 325L1555 333L1537 341Z" fill="#2e80f7"/>
+<text x="892" y="372" font-size="22" fill="#9fb0bc" font-weight="normal">do evento observado à decisão documentada</text>
+<path d="M70 456H1530" stroke="#2b4050"/>
+<text x="74" y="494" font-size="19" fill="#8ea3b3" font-weight="normal">WAZUH  •  SPLUNK  •  IBM QRADAR  •  MICROSOFT SENTINEL</text>
+</g></svg>

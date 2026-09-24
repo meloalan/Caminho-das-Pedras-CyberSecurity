@@ -206,7 +206,7 @@ Sentinel faz parte da trilha para estudar SIEM em ecossistemas Microsoft. O obje
 
 Log Analytics e suas tabelas dão contexto ao armazenamento e à consulta dos logs; KQL permite explorar esses dados. Analytics Rules, incidentes e automação entram depois que a fonte e a lógica estão compreendidas. Automatizar uma decisão também exige tratar erros, permissões e impacto.
 
-O [módulo Sentinel](06-Microsoft-Sentinel/README.md) e o [Lab 05](12-Labs-Praticos/05-Microsoft-Sentinel/README.md) já possuem roteiros. Eles representam uma implementação desses conceitos. O raciocínio sobre coleta, qualidade, contexto e resposta também será útil em outras plataformas.
+O [módulo SIEM na Prática](06-SIEM-na-Pratica/README.md) e o [Lab 05](12-Labs-Praticos/05-Microsoft-Sentinel/README.md) já possuem roteiros. O módulo compara Wazuh, Splunk, QRadar e Sentinel; o lab aprofunda uma implementação desses conceitos. O raciocínio sobre coleta, qualidade, contexto e resposta também será útil em outras plataformas.
 
 <a id="caminho"></a>
 
@@ -276,7 +276,7 @@ O ciclo pode exigir voltar algumas etapas. Se o campo necessário não foi colet
 
 ## Os 14 módulos
 
-Estes são os módulos existentes. Elasticsearch, Wazuh, Splunk e QRadar aparecem como direções de expansão, sem pastas ou cursos próprios nesta versão.
+Estes são os módulos existentes. Wazuh, Splunk, QRadar e Microsoft Sentinel são estudados juntos no módulo 06, com conceitos e labs comparáveis. Elasticsearch permanece como direção de expansão.
 
 | Módulo | O que você vai aprender | Acesso |
 | --- | --- | --- |
@@ -285,7 +285,7 @@ Estes são os módulos existentes. Elasticsearch, Wazuh, Splunk e QRadar aparece
 | 03: Linux e Windows | Administração, PowerShell, eventos, Active Directory e Sysmon. | [Abrir módulo](03-Linux-e-Windows/README.md) |
 | 04: Segurança da Informação | Risco, identidade, criptografia, hardening e segurança em nuvem. | [Abrir módulo](04-Seguranca-da-Informacao/README.md) |
 | 05: SOC e Blue Team | Telemetria, alertas, triagem, contexto e investigação. | [Abrir módulo](05-SOC-Blue-Team/README.md) |
-| 06: Microsoft Sentinel | Coleta, Log Analytics, regras, incidentes e automação. | [Abrir módulo](06-Microsoft-Sentinel/README.md) |
+| 06: SIEM na Prática | Pipeline, pesquisa, detecção e investigação em Wazuh, Splunk, QRadar e Sentinel. | [Abrir módulo](06-SIEM-na-Pratica/README.md) |
 | 07: KQL | Filtros, campos, agregações, joins e consultas defensivas. | [Abrir módulo](07-KQL/README.md) |
 | 08: Detection Engineering | Casos de uso, qualidade dos dados, testes, tuning e Sigma. | [Abrir módulo](08-Detection-Engineering/README.md) |
 | 09: Threat Hunting | Hipóteses, IoCs, TTPs, pesquisa e interpretação de evidências. | [Abrir módulo](09-Threat-Hunting/README.md) |
@@ -480,7 +480,7 @@ Caminho-das-Pedras-CyberSecurity/
   03-Linux-e-Windows/
   04-Seguranca-da-Informacao/
   05-SOC-Blue-Team/
-  06-Microsoft-Sentinel/
+  06-SIEM-na-Pratica/
   07-KQL/
   08-Detection-Engineering/
   09-Threat-Hunting/
