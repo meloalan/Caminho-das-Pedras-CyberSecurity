@@ -1,5 +1,7 @@
 # 02 Redes
 
+![Módulo 02: Redes](../assets/images/banners/banner-02-redes.png)
+
 <!-- markdownlint-configure-file {"MD033": {"allowed_elements": ["details", "summary"]}} -->
 
 [← Tópico anterior](../01-Fundamentos/README.md) · [↑ Índice do módulo](README.md) · [Página principal](../README.md) · [Próximo tópico →](modelo-osi.md)

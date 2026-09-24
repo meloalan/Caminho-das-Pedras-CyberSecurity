@@ -1,5 +1,7 @@
 # 03 Linux e Windows
 
+![Módulo 03: Linux e Windows](../assets/images/banners/banner-03-linux-e-windows.png)
+
 <!-- markdownlint-configure-file {"MD033": {"allowed_elements": ["details", "summary"]}} -->
 
 [← Tópico anterior](../02-Redes/README.md) · [↑ Índice do módulo](README.md) · [Página principal](../README.md) · [Próximo tópico →](linux.md)

@@ -1,5 +1,7 @@
 # 04 Segurança da Informação
 
+![Módulo 04: Segurança da Informação](../assets/images/banners/banner-04-seguranca-da-informacao.png)
+
 <!-- markdownlint-configure-file {"MD033": {"allowed_elements": ["details", "summary"]}} -->
 
 [← Tópico anterior](../03-Linux-e-Windows/README.md) · [↑ Índice do módulo](README.md) · [Página principal](../README.md) · [Próximo tópico →](cia-triad.md)

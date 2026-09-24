@@ -1,5 +1,7 @@
 # 01 Fundamentos de TI
 
+![Módulo 01: Fundamentos de TI](../assets/images/banners/banner-01-fundamentos.png)
+
 <!-- markdownlint-configure-file {"MD033": {"allowed_elements": ["details", "summary"]}} -->
 
 [← Página principal](../README.md) · [↑ Índice do módulo](README.md) · [Próximo tópico → Hardware](hardware.md)
