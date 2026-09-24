@@ -28,23 +28,36 @@ Não é preciso dominar cada ferramenta antes de seguir. O critério é consegui
 
 ```mermaid
 flowchart TD
-    A[Hardware: recursos] --> B[Sistema operacional: gerenciamento]
-    B --> C[Linha de comando: observar e consultar]
-    C --> D[Virtualização: preparar o laboratório]
-    D --> E[Git e GitHub: documentar mudanças]
-    E --> F[Próximo módulo: Redes]
+    A["Hardware<br/>recursos"] e1@--> B["Sistema operacional<br/>gerenciamento"]
+    B e2@--> C["Linha de comando<br/>observar e consultar"]
+    C e3@--> D["Virtualização<br/>preparar o laboratório"]
+    D e4@--> E["Git e GitHub<br/>documentar mudanças"]
+    E e5@--> F["Próximo módulo<br/>Redes"]
+
+    e1@{ animation: fast }
+    e2@{ animation: fast }
+    e3@{ animation: fast }
+    e4@{ animation: fast }
+    e5@{ animation: fast }
 ```
 
 A sequência conecta conhecimentos. Primeiro entendemos o computador e o sistema; depois consultamos seu estado, planejamos um ambiente de teste e registramos o aprendizado.
 
 ```mermaid
 flowchart TD
-    C[Computador] --> S[Sistema operacional]
-    S --> P[Processos, serviços e arquivos]
-    P --> U[Usuários e permissões]
-    U --> T[Linha de comando: consultas]
-    T --> L[Logs e telemetria: interpretar registros]
-    L --> I[Investigação de segurança]
+    C["Computador"] e1@--> S["Sistema operacional"]
+    S e2@--> P["Processos, serviços<br/>e arquivos"]
+    P e3@--> U["Usuários e<br/>permissões"]
+    U e4@--> T["Linha de comando<br/>consultas"]
+    T e5@--> L["Logs e telemetria<br/>interpretar registros"]
+    L e6@--> I["Investigação<br/>de segurança"]
+
+    e1@{ animation: fast }
+    e2@{ animation: fast }
+    e3@{ animation: fast }
+    e4@{ animation: fast }
+    e5@{ animation: fast }
+    e6@{ animation: fast }
 ```
 
 Esse segundo fluxo representa a construção do entendimento, não uma promessa de que toda consulta gera um log. Antes de investigar um processo suspeito, precisamos reconhecer um processo normal. Antes de interpretar memória, arquivos ou comandos, precisamos saber o que esses elementos representam e quais dados realmente estão disponíveis.
@@ -65,11 +78,17 @@ Aqui o foco está nessas bases. Os [labs dos módulos posteriores](../12-Labs-Pr
 
 ```mermaid
 flowchart LR
-    E[Entender] --> O[Observar]
-    O --> X[Executar]
-    X --> C[Comparar]
-    C --> D[Documentar]
-    D --> P[Explicar com suas palavras]
+    E["Entender"] e1@--> O["Observar"]
+    O e2@--> X["Executar"]
+    X e3@--> C["Comparar"]
+    C e4@--> D["Documentar"]
+    D e5@--> P["Explicar com<br/>suas palavras"]
+
+    e1@{ animation: fast }
+    e2@{ animation: fast }
+    e3@{ animation: fast }
+    e4@{ animation: fast }
+    e5@{ animation: fast }
 ```
 
 Leia o conceito, observe o sistema e faça a prática em ambiente próprio. Compare o resultado com a explicação e registre diferenças. Se um comando falhar ou uma informação não estiver acessível, isso também é parte da observação.
@@ -108,20 +127,45 @@ Evite capturas sem explicação. Registre conceito, procedimento, resultado obse
 
 ## Checklist do módulo
 
+Os itens abaixo servem como referência rápida dentro do README.
+
+Para acompanhar seu progresso e conseguir **marcar os itens diretamente pelo GitHub**, abra um checklist próprio:
+
+[![Abrir checklist interativo](https://img.shields.io/badge/Checklist-Acompanhar%20progresso-2ea44f?style=for-the-badge&logo=github)](https://github.com/meloalan/Caminho-das-Pedras-CyberSecurity/issues/new?template=modulo-01-fundamentos.md&title=Progresso%20-%20M%C3%B3dulo%2001%20Fundamentos%20de%20TI)
+
+<details>
+<summary><strong>Ver checklist completo do módulo</strong></summary>
+
+### Hardware
+
 - [ ] Explico CPU, RAM e armazenamento com um exemplo de uso.
 - [ ] Distingo falta de espaço de atividade intensa de disco.
 - [ ] Reconheço memória virtual e a diferença entre memória livre e disponível.
+
+### Sistemas operacionais
+
 - [ ] Distingo programa, processo e serviço.
 - [ ] Identifico PID e usuário de processos acessíveis, sem presumir privilégios.
 - [ ] Entendo que auditoria e coleta limitam os logs disponíveis.
+
+### Linha de comando
+
 - [ ] Confiro diretório e identidade antes de consultar arquivos.
 - [ ] Explico um filtro e sei encontrar ajuda para um comando.
 - [ ] Sei que redirecionamento pode sobrescrever um arquivo.
+
+### Virtualização
+
 - [ ] Distingo host, guest e hipervisor.
 - [ ] Escolho um modo de rede e explico quem pode alcançar a VM.
 - [ ] Diferencio snapshot, backup e clone.
+
+### Git e GitHub
+
 - [ ] Explico working directory, staging, commit e remote.
 - [ ] Reviso alterações e entendo por que apagar um segredo não basta.
+
+</details>
 
 ## Checkpoint de conhecimento
 
