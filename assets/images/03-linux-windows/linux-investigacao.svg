@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1060" viewBox="0 0 640 1060" role="img" aria-labelledby="title desc">
+<title id="title">Linux: observar a execução</title><desc id="desc">Usuário utiliza shell para executar comando. Processo possui PID, pai e identidade; pode ter serviço associado, usar arquivo ou rede e produzir registros.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1060" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SISTEMAS</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Linux: observar a execução</text>
+<rect x="32" y="118" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Usuário → Shell → Comando</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Contexto da sessão de laboratório</text>
+<path d="M320 224 L320 254" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="266" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="280" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="302" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Processo</text>
+<text x="54" y="334" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">PID • PPID • usuário • início</text>
+<path d="M320 372 L320 402" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="414" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="428" width="4" height="72" rx="2" fill="#99bfff"/>
+<text x="54" y="450" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Serviço associado?</text>
+<text x="54" y="482" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Confirmar unidade e estado, se houver</text>
+<path d="M320 520 L320 546" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 546 L469 546" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 546 L172 574" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M469 546 L469 574" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="586" width="280" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="600" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="622" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Arquivo</text>
+<text x="54" y="654" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Caminho e permissão</text>
+<rect x="330" y="586" width="278" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="330" y="600" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="352" y="622" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Rede</text>
+<text x="352" y="654" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Socket e destino</text>
+<path d="M172 694 L172 720" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M469 694 L469 720" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M172 720 L469 720" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M320 720 L320 748" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="7 6"/>
+<rect x="32" y="760" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="774" width="4" height="72" rx="2" fill="#99bfff"/>
+<text x="54" y="796" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Log quando disponível</text>
+<text x="54" y="828" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Journal ou registro da aplicação</text>
+<path d="M320 868 L320 896" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="908" width="576" height="66" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="922" width="4" height="38" rx="2" fill="#61e0dd"/>
+<text x="54" y="944" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Analista: hipótese e limite</text>
+<text x="32" y="1032" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Processo atual e histórico são perspectivas diferentes.</text>
+</g></svg>

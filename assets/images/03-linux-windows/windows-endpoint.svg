@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1110" viewBox="0 0 640 1110" role="img" aria-labelledby="title desc">
+<title id="title">Windows: contexto do host</title><desc id="desc">Identidade, processos e serviços se relacionam a arquivos, Registry e rede. Provedores nativos e Sysmon podem emitir eventos na infraestrutura Windows Event Log.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1110" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SISTEMAS</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Windows: contexto do host</text>
+<rect x="32" y="118" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Usuário, sessão e token</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Identidade não é o mesmo que privilégio</text>
+<path d="M320 224 L320 254" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="266" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="280" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="302" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Processos e serviços</text>
+<text x="54" y="334" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">PID, pai, conta e horário de início</text>
+<path d="M320 374 L320 399" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M122 399 L518 399" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M122 399 L122 428" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="440" width="180" height="70" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="454" width="4" height="42" rx="2" fill="#61e0dd"/>
+<text x="54" y="476" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Arquivo</text>
+<path d="M320 399 L320 428" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="230" y="440" width="180" height="70" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="230" y="454" width="4" height="42" rx="2" fill="#61e0dd"/>
+<text x="252" y="476" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Registry</text>
+<path d="M518 399 L518 428" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="428" y="440" width="180" height="70" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="428" y="454" width="4" height="42" rx="2" fill="#61e0dd"/>
+<text x="450" y="476" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Rede</text>
+<path d="M122 518 L122 548" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M320 518 L320 548" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M518 518 L518 548" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M122 548 L518 548" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M172 548 L172 582" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="7 6"/>
+<path d="M469 548 L469 582" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="7 6"/>
+<rect x="32" y="594" width="280" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="608" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="630" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Eventos nativos</text>
+<text x="54" y="662" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Auditoria e sistema</text>
+<rect x="330" y="594" width="278" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="330" y="608" width="4" height="72" rx="2" fill="#99bfff"/>
+<text x="352" y="630" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Sysmon</text>
+<text x="352" y="662" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Telemetria adicional</text>
+<path d="M172 702 L172 730" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M469 702 L469 730" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 730 L469 730" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M320 730 L320 758" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="770" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="784" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="806" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Windows Event Log</text>
+<text x="54" y="838" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Canais e provedores identificáveis</text>
+<path d="M320 878 L320 908" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="920" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="934" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="956" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Investigação</text>
+<text x="54" y="988" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Fontes complementares, cobertura parcial</text>
+<text x="32" y="1056" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Sysmon utiliza o Windows Event Log.</text>
+<text x="32" y="1082" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">A disponibilidade depende da configuração.</text>
+</g></svg>

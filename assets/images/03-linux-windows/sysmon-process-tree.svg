@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1050" viewBox="0 0 640 1050" role="img" aria-labelledby="title desc">
+<title id="title">Sysmon: contexto de execução</title><desc id="desc">Processo pai se relaciona ao filho. Usuário e linha de comando ajudam a interpretar o evento de criação. Rede, quando ocorre e é coletada, pode acrescentar outro evento correlacionável.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1050" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SISTEMAS</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Sysmon: contexto de execução</text>
+<rect x="32" y="118" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Processo pai</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">ParentProcessGuid • ParentImage</text>
+<path d="M320 224 L320 254" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="266" width="576" height="130" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="280" width="4" height="102" rx="2" fill="#61e0dd"/>
+<text x="54" y="302" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Processo filho</text>
+<text x="54" y="334" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">ProcessGuid • PID • início</text>
+<text x="54" y="363" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">User • CommandLine</text>
+<path d="M320 404 L320 432" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 432 L469 432" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 432 L172 460" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M469 432 L469 460" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="7 6"/>
+<rect x="32" y="472" width="280" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="486" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="508" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Criação observada</text>
+<text x="54" y="540" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Sysmon Event ID 1</text>
+<rect x="330" y="472" width="278" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="330" y="486" width="4" height="72" rx="2" fill="#99bfff"/>
+<text x="352" y="508" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Rede, se houver</text>
+<text x="352" y="540" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Sysmon Event ID 3</text>
+<text x="469" y="604" font-size="19" fill="#bdd1e5" text-anchor="middle" font-weight="normal">Exige cobertura de rede</text>
+<path d="M172 580 L172 646" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M469 618 L469 646" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M172 646 L469 646" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M320 646 L320 674" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="686" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="700" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="722" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Sysmon Operational</text>
+<text x="54" y="754" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Eventos distintos da mesma execução</text>
+<path d="M320 794 L320 824" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="836" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="850" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="872" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Analista</text>
+<text x="54" y="904" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Relaciona GUID, host, tempo e identidade</text>
+<text x="32" y="996" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Esquema conceitual, não evidência de laboratório.</text>
+<text x="32" y="1022" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Criação de processo não implica conexão de rede.</text>
+</g></svg>

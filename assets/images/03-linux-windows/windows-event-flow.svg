@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1100" viewBox="0 0 640 1100" role="img" aria-labelledby="title desc">
+<title id="title">Da atividade ao registro</title><desc id="desc">Uma ação observável no Windows pode produzir evento por um provider. O canal do Windows Event Log é consultado pelo Event Viewer ou por coletor, que pode encaminhar ao SIEM.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1100" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SISTEMAS</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Da atividade ao registro</text>
+<rect x="32" y="118" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Ação no Windows</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Componente observa a atividade</text>
+<path d="M320 224 L320 254" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="266" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="280" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="302" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Provider emite evento</text>
+<text x="54" y="334" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Event ID + campos + horário</text>
+<path d="M320 372 L320 402" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="414" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="428" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="450" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Windows Event Log</text>
+<text x="54" y="482" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Registro no canal correspondente</text>
+<path d="M320 522 L320 548" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 548 L469 548" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 548 L172 578" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M469 548 L469 578" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="590" width="280" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="604" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="626" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Event Viewer</text>
+<text x="54" y="658" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Consulta local</text>
+<rect x="330" y="590" width="278" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="330" y="604" width="4" height="72" rx="2" fill="#99bfff"/>
+<text x="352" y="626" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Agente/coletor</text>
+<text x="352" y="658" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Encaminha se previsto</text>
+<path d="M469 698 L469 730" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="330" y="742" width="278" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="330" y="756" width="4" height="72" rx="2" fill="#99bfff"/>
+<text x="352" y="778" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">SIEM</text>
+<text x="352" y="810" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Pesquisa e correlação</text>
+<path d="M172 698 L172 878" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M469 850 L469 878" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 878 L469 878" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M320 878 L320 906" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="918" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="932" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="954" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Analista</text>
+<text x="54" y="986" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Confere a origem e os limites</text>
+<text x="32" y="1072" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Abrir Event Viewer não é pré-requisito para coleta.</text>
+</g></svg>
