@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1030" viewBox="0 0 640 1030" role="img" aria-labelledby="title desc">
+<title id="title">Timeline sintética</title><desc id="desc">Em 24 de setembro de 2026 UTC: falhas às 09:01:10, 09:01:40 e 09:02:20; sucesso às 09:03; processo às 09:04; rede às 09:05. Ordem temporal não prova causalidade.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1030" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SOC E BLUE TEAM</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Timeline sintética</text>
+<text x="32" y="122" font-size="21" fill="#99bfff" text-anchor="start" font-weight="normal">2026-09-24 / todos os horários em UTC</text>
+<path d="M53 192 L53 899" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<circle cx="53" cy="203" r="7" fill="#61e0dd"/>
+<rect x="85" y="160" width="523" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="85" y="174" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="107" y="196" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">09:01:10</text>
+<text x="107" y="228" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Falha de autenticação</text>
+<circle cx="53" cy="328" r="7" fill="#61e0dd"/>
+<rect x="85" y="285" width="523" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="85" y="299" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="107" y="321" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">09:01:40</text>
+<text x="107" y="353" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Falha de autenticação</text>
+<circle cx="53" cy="453" r="7" fill="#61e0dd"/>
+<rect x="85" y="410" width="523" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="85" y="424" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="107" y="446" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">09:02:20</text>
+<text x="107" y="478" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Falha de autenticação</text>
+<circle cx="53" cy="578" r="7" fill="#61e0dd"/>
+<rect x="85" y="535" width="523" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="85" y="549" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="107" y="571" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">09:03:00</text>
+<text x="107" y="603" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Autenticação bem-sucedida</text>
+<circle cx="53" cy="703" r="7" fill="#61e0dd"/>
+<rect x="85" y="660" width="523" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="85" y="674" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="107" y="696" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">09:04:00</text>
+<text x="107" y="728" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Processo observado</text>
+<circle cx="53" cy="828" r="7" fill="#61e0dd"/>
+<rect x="85" y="785" width="523" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="85" y="799" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="107" y="821" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">09:05:00</text>
+<text x="107" y="853" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Comunicação de rede</text>
+<text x="32" y="976" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Validar identidade, host, sessão e vínculo entre registros.</text>
+<text x="32" y="1002" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Proximidade temporal não comprova causalidade.</text>
+</g></svg>

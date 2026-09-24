@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="780" viewBox="0 0 640 780" role="img" aria-labelledby="title desc">
+<title id="title">Árvore benigna de processos</title><desc id="desc">Exemplo sintético: explorer inicia powershell que inicia ping. Linhagem e comando não comprovam finalidade nem comunicação. Ping ICMP não é coberto pelo Sysmon 3 de TCP e UDP.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="780" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SOC E BLUE TEAM</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Árvore benigna de processos</text>
+<rect x="32" y="118" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">explorer.exe</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">LAB-WIN-01 / alan.lab / exemplo sintético</text>
+<path d="M70 226 L70 267" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M70 267 L106 267" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="116" y="232" width="492" height="135" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="116" y="246" width="4" height="107" rx="2" fill="#61e0dd"/>
+<text x="138" y="268" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">powershell.exe</text>
+<text x="138" y="300" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Pai: explorer.exe</text>
+<text x="138" y="329" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Comando e horário precisam de contexto</text>
+<path d="M148 376 L148 417" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M148 417 L184 417" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="194" y="382" width="414" height="135" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="194" y="396" width="4" height="107" rx="2" fill="#61e0dd"/>
+<text x="216" y="418" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">ping.exe</text>
+<text x="216" y="450" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Filho do PowerShell</text>
+<text x="216" y="479" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Destino de documentação: 192.0.2.10</text>
+<rect x="32" y="558" width="576" height="140" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="572" width="4" height="112" rx="2" fill="#99bfff"/>
+<text x="54" y="594" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Limite da fonte</text>
+<text x="54" y="626" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Ping pode usar ICMP.</text>
+<text x="54" y="655" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Sysmon 3 registra conexões TCP/UDP.</text>
+<text x="32" y="752" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Árvore descreve relações; não comprova um ataque.</text>
+</g></svg>

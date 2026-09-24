@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="850" viewBox="0 0 640 850" role="img" aria-labelledby="title desc">
+<title id="title">O que sustenta o SOC</title><desc id="desc">SOC ocupa o centro, conectado a pessoas, processos, tecnologia, dados e contexto ao redor. Os cinco componentes sustentam decisões rastreáveis.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="850" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SOC E BLUE TEAM</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">O que sustenta o SOC</text>
+<path d="M320 247 L320 370" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M170 338 L266 408" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M470 338 L374 408" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M170 629 L266 480" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M470 629 L374 480" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<rect x="165" y="120" width="310" height="135" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="165" y="134" width="4" height="107" rx="2" fill="#61e0dd"/>
+<text x="187" y="156" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Pessoas</text>
+<text x="187" y="188" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Responsabilidade</text>
+<text x="187" y="217" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">e raciocínio</text>
+<rect x="32" y="285" width="228" height="135" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="299" width="4" height="107" rx="2" fill="#99bfff"/>
+<text x="54" y="321" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Processos</text>
+<text x="54" y="353" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Critérios e</text>
+<text x="54" y="382" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">autoridade</text>
+<rect x="380" y="285" width="228" height="135" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="380" y="299" width="4" height="107" rx="2" fill="#99bfff"/>
+<text x="402" y="321" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Tecnologia</text>
+<text x="402" y="353" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Coleta, pesquisa</text>
+<text x="402" y="382" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">e resposta</text>
+<circle cx="320" cy="450" r="62" fill="#12243a" stroke="#61e0dd" stroke-width="3"/>
+<text x="320" y="460" font-size="32" fill="#61e0dd" text-anchor="middle" font-weight="bold">SOC</text>
+<rect x="32" y="590" width="276" height="135" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="604" width="4" height="107" rx="2" fill="#61e0dd"/>
+<text x="54" y="626" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Dados</text>
+<text x="54" y="658" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Cobertura,</text>
+<text x="54" y="687" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">qualidade e tempo</text>
+<rect x="332" y="590" width="276" height="135" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="332" y="604" width="4" height="107" rx="2" fill="#61e0dd"/>
+<text x="354" y="626" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Contexto</text>
+<text x="354" y="658" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Ativo, identidade,</text>
+<text x="354" y="687" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">negócio e mudança</text>
+<text x="32" y="822" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Os componentes se complementam em cada decisão.</text>
+</g></svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="900" viewBox="0 0 640 900" role="img" aria-labelledby="title desc">
+<title id="title">Triagem com contexto</title><desc id="desc">Fonte e tempo, entidades, contexto e hipóteses orientam prioridade e uma decisão inicial: encerrar com justificativa ou investigar e escalar.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="900" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SOC E BLUE TEAM</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Triagem com contexto</text>
+<rect x="32" y="118" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">1. Validar</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Fonte, regra, janela e fuso</text>
+<path d="M320 224 L320 248" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="256" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="270" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="292" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">2. Identificar</text>
+<text x="54" y="324" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Ator, alvo, host e demais entidades</text>
+<path d="M320 362 L320 386" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="394" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="408" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="430" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">3. Contextualizar</text>
+<text x="54" y="462" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Ativo, privilégio e comportamento</text>
+<path d="M320 500 L320 524" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="532" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="546" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="568" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">4. Priorizar</text>
+<text x="54" y="600" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Fatos, hipóteses, lacunas e impacto</text>
+<path d="M320 642 L320 668" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M170 668 L470 668" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M170 668 L170 690" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M470 668 L470 690" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="700" width="280" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="714" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="736" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Encerrar</text>
+<text x="54" y="768" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Motivo registrado</text>
+<rect x="330" y="700" width="278" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="330" y="714" width="4" height="82" rx="2" fill="#99bfff"/>
+<text x="352" y="736" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Investigar</text>
+<text x="352" y="768" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Escalar se preciso</text>
+<text x="32" y="872" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Toda decisão preserva evidências e próximo passo.</text>
+</g></svg>

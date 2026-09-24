@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="900" viewBox="0 0 640 900" role="img" aria-labelledby="title desc">
+<title id="title">SIEM: dados para perguntas</title><desc id="desc">Fontes alimentam coleta e tratamento. Pesquisa e correlação produzem detecções, alertas e casos cuja interpretação depende de contexto.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="900" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SOC E BLUE TEAM</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">SIEM: dados para perguntas</text>
+<rect x="32" y="118" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Fontes</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Endpoint, identidade, rede, cloud e apps</text>
+<path d="M320 224 L320 244" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="250" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="264" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="286" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Coleta e tratamento</text>
+<text x="54" y="318" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Parsing, normalização e saúde</text>
+<path d="M320 356 L320 376" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="382" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="396" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="418" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Armazenamento e pesquisa</text>
+<text x="54" y="450" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Campos, filtros, janela e retenção</text>
+<path d="M320 488 L320 508" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="514" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="528" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="550" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Correlação e detecção</text>
+<text x="54" y="582" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Condições e testes do caso de uso</text>
+<path d="M320 620 L320 640" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="646" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="660" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="682" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Alerta e caso</text>
+<text x="54" y="714" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Contexto, investigação e documentação</text>
+<text x="32" y="872" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Ferramentas diferem; as perguntas se transferem.</text>
+</g></svg>
