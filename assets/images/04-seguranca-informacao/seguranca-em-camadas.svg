@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="990" viewBox="0 0 640 990" role="img" aria-labelledby="title desc">
+<title id="title">Camadas que se complementam</title><desc id="desc">Pessoas, identidade, endpoint, rede e aplicação envolvem informação. Monitoramento observa as camadas e processos sustentam sua operação.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="990" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SEGURANÇA</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Camadas que se complementam</text>
+<rect x="24" y="118" width="592" height="674" rx="16" fill="#12243a" stroke="#32536f" stroke-width="2"/>
+<text x="42" y="156" font-size="23" fill="#61e0dd" text-anchor="start" font-weight="bold">Pessoas: decisões e orientação</text>
+<rect x="38" y="212" width="564" height="580" rx="16" fill="#0b1526" stroke="#32536f" stroke-width="2"/>
+<text x="56" y="250" font-size="23" fill="#99bfff" text-anchor="start" font-weight="bold">Identidade: acesso necessário</text>
+<rect x="52" y="306" width="536" height="486" rx="16" fill="#12243a" stroke="#32536f" stroke-width="2"/>
+<text x="70" y="344" font-size="23" fill="#61e0dd" text-anchor="start" font-weight="bold">Endpoint: configuração e proteção</text>
+<rect x="66" y="400" width="508" height="392" rx="16" fill="#0b1526" stroke="#32536f" stroke-width="2"/>
+<text x="84" y="438" font-size="23" fill="#99bfff" text-anchor="start" font-weight="bold">Rede: comunicação permitida</text>
+<rect x="80" y="494" width="480" height="298" rx="16" fill="#12243a" stroke="#32536f" stroke-width="2"/>
+<text x="98" y="532" font-size="23" fill="#61e0dd" text-anchor="start" font-weight="bold">Aplicação: validação e permissões</text>
+<rect x="112" y="630" width="416" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="112" y="644" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="134" y="666" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Informação</text>
+<text x="134" y="698" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Dados e seu valor</text>
+<rect x="32" y="818" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="832" width="4" height="72" rx="2" fill="#99bfff"/>
+<text x="54" y="854" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Monitoramento e processos</text>
+<text x="54" y="886" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Observam, verificam e sustentam as camadas</text>
+<text x="32" y="962" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Nenhuma camada protege tudo sozinha.</text>
+</g></svg>

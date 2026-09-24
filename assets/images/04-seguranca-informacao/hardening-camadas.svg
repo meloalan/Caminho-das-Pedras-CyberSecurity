@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1060" viewBox="0 0 640 1060" role="img" aria-labelledby="title desc">
+<title id="title">Hardening com propósito</title><desc id="desc">Servidor central cercado por patch, firewall, identidade, permissões, auditoria, EDR e backup. Mudanças precisam ser testadas e recuperáveis.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1060" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SEGURANÇA</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Hardening com propósito</text>
+<rect x="32" y="118" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Patch</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Aplicabilidade e teste</text>
+<path d="M320 225 L320 250" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 250 L469 250" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 250 L172 284" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M469 250 L469 284" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="296" width="280" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="310" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="332" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Firewall</text>
+<text x="54" y="364" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Alcance necessário</text>
+<rect x="330" y="296" width="278" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="330" y="310" width="4" height="82" rx="2" fill="#99bfff"/>
+<text x="352" y="332" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Identidade</text>
+<text x="352" y="364" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Acesso justificado</text>
+<path d="M172 414 L172 450" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M469 414 L469 450" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 450 L469 450" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M320 450 L320 478" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="706" width="280" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="720" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="742" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Auditoria</text>
+<text x="54" y="774" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Evidência útil</text>
+<rect x="330" y="706" width="278" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="330" y="720" width="4" height="82" rx="2" fill="#99bfff"/>
+<text x="352" y="742" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">EDR</text>
+<text x="352" y="774" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Cobertura validada</text>
+<path d="M172 824 L172 848" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M469 824 L469 848" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 848 L469 848" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M320 848 L320 876" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="490" width="576" height="140" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="504" width="4" height="112" rx="2" fill="#61e0dd"/>
+<text x="54" y="526" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Endpoint ou servidor</text>
+<text x="54" y="558" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Função e dependências conhecidas</text>
+<text x="54" y="587" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Permissões: menor privilégio</text>
+<path d="M320 637 L320 662" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 662 L469 662" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 662 L172 696" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M469 662 L469 696" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="888" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="902" width="4" height="72" rx="2" fill="#99bfff"/>
+<text x="54" y="924" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Backup</text>
+<text x="54" y="956" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Recuperação testada</text>
+<text x="32" y="1032" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Baseline, teste funcional e plano de recuperação.</text>
+</g></svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1060" viewBox="0 0 640 1060" role="img" aria-labelledby="title desc">
+<title id="title">Quem opera cada parte?</title><desc id="desc">Gradiente conceitual de on premises até SaaS aumenta a operação pelo provedor. Cliente mantém decisões sobre dados e acesso. Barras não são percentuais contratuais.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1060" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SEGURANÇA</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Quem opera cada parte?</text>
+<text x="32" y="126" font-size="20" fill="#61e0dd" text-anchor="start" font-weight="bold">CLIENTE</text>
+<text x="420" y="126" font-size="20" fill="#99bfff" text-anchor="start" font-weight="bold">PROVEDOR</text>
+<text x="32" y="170" font-size="27" fill="#eff7ff" text-anchor="start" font-weight="bold">On premises</text>
+<rect x="32" y="192" width="576" height="38" rx="6" fill="#99bfff"/>
+<rect x="32" y="192" width="576" height="38" rx="6" fill="#61e0dd"/>
+<text x="32" y="268" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Cliente opera praticamente toda a stack</text>
+<text x="32" y="353" font-size="27" fill="#eff7ff" text-anchor="start" font-weight="bold">IaaS</text>
+<rect x="32" y="375" width="576" height="38" rx="6" fill="#99bfff"/>
+<rect x="32" y="375" width="380" height="38" rx="6" fill="#61e0dd"/>
+<text x="32" y="451" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Cliente: SO convidado e aplicações</text>
+<text x="32" y="536" font-size="27" fill="#eff7ff" text-anchor="start" font-weight="bold">PaaS</text>
+<rect x="32" y="558" width="576" height="38" rx="6" fill="#99bfff"/>
+<rect x="32" y="558" width="240" height="38" rx="6" fill="#61e0dd"/>
+<text x="32" y="634" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Cliente: aplicação e configuração disponível</text>
+<text x="32" y="719" font-size="27" fill="#eff7ff" text-anchor="start" font-weight="bold">SaaS</text>
+<rect x="32" y="741" width="576" height="38" rx="6" fill="#99bfff"/>
+<rect x="32" y="741" width="125" height="38" rx="6" fill="#61e0dd"/>
+<text x="32" y="817" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Cliente: usuários, dados e compartilhamento</text>
+<rect x="32" y="884" width="576" height="70" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="898" width="4" height="42" rx="2" fill="#61e0dd"/>
+<text x="54" y="920" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Dados e acesso continuam em pauta</text>
+<text x="32" y="1006" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Barras ilustrativas, não percentuais de responsabilidade.</text>
+<text x="32" y="1032" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Confira o serviço, a configuração e o contrato.</text>
+</g></svg>

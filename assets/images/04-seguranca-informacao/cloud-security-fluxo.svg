@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1070" viewBox="0 0 640 1070" role="img" aria-labelledby="title desc">
+<title id="title">Cloud: acesso e visibilidade</title><desc id="desc">Identidade acessa recurso cloud. Rede e dados exigem configuração. Logs disponíveis alimentam monitoramento e investigação.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1070" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SEGURANÇA</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Cloud: acesso e visibilidade</text>
+<rect x="32" y="118" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Identidade</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Usuário ou workload com escopo definido</text>
+<path d="M320 224 L320 256" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="268" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="282" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="304" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Recurso cloud</text>
+<text x="54" y="336" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Serviço e responsabilidades conhecidos</text>
+<path d="M320 376 L320 405" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 405 L469 405" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M172 405 L172 432" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M469 405 L469 432" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="444" width="280" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="458" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="480" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Rede</text>
+<text x="54" y="512" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Alcance e regras</text>
+<rect x="330" y="444" width="278" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="330" y="458" width="4" height="72" rx="2" fill="#99bfff"/>
+<text x="352" y="480" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Dados</text>
+<text x="352" y="512" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Acesso e proteção</text>
+<path d="M172 552 L172 580" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M469 552 L469 580" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M172 580 L469 580" fill="none" stroke="#32536f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M320 580 L320 610" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="7 6"/>
+<rect x="32" y="622" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="636" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="54" y="658" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Logs disponíveis</text>
+<text x="54" y="690" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Cobertura, retenção e coleta</text>
+<path d="M320 730 L320 762" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="774" width="576" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="788" width="4" height="72" rx="2" fill="#99bfff"/>
+<text x="54" y="810" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Monitoramento</text>
+<text x="54" y="842" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Pesquisa, alertas e investigação</text>
+<path d="M320 882 L320 910" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="922" width="576" height="66" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="936" width="4" height="38" rx="2" fill="#61e0dd"/>
+<text x="54" y="958" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Revisão de configuração</text>
+<text x="32" y="1042" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Ausência de log não prova ausência de atividade.</text>
+</g></svg>

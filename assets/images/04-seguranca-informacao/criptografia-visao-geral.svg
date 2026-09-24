@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1090" viewBox="0 0 640 1090" role="img" aria-labelledby="title desc">
+<title id="title">Mecanismos, objetivos e limites</title><desc id="desc">Simétrica protege conteúdo com chave secreta. Assimétrica usa par de chaves. Hash é resumo. Assinatura permite verificação. Certificado associa nome e chave pública.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="1090" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / SEGURANÇA</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Mecanismos, objetivos e limites</text>
+<rect x="32" y="118" width="576" height="146" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="132" width="4" height="118" rx="2" fill="#61e0dd"/>
+<text x="54" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Simétrica</text>
+<text x="54" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Chave secreta para cifrar e decifrar</text>
+<text x="54" y="215" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Exemplo: AES na construção adequada</text>
+<rect x="32" y="296" width="576" height="146" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="310" width="4" height="118" rx="2" fill="#99bfff"/>
+<text x="54" y="332" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Assimétrica</text>
+<text x="54" y="364" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Chave pública e chave privada</text>
+<text x="54" y="393" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Usos dependem do algoritmo</text>
+<rect x="32" y="474" width="576" height="146" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="488" width="4" height="118" rx="2" fill="#61e0dd"/>
+<text x="54" y="510" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Hash</text>
+<text x="54" y="542" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Resumo calculado dos bytes</text>
+<text x="54" y="571" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Não permite recuperar o original</text>
+<rect x="32" y="652" width="576" height="146" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="666" width="4" height="118" rx="2" fill="#99bfff"/>
+<text x="54" y="688" font-size="25" fill="#99bfff" text-anchor="start" font-weight="bold">Assinatura</text>
+<text x="54" y="720" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Verificação de integridade e vínculo à chave</text>
+<text x="54" y="749" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Não esconde o conteúdo</text>
+<rect x="32" y="830" width="576" height="146" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="844" width="4" height="118" rx="2" fill="#61e0dd"/>
+<text x="54" y="866" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Certificado</text>
+<text x="54" y="898" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Associa nome ou identidade à chave pública</text>
+<text x="54" y="927" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Exige validação e confiança</text>
+<text x="32" y="1062" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Chaves, referências e contexto precisam de proteção.</text>
+</g></svg>
