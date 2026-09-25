@@ -1,6 +1,6 @@
 # 08 — Detection Engineering
 
-[← Voltar para página principal](../README.md)
+[← Módulo 07: Buscas e Queries em SIEM](../07-Buscas-e-Queries-em-SIEM/README.md) · [Página principal](../README.md)
 
 Uma detecção é um produto: precisa de hipótese, dados, testes, documentação e manutenção.
 

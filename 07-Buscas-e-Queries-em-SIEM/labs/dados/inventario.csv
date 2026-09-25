@@ -1,0 +1,5 @@
+host,criticality,owner
+WIN-LAB01,medium,Lab Team
+WIN-LAB02,medium,Lab Team
+DC-LAB01,high,Identity Team
+WIN-LAB03,medium,Lab Team

@@ -22,4 +22,4 @@ Status: exemplos educacionais; validação em Sentinel pendente. Consulte primei
 
 ## Teste sem dados reais
 
-Abra o [exercício sintético](../../07-KQL/fundamentos.md). Ele não exige telemetria e não representa um resultado real do laboratório.
+Abra o [exercício sintético](../../07-Buscas-e-Queries-em-SIEM/fundamentos-de-consulta.md). Ele não exige telemetria e não representa um resultado real do laboratório.

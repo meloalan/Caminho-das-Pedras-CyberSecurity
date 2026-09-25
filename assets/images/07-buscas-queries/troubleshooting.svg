@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="890" viewBox="0 0 640 890" role="img" aria-labelledby="title desc">
+<title id="title">O resultado faz sentido?</title><desc id="desc">Busca vazia e busca ampla exigem diagnóstico de fonte, período e campos antes de alterar limites.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="890" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / BUSCAS E QUERIES</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">O resultado faz sentido?</text>
+<rect x="32" y="120" width="576" height="175" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="134" width="4" height="147" rx="2" fill="#61e0dd"/>
+<text x="54" y="156" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Sem resultados</text>
+<text x="54" y="188" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Período e fuso corretos?</text>
+<text x="54" y="217" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Fonte chegou e está acessível?</text>
+<text x="54" y="246" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Campo, valor e sintaxe conferem?</text>
+<path d="M320 305 L320 343" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="353" width="576" height="106" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="367" width="4" height="78" rx="2" fill="#61e0dd"/>
+<text x="54" y="389" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Amostra conhecida</text>
+<text x="54" y="421" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Compare original e registro pesquisável</text>
+<path d="M320 469 L320 507" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="517" width="576" height="175" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="531" width="4" height="147" rx="2" fill="#61e0dd"/>
+<text x="54" y="553" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Resultados demais</text>
+<text x="54" y="585" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Dataset e tempo amplos?</text>
+<text x="54" y="614" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Condição ou parênteses ausentes?</text>
+<text x="54" y="643" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Precisa de agregado, não de todos os hits?</text>
+<rect x="32" y="731" width="576" height="106" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="745" width="4" height="78" rx="2" fill="#61e0dd"/>
+<text x="54" y="767" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Mude uma condição por vez</text>
+<text x="54" y="799" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Meça contagem, custo e completude</text>
+<text x="32" y="862" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Um limite de exibição não corrige a pergunta.</text>
+</g></svg>

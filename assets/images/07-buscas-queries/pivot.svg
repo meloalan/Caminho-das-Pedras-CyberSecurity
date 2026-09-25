@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="900" viewBox="0 0 640 900" role="img" aria-labelledby="title desc">
+<title id="title">Cada pivô pede uma chave</title><desc id="desc">Conta, sessão, processo e comunicação formam novas perguntas. Vínculos precisam de campos e contexto antes de ampliar o escopo.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="900" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / BUSCAS E QUERIES</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Cada pivô pede uma chave</text>
+<rect x="56" y="118" width="552" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="56" y="132" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="78" y="154" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Conta e autoridade</text>
+<text x="78" y="186" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Quais hosts e autenticações?</text>
+<path d="M320 224 L320 244" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="56" y="250" width="552" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="56" y="264" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="78" y="286" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Sessão</text>
+<text x="78" y="318" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Mesmo host e LogonId quando disponível?</text>
+<path d="M320 356 L320 376" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="56" y="382" width="552" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="56" y="396" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="78" y="418" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Processo</text>
+<text x="78" y="450" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Pai, comando, usuário e ProcessGuid</text>
+<path d="M320 488 L320 508" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="56" y="514" width="552" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="56" y="528" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="78" y="550" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">DNS e comunicação</text>
+<text x="78" y="582" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Mesma execução; qual direção e contexto?</text>
+<path d="M320 620 L320 640" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="56" y="646" width="552" height="100" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="56" y="660" width="4" height="72" rx="2" fill="#61e0dd"/>
+<text x="78" y="682" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">Outros ativos</text>
+<text x="78" y="714" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Qual evidência justifica ampliar?</text>
+<path d="M56 696 L18 696" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M18 696 L18 300" fill="none" stroke="#32536f" stroke-width="2.5"/>
+<path d="M18 300 L50 300" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="32" y="872" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Pare o salto quando a chave não sustentar a relação.</text>
+</g></svg>

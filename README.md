@@ -247,7 +247,7 @@ MITRE ATT&CK acompanha a investigação, a detecção e o hunting como uma lingu
 2. **Entenda o sistema que gera o dado.** Estude [Windows, Linux e auditoria](03-Linux-e-Windows/README.md), usuários, serviços e autenticação.
 3. **Prepare um laboratório simples.** Use uma VM própria, rede controlada e snapshot. Comece pelos eventos locais, sem depender de assinatura Azure.
 4. **Execute uma atividade pequena.** Siga os Labs 01 e 02 para observar falha de autenticação e criação de conta. Verifique o evento original antes de pensar em alerta.
-5. **Aprenda a pesquisar.** Use [KQL com dados sintéticos](07-KQL/fundamentos.md). Para as queries com telemetria do Sentinel, faça o Lab 05 antes dessa etapa.
+5. **Aprenda a pesquisar.** Use [consultas com dados sintéticos](07-Buscas-e-Queries-em-SIEM/fundamentos-de-consulta.md). Para as queries com telemetria do Sentinel, faça o Lab 05 antes dessa etapa.
 6. **Explore a coleta em outra plataforma quando fizer sentido.** Wazuh é uma opção para estudo próprio com a documentação oficial; o roteiro específico daqui ainda está planejado.
 7. **Documente o que realmente aconteceu.** Copie o [template de lab](12-Labs-Praticos/TEMPLATE-LAB.md), registre erros e publique apenas evidências anonimizadas.
 8. **Aumente a complexidade aos poucos.** Modifique filtros, compare contextos, teste correlações e avance para Detection Engineering e Threat Hunting. Conhecer outra plataforma será mais útil quando você souber qual pergunta deseja responder.
@@ -286,7 +286,7 @@ Estes são os módulos existentes. Wazuh, Splunk, QRadar e Microsoft Sentinel s�
 | 04: Segurança da Informação | Risco, identidade, criptografia, hardening e segurança em nuvem. | [Abrir módulo](04-Seguranca-da-Informacao/README.md) |
 | 05: SOC e Blue Team | Telemetria, alertas, triagem, contexto e investigação. | [Abrir módulo](05-SOC-Blue-Team/README.md) |
 | 06: SIEM na Prática | Pipeline, pesquisa, detecção e investigação em Wazuh, Splunk, QRadar e Sentinel. | [Abrir módulo](06-SIEM-na-Pratica/README.md) |
-| 07: KQL | Filtros, campos, agregações, joins e consultas defensivas. | [Abrir módulo](07-KQL/README.md) |
+| 07: Buscas e Queries em SIEM | Perguntas, campos, filtros, tempo e correlação em KQL, SPL, AQL e Wazuh/OpenSearch. | [Abrir módulo](07-Buscas-e-Queries-em-SIEM/README.md) |
 | 08: Detection Engineering | Casos de uso, qualidade dos dados, testes, tuning e Sigma. | [Abrir módulo](08-Detection-Engineering/README.md) |
 | 09: Threat Hunting | Hipóteses, IoCs, TTPs, pesquisa e interpretação de evidências. | [Abrir módulo](09-Threat-Hunting/README.md) |
 | 10: Incident Response | Preparação, identificação, contenção, recuperação e melhoria. | [Abrir módulo](10-Incident-Response/README.md) |
@@ -337,7 +337,7 @@ Uma boa pesquisa começa com uma pergunta. Depois vêm os dados disponíveis, os
 
 ![KQL](https://img.shields.io/badge/queries-KQL-5C2D91)
 
-Quero usar o [módulo KQL](07-KQL/README.md) para evoluir de consultas simples até investigações e detecções que exijam mais contexto:
+Quero usar o [módulo Buscas e Queries em SIEM](07-Buscas-e-Queries-em-SIEM/README.md) para evoluir de consultas simples até investigações e detecções que exijam mais contexto:
 
 > Filtrar dados → Selecionar campos → Agrupar eventos → Correlacionar informações → Criar contexto → Identificar comportamento → Investigar → Detectar
 
@@ -481,7 +481,7 @@ Caminho-das-Pedras-CyberSecurity/
   04-Seguranca-da-Informacao/
   05-SOC-Blue-Team/
   06-SIEM-na-Pratica/
-  07-KQL/
+  07-Buscas-e-Queries-em-SIEM/
   08-Detection-Engineering/
   09-Threat-Hunting/
   10-Incident-Response/

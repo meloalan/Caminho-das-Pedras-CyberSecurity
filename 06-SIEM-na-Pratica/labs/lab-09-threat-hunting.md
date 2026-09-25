@@ -2,7 +2,7 @@
 
 <!-- markdownlint-configure-file {"MD033": {"allowed_elements": ["details", "summary"]}} -->
 
-[← Tópico anterior](lab-08-investigation.md) · [↑ Índice do módulo](../README.md) · [Página principal](../../README.md) · [Próximo tópico →](../../07-KQL/README.md)
+[← Tópico anterior](lab-08-investigation.md) · [↑ Índice do módulo](../README.md) · [Página principal](../../README.md) · [Próximo tópico →](../../07-Buscas-e-Queries-em-SIEM/README.md)
 
 > Pergunta: o que posso descobrir sem começar por um alerta?
 
@@ -51,4 +51,4 @@ Registre fonte, janela, consulta ou cálculo, resultado e limite. Uma descriçã
 
 </details>
 
-[← Tópico anterior](lab-08-investigation.md) · [↑ Índice do módulo](../README.md) · [Página principal](../../README.md) · [Próximo tópico →](../../07-KQL/README.md)
+[← Tópico anterior](lab-08-investigation.md) · [↑ Índice do módulo](../README.md) · [Página principal](../../README.md) · [Próximo tópico →](../../07-Buscas-e-Queries-em-SIEM/README.md)

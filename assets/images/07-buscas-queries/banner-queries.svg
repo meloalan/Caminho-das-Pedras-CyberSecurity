@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+<title id="title">Módulo 07: Buscas e Queries em SIEM</title><desc id="desc">Dados passam por uma pergunta e por quatro abordagens de consulta, KQL, SPL, AQL e OpenSearch, para apoiar investigação.</desc>
+<rect width="1600" height="520" fill="#0b141c"/>
+<g font-family="Arial,sans-serif">
+<path d="M885 40V438" stroke="#182935"/>
+<path d="M931 40V438" stroke="#182935"/>
+<path d="M977 40V438" stroke="#182935"/>
+<path d="M1023 40V438" stroke="#182935"/>
+<path d="M1069 40V438" stroke="#182935"/>
+<path d="M1115 40V438" stroke="#182935"/>
+<path d="M1161 40V438" stroke="#182935"/>
+<path d="M1207 40V438" stroke="#182935"/>
+<path d="M1253 40V438" stroke="#182935"/>
+<path d="M1299 40V438" stroke="#182935"/>
+<path d="M1345 40V438" stroke="#182935"/>
+<path d="M1391 40V438" stroke="#182935"/>
+<path d="M1437 40V438" stroke="#182935"/>
+<path d="M1483 40V438" stroke="#182935"/>
+<path d="M1529 40V438" stroke="#182935"/>
+<path d="M1575 40V438" stroke="#182935"/>
+<path d="M885 40H1565" stroke="#182935"/>
+<path d="M885 86H1565" stroke="#182935"/>
+<path d="M885 132H1565" stroke="#182935"/>
+<path d="M885 178H1565" stroke="#182935"/>
+<path d="M885 224H1565" stroke="#182935"/>
+<path d="M885 270H1565" stroke="#182935"/>
+<path d="M885 316H1565" stroke="#182935"/>
+<path d="M885 362H1565" stroke="#182935"/>
+<path d="M885 408H1565" stroke="#182935"/>
+<rect x="70" y="56" width="11" height="71" rx="5" fill="#2e80f7"/>
+<text x="104" y="73" font-size="19" fill="#b8c8d4" font-weight="normal">CAMINHO DAS PEDRAS  •  CYBERSECURITY</text>
+<text x="1430" y="75" font-size="17" fill="#8ca1b2" font-weight="normal">MÓDULO 07</text>
+<text x="70" y="234" font-size="118" fill="#2e80f7" font-weight="bold">07</text>
+<text x="236" y="188" font-size="47" fill="#f0f5fa" font-weight="bold">BUSCAS E QUERIES</text>
+<text x="236" y="248" font-size="56" fill="#f0f5fa" font-weight="bold">EM SIEM</text>
+<text x="74" y="326" font-size="26" fill="#b8c8d4" font-weight="normal">Aprenda a pesquisar dados de segurança.</text>
+<text x="74" y="369" font-size="22" fill="#97afbf" font-weight="normal">A pergunta permanece. A linguagem muda.</text>
+<rect x="1080" y="108" width="280" height="48" rx="10" fill="#13232e" stroke="#34546b"/>
+<text text-anchor="middle" x="1220.0" y="138.66666666666666" font-size="20" fill="#eaf3fa" font-weight="bold">DADOS + PERGUNTA</text>
+<rect x="1080" y="183" width="280" height="48" rx="10" fill="#13232e" stroke="#34546b"/>
+<text text-anchor="middle" x="1220.0" y="213.66666666666666" font-size="20" fill="#eaf3fa" font-weight="bold">FILTRO  &gt;  QUERY</text>
+<path d="M1220 156V183 M1220 231V252 M956 252H1482" stroke="#2e80f7" stroke-width="2" fill="none"/>
+<path d="M960.0 252V274 M960.0 326V345" stroke="#2e80f7" stroke-width="2"/>
+<rect x="905" y="274" width="110" height="52" rx="10" fill="#13232e" stroke="#34546b"/>
+<text text-anchor="middle" x="960.0" y="306.6666666666667" font-size="20" fill="#eaf3fa" font-weight="bold">KQL</text>
+<path d="M1090.0 252V274 M1090.0 326V345" stroke="#2e80f7" stroke-width="2"/>
+<rect x="1035" y="274" width="110" height="52" rx="10" fill="#13232e" stroke="#34546b"/>
+<text text-anchor="middle" x="1090.0" y="306.6666666666667" font-size="20" fill="#eaf3fa" font-weight="bold">SPL</text>
+<path d="M1220.0 252V274 M1220.0 326V345" stroke="#2e80f7" stroke-width="2"/>
+<rect x="1165" y="274" width="110" height="52" rx="10" fill="#13232e" stroke="#34546b"/>
+<text text-anchor="middle" x="1220.0" y="306.6666666666667" font-size="20" fill="#eaf3fa" font-weight="bold">AQL</text>
+<path d="M1422.5 252V274 M1422.5 326V345" stroke="#2e80f7" stroke-width="2"/>
+<rect x="1295" y="274" width="255" height="52" rx="10" fill="#13232e" stroke="#34546b"/>
+<text text-anchor="middle" x="1422.5" y="306.6666666666667" font-size="20" fill="#eaf3fa" font-weight="bold">OpenSearch</text>
+<path d="M960 345H1422 M1220 345V366" stroke="#2e80f7" stroke-width="2" fill="none"/>
+<rect x="1080" y="366" width="280" height="48" rx="10" fill="#13232e" stroke="#34546b"/>
+<text text-anchor="middle" x="1220.0" y="396.6666666666667" font-size="20" fill="#eaf3fa" font-weight="bold">INVESTIGAÇÃO</text>
+<path d="M70 456H1530" stroke="#2b4050"/>
+<text x="74" y="494" font-size="19" fill="#8ea3b3" font-weight="normal">CAMPOS  •  FILTROS  •  AGREGAÇÕES  •  TEMPO  •  CORRELAÇÃO  •  EVIDÊNCIAS</text>
+</g></svg>
