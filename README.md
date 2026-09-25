@@ -1,8 +1,12 @@
 # Caminho das Pedras CyberSecurity
 
-<!-- markdownlint-configure-file {"MD033": {"allowed_elements": ["a"]}} -->
+<!-- markdownlint-configure-file {"MD033": {"allowed_elements": ["a", "details", "summary"]}} -->
 
-Aprender → Praticar → Documentar → Evoluir.
+![Caminho das Pedras: fundamentos, telemetria, investigação e decisões com evidência](assets/images/home/banner-caminho.gif)
+
+[Ver capa sem animação](assets/images/home/banner-caminho.png)
+
+**Aprender → Praticar → Documentar → Evoluir.**
 
 Um caminho possível para quem quer entrar em Cybersecurity, fortalecer a base técnica e aprender a investigar com método. Estudos, laboratórios defensivos e documentação para conectar infraestrutura, dados e comportamento.
 
@@ -14,10 +18,32 @@ Um caminho possível para quem quer entrar em Cybersecurity, fortalecer a base t
 
 > Antes de reconhecer um comportamento estranho, precisamos entender o que é esperado naquele ambiente. As ferramentas ajudam a enxergar os dados; os fundamentos ajudam a interpretá-los.
 
-**Primeira visita?** Vá para [Comece aqui](#comece-aqui). **Já trabalha com suporte?** Veja como essa base se conecta à [transição para Cybersecurity](#do-suporte-para-cybersecurity). **Quer praticar?** Consulte os [seis roteiros de laboratório](#labs-praticos).
+**Escolha seu ponto de partida:**
 
-## Índice
+| Quero… | Começar por… |
+| --- | --- |
+| Construir a base de TI | [Fundamentos](01-Fundamentos/README.md) e [roadmap iniciante](14-Roadmap/iniciante.md) |
+| Trazer minha experiência de suporte para segurança | [Transição para Cybersecurity](#do-suporte-para-cybersecurity) |
+| Entender a operação de um SOC | [SOC e Blue Team](05-SOC-Blue-Team/README.md) |
+| Acompanhar um evento até o SIEM | [SIEM na Prática](06-SIEM-na-Pratica/README.md) |
+| Investigar com KQL, SPL, AQL ou Wazuh/OpenSearch | [Buscas e Queries em SIEM](07-Buscas-e-Queries-em-SIEM/README.md) |
+| Praticar sem instalar um SIEM | [Campos e evidências, lab offline](07-Buscas-e-Queries-em-SIEM/labs/lab-01-entendendo-campos.md) |
 
+**O que já existe:** 14 módulos, nove labs no módulo de SIEM, dez no módulo de consultas e seis roteiros integradores no módulo 12. Esses conjuntos têm objetivos que se complementam. Material disponível e resultado esperado não significam execução comprovada em produtos.
+
+## Navegação
+
+**[Comece aqui](#comece-aqui) · [Módulos](#modulos) · [Laboratórios](#labs-praticos) · [Consultas](#consultas) · [Status](#status)**
+
+<details>
+<summary>Ver todas as seções</summary>
+
+- [Comece aqui](#comece-aqui)
+- [Os 14 módulos](#modulos)
+- [Labs práticos e percursos](#labs-praticos)
+- [Consultas e raciocínio sobre dados](#consultas)
+- [Caminho das pedras](#caminho)
+- [Como estudar por este repositório](#como-estudar)
 - [De onde surgiu o projeto](#origem)
 - [Propósito: estudar, praticar e documentar](#proposito)
 - [Para quem é este repositório](#para-quem)
@@ -26,12 +52,6 @@ Um caminho possível para quem quer entrar em Cybersecurity, fortalecer a base t
 - [SIEM é conceito antes de ser produto](#siem)
 - [Elasticsearch e análise de logs](#elasticsearch)
 - [Wazuh, Splunk, QRadar e Sentinel](#plataformas)
-- [Caminho das pedras](#caminho)
-- [Comece aqui](#comece-aqui)
-- [Como estudar por este repositório](#como-estudar)
-- [Os 14 módulos](#modulos)
-- [Labs práticos e ideias futuras](#labs-praticos)
-- [Consultas e raciocínio sobre dados](#consultas)
 - [SOC, identidade e resposta a incidentes](#soc-identidade)
 - [Detection Engineering, Threat Hunting e MITRE ATT&CK](#deteccao-hunting)
 - [Certificações](#certificacoes)
@@ -40,6 +60,162 @@ Um caminho possível para quem quer entrar em Cybersecurity, fortalecer a base t
 - [Status e próximos passos](#status)
 - [Contribuições e referências](#contribuicoes)
 - [Uso ético e licença](#uso-etico)
+
+</details>
+
+<a id="comece-aqui"></a>
+
+## Comece aqui
+
+1. **Identifique seu ponto de partida.** Abra o [roadmap](14-Roadmap/README.md) e a [trilha iniciante](14-Roadmap/iniciante.md). Escolha fundamentos que ainda não consegue explicar ou demonstrar.
+2. **Entenda o sistema que gera o dado.** Estude [Windows, Linux e auditoria](03-Linux-e-Windows/README.md), usuários, serviços e autenticação.
+3. **Prepare um laboratório simples.** Use uma VM própria, rede controlada e snapshot. Comece pelos eventos locais, sem depender de assinatura Azure.
+4. **Execute uma atividade pequena.** Siga os roteiros de [falha de autenticação](12-Labs-Praticos/01-EventID-4625/README.md) e [criação de conta](12-Labs-Praticos/02-EventID-4720/README.md) do módulo 12. Verifique o evento original antes de pensar em alerta.
+5. **Aprenda a pesquisar.** Use [consultas com dados sintéticos](07-Buscas-e-Queries-em-SIEM/fundamentos-de-consulta.md), sem depender de ingestão. Quando usar dados reais no Sentinel, siga a preparação do [lab de Sentinel](12-Labs-Praticos/05-Microsoft-Sentinel/README.md) e confira tabela e campos.
+6. **Escolha uma plataforma quando fizer sentido.** Os [labs de SIEM](06-SIEM-na-Pratica/labs/README.md) oferecem percursos offline ou no produto disponível. Wazuh, Splunk, QRadar e Sentinel têm páginas próprias; não é necessário instalar os quatro.
+7. **Documente o que realmente aconteceu.** Copie o [template de lab](12-Labs-Praticos/TEMPLATE-LAB.md), registre erros e publique apenas evidências anonimizadas.
+8. **Aumente a complexidade aos poucos.** Modifique filtros, compare contextos, teste correlações e avance para Detection Engineering e Threat Hunting. Conhecer outra plataforma será mais útil quando você souber qual pergunta deseja responder.
+
+<a id="modulos"></a>
+
+## Os 14 módulos
+
+Estes são os módulos existentes. Wazuh, Splunk, QRadar e Microsoft Sentinel são estudados juntos no módulo 06, com conceitos e labs comparáveis. Elasticsearch permanece como direção de expansão.
+
+| Módulo | O que você vai aprender | Acesso |
+| --- | --- | --- |
+| 01: Fundamentos de TI | Recursos de uma máquina, sistemas, virtualização, terminal e Git. | [Abrir módulo](01-Fundamentos/README.md) |
+| 02: Redes | TCP/IP, OSI, DNS, DHCP, protocolos e análise de tráfego. | [Abrir módulo](02-Redes/README.md) |
+| 03: Linux e Windows | Administração, PowerShell, eventos, Active Directory e Sysmon. | [Abrir módulo](03-Linux-e-Windows/README.md) |
+| 04: Segurança da Informação | Risco, identidade, criptografia, hardening e segurança em nuvem. | [Abrir módulo](04-Seguranca-da-Informacao/README.md) |
+| 05: SOC e Blue Team | Telemetria, alertas, triagem, contexto e investigação. | [Abrir módulo](05-SOC-Blue-Team/README.md) |
+| 06: SIEM na Prática | Pipeline, pesquisa, detecção e investigação em Wazuh, Splunk, QRadar e Sentinel. | [Abrir módulo](06-SIEM-na-Pratica/README.md) |
+| 07: Buscas e Queries em SIEM | Perguntas, campos, filtros, tempo e correlação em KQL, SPL, AQL e Wazuh/OpenSearch. | [Abrir módulo](07-Buscas-e-Queries-em-SIEM/README.md) |
+| 08: Detection Engineering | Casos de uso, qualidade dos dados, testes, tuning e Sigma. | [Abrir módulo](08-Detection-Engineering/README.md) |
+| 09: Threat Hunting | Hipóteses, IoCs, TTPs, pesquisa e interpretação de evidências. | [Abrir módulo](09-Threat-Hunting/README.md) |
+| 10: Incident Response | Preparação, identificação, contenção, recuperação e melhoria. | [Abrir módulo](10-Incident-Response/README.md) |
+| 11: MITRE ATT&CK | Táticas, técnicas e mapeamento justificado por comportamento. | [Abrir módulo](11-MITRE-ATTACK/README.md) |
+| 12: Labs práticos | Roteiros reproduzíveis, evidências e resultados documentados. | [Abrir módulo](12-Labs-Praticos/README.md) |
+| 13: Certificações | Objetivos de estudo, guias oficiais e conexão com a prática. | [Abrir módulo](13-Certificacoes/README.md) |
+| 14: Roadmap | Prioridades e entregas para cada etapa do aprendizado. | [Abrir módulo](14-Roadmap/README.md) |
+
+<a id="labs-praticos"></a>
+
+## Labs práticos
+
+Há três conjuntos de prática, com propósitos diferentes:
+
+| Percurso | Material disponível | Melhor momento para usar |
+| --- | --- | --- |
+| [Labs de SIEM](06-SIEM-na-Pratica/labs/README.md) | Nove labs: pipeline, consulta, regra, tuning e investigação | Ao estudar a plataforma e a qualidade da telemetria |
+| [Labs de consultas](07-Buscas-e-Queries-em-SIEM/labs/README.md) | Dez labs: campos, filtros, agregações, correlação e investigação final | Ao transformar perguntas em consultas e conferir resultados |
+| [Labs integradores](12-Labs-Praticos/README.md) | Seis roteiros Windows, Sysmon, Sentinel e hunting | Ao montar o ambiente e produzir sua própria documentação |
+
+Os módulos 06 e 07 incluem datasets fictícios e conferência offline. A execução nos produtos depende de ambiente, coleta e schema compatíveis.
+
+### Seis roteiros integradores do módulo 12
+
+Estes roteiros continuam em desenvolvimento. Resultados, capturas e aprendizados observados precisam ser registrados depois de realizar cada exercício.
+
+| Laboratório | Prática | Situação |
+| --- | --- | --- |
+| [Lab 01: Falhas de autenticação (4625)](12-Labs-Praticos/01-EventID-4625/README.md) | Investigar uma falha de autenticação Windows sem assumir que ela é maliciosa. | Em desenvolvimento: roteiro inicial |
+| [Lab 02: Criação de usuário (4720)](12-Labs-Praticos/02-EventID-4720/README.md) | Identificar criação de conta e distinguir ator, alvo e escopo local. | Em desenvolvimento: roteiro inicial |
+| [Lab 03: Sysmon Process Creation](12-Labs-Praticos/03-Sysmon-EventID-1/README.md) | Relacionar processo, pai e linha de comando usando Event ID 1 do Sysmon. | Em desenvolvimento: roteiro inicial |
+| [Lab 04: Falhas seguidas de login com sucesso](12-Labs-Praticos/04-BruteForce-Login-Sucesso/README.md) | Correlacionar falhas anteriores a um sucesso sem confundir ordem, conta ou origem. | Em desenvolvimento: roteiro inicial |
+| [Lab 05: Coleta e investigação no Sentinel](12-Labs-Praticos/05-Microsoft-Sentinel/README.md) | Montar e verificar o caminho entre evento Windows e consulta no workspace. | Em desenvolvimento: roteiro inicial |
+| [Lab 06: Hunt baseado em hipótese](12-Labs-Praticos/06-Threat-Hunting/README.md) | Testar se relações pouco frequentes de PowerShell precisam de investigação adicional. | Em desenvolvimento: roteiro inicial |
+
+**Legenda de status:** planejado significa ideia ainda sem roteiro; em desenvolvimento indica preparação ou revisão do material; executado exige registro da realização; documentado exige relato dos resultados, evidências revisadas e limitações. Um lab documentado ainda pode receber melhorias.
+
+Nenhum dos seis labs está declarado como executado. Prints, dados e resultados reais continuam marcados como TODO. O [índice de labs](12-Labs-Praticos/README.md) reúne pré-requisitos e ordem de execução. Os Labs 01 a 03 podem começar pelo Event Viewer; a etapa KQL com dados coletados depende do ambiente descrito no Lab 05.
+
+### Próximas entregas práticas
+
+Os percursos de Wazuh, Splunk e QRadar já estão descritos no módulo 06, com consultas complementares no módulo 07. O trabalho seguinte é executar em ambientes próprios, documentar versões e diferenças de schema e registrar resultados obtidos. Um lab dedicado a Elastic Stack continua como possibilidade de expansão.
+
+<a id="consultas"></a>
+
+## Consultas e raciocínio sobre dados
+
+Uma boa pesquisa começa com uma pergunta. Depois vêm os dados disponíveis, os campos relevantes, os filtros, a correlação e a interpretação. Esse raciocínio pode ser praticado em várias ferramentas.
+
+![Investigação em quatro etapas: pergunta, dados, consulta e evidência; volte aos dados quando faltar contexto](assets/images/home/fluxo-investigacao.gif)
+
+[Ver fluxo sem animação](assets/images/home/fluxo-investigacao.png)
+
+**Pergunta → Dados e campos → Consulta → Evidência e limites.** Se a evidência não responde à pergunta, volte aos dados ou ajuste a consulta.
+
+### Uma pergunta, diferentes implementações
+
+O [módulo Buscas e Queries em SIEM](07-Buscas-e-Queries-em-SIEM/README.md) desenvolve filtros, campos, agregações, tempo, correlação, pivôs e validação. A [comparação por intenção](07-Buscas-e-Queries-em-SIEM/traduzindo-queries.md) coloca exemplos lado a lado sem presumir que as tecnologias tenham os mesmos recursos.
+
+| Abordagem | O que conferir antes de consultar |
+| --- | --- |
+| KQL | Tabela, tipos e campos; SecurityEvent, WindowsEvent e Advanced Hunting têm contratos distintos |
+| SPL | Índice, source, extrações, aliases e contexto de search/where |
+| AQL | Propriedades DSM, intervalo, fuso e unidade de contagem |
+| Wazuh/OpenSearch | Interface de consulta, índice, mapping, relógio e completude; WQL não é Query DSL |
+
+O [catálogo por caso de uso](queries/README.md) reúne autenticação, criação de conta e criação de processo nas quatro abordagens. Os [seis exemplos KQL anteriores](queries/kql/README.md) e o [teste sintético de correlação](queries/tests/README.md) continuam disponíveis.
+
+O que pode ser levado de um ambiente para outro é o método: definir o comportamento, identificar a telemetria necessária, escolher chaves e janelas, conferir resultados e procurar explicações alternativas. Uma query não implanta uma regra de detecção automaticamente.
+
+<a id="caminho"></a>
+
+## Caminho das pedras
+
+O percurso abaixo é uma orientação de estudo. Você pode voltar aos fundamentos quando encontrar uma lacuna, praticar uma etapa enquanto estuda outra e aprofundar uma ferramenta conforme sua necessidade. Não existe obrigação de dominar todos os SIEMs para começar em segurança.
+
+<details>
+<summary>Abrir o mapa detalhado da trilha</summary>
+
+```mermaid
+flowchart TD
+    A[Fundamentos de TI] --> B[Redes]
+    B --> C[Windows e Linux]
+    C --> D[Active Directory e identidade]
+    D --> E[Segurança da Informação]
+    E --> F[Logs e telemetria]
+    F --> G[SOC e Blue Team]
+    G --> H[Conceitos de SIEM]
+    H --> I[Elasticsearch, Wazuh, Sentinel, Splunk e QRadar]
+    I --> J[Consultas e análise de dados]
+    J --> K[Investigação e Incident Response]
+    K --> L[Detection Engineering]
+    L --> M[Threat Hunting]
+    N[MITRE ATT&CK: contexto e comportamento] -.-> K
+    N -.-> L
+    N -.-> M
+    classDef base fill:#e8f1f8,stroke:#24577a,color:#152c3b
+    classDef practice fill:#e5f3ef,stroke:#267363,color:#153d33
+    class A,B,C,D,E,F base
+    class G,H,I,J,K,L,M practice
+```
+
+</details>
+
+MITRE ATT&CK acompanha a investigação, a detecção e o hunting como uma linguagem para descrever comportamentos. O [roadmap com entregas por nível](14-Roadmap/README.md) ajuda a transformar essa visão em objetivos menores.
+
+<a id="como-estudar"></a>
+
+## Como estudar por este repositório
+
+| Etapa | Pergunta que orienta a prática |
+| --- | --- |
+| 1. Entenda o conceito | O que estou estudando e por que isso importa? |
+| 2. Veja como funciona | Quais componentes, identidades e processos participam? |
+| 3. Crie um laboratório | Como reproduzir o comportamento em um ambiente controlado? |
+| 4. Gere telemetria | Qual atividade produzirá os eventos necessários? |
+| 5. Colete os dados | Como confirmar o caminho da origem até a plataforma? |
+| 6. Pesquise | Quais campos, filtros e linguagem estão disponíveis? |
+| 7. Investigue | Quem fez o quê, em qual ativo, quando e em qual sequência? |
+| 8. Detecte | Esse comportamento justifica uma regra acionável? |
+| 9. Mapeie | Existe correspondência válida com uma técnica ATT&CK? |
+| 10. Documente | Quais evidências, erros, hipóteses e conclusões sustentam o relato? |
+| 11. Evolua | O que muda com outra condição, exceção, fonte ou plataforma? |
+
+O ciclo pode exigir voltar algumas etapas. Se o campo necessário não foi coletado, a solução talvez esteja na auditoria ou no parser, antes da consulta. Se a hipótese não se sustentar, registre o que a análise permitiu aprender.
 
 <a id="origem"></a>
 
@@ -55,7 +231,7 @@ Ao longo dessa evolução, passei a trabalhar e estudar temas ligados a monitora
 
 Essa trajetória reúne experiência prática, contato profissional e estudo. São níveis diferentes de familiaridade, que não devem ser confundidos com domínio de todas as tecnologias citadas aqui. Windows, Active Directory, Microsoft 365, ambientes cloud, firewalls e endpoints compõem o contexto técnico dessa evolução. Vulnerabilidades, mitigação, patches e Threat Intelligence ampliam as perguntas sobre prevenção, exposição e resposta.
 
-Sentinel e KQL fazem parte da trilha atual do repositório. Splunk e QRadar entram como plataformas que quero conhecer e aprofundar; Wazuh, como possibilidade de laboratório próprio. Detection Engineering e Threat Hunting são frentes de aprendizado contínuo. Há sempre uma fonte diferente, uma hipótese a revisar ou uma forma melhor de investigar.
+Os módulos 06 e 07 já incluem Wazuh, Splunk, QRadar e Sentinel, além de exemplos em KQL, SPL, AQL e consultas no indexer. O conteúdo amplia o estudo entre plataformas; a experiência prática em cada produto continua sendo registrada separadamente. Detection Engineering e Threat Hunting são frentes de aprendizado contínuo. Há sempre uma fonte diferente, uma hipótese a revisar ou uma forma melhor de investigar.
 
 Este é um caminho possível, construído a partir dessa trajetória. O ponto de partida e a ordem de aprofundamento podem ser diferentes para cada pessoa.
 
@@ -83,8 +259,8 @@ A proposta é fazer esse percurso com calma, registrar as limitações e voltar 
 - **Quem trabalha com suporte, infraestrutura ou operações:** conexões entre conhecimentos já usados no trabalho e sua aplicação em investigação defensiva.
 - **Quem busca a primeira oportunidade em SOC ou começa em Blue Team:** estudos de logs, triagem, contexto, incidentes e documentação.
 - **Quem está começando com SIEM:** uma visão do caminho do evento, desde a origem até a análise e a decisão.
-- **Quem estuda Sentinel ou KQL:** módulos e consultas já disponíveis, com pressupostos e limitações explícitos.
-- **Quem explora Elasticsearch, conhece Splunk ou QRadar, ou quer usar Wazuh no laboratório:** conceitos transferíveis e propostas de expansão, ainda sem trilhas próprias para essas plataformas.
+- **Quem estuda Sentinel, Splunk, QRadar ou Wazuh:** módulos de SIEM e consultas com contratos de dados, exemplos e percursos de laboratório.
+- **Quem explora Elasticsearch ou OpenSearch:** conceitos de índices, documentos, mappings, filtros e agregações, respeitando as diferenças entre os projetos.
 - **Quem se interessa por Detection Engineering, Threat Hunting ou portfólio técnico:** exercícios para justificar hipóteses, testar lógica e comunicar conclusões.
 
 Não é preciso conhecer todas as ferramentas para aproveitar o projeto. Identifique o que já consegue explicar e praticar, depois escolha a próxima lacuna a trabalhar.
@@ -152,7 +328,7 @@ Coleta obtém os registros da origem; ingestão os recebe na plataforma. Parsing
 
 Esse fluxo é didático. As plataformas podem distribuir essas etapas de maneiras diferentes, e nem toda consulta precisa gerar um alerta. Durante uma investigação, também é comum voltar ao evento original, descobrir uma lacuna e revisar a coleta.
 
-O [módulo de SOC e Blue Team](05-SOC-Blue-Team/README.md) apresenta essa relação entre dados e operação. As plataformas abaixo ajudam a explorar implementações diferentes dos mesmos problemas.
+O [módulo de SOC e Blue Team](05-SOC-Blue-Team/README.md) conecta dados à operação; o [módulo SIEM na Prática](06-SIEM-na-Pratica/README.md) aprofunda pipeline, qualidade, regras e investigação. As plataformas abaixo mostram implementações diferentes desses problemas.
 
 <a id="elasticsearch"></a>
 
@@ -172,31 +348,31 @@ Esse contato reforçou algumas perguntas que levo para outras ferramentas:
 
 Busca, filtros, agregações, volume de eventos e análise temporal se conectam tanto à engenharia de detecção quanto ao hunting. Uma detecção precisa de campos confiáveis; uma hipótese precisa de dados capazes de testá-la. Correlacionar informações exige conhecer essas condições, independentemente da plataforma.
 
-**No repositório:** a trilha específica de Elasticsearch está planejada. O objetivo será trabalhar estrutura de dados, pesquisa e investigação, sem reproduzir arquiteturas ou informações de ambientes profissionais.
+**No repositório:** [campos e schemas](07-Buscas-e-Queries-em-SIEM/campos-e-schemas.md) e [Wazuh/OpenSearch](07-Buscas-e-Queries-em-SIEM/wazuh-opensearch.md) já desenvolvem estrutura de dados e busca. OpenSearch e Elasticsearch são projetos distintos; o material do indexer Wazuh não equivale a um lab completo de Elastic Stack. Esse roteiro específico continua como expansão possível.
 
 <a id="plataformas"></a>
 
 ## Diferentes plataformas, perguntas em comum
 
-### Wazuh como possibilidade de laboratório
+### Wazuh: do endpoint à pesquisa
 
 Wazuh pode ajudar quem está começando a visualizar monitoramento de endpoints, agentes, coleta, regras e alertas em um ambiente próprio. Sua arquitetura inclui agentes e componentes centrais de análise, indexação e visualização, descritos na [documentação oficial](https://documentation.wazuh.com/current/getting-started/architecture.html).
 
 > Um laboratório com Wazuh pode tornar visível o caminho entre uma atividade no endpoint, o evento coletado, a regra aplicada e o alerta que inicia uma investigação.
 
-A proposta é usar esse ambiente para formular perguntas: o evento chegou? Quais campos foram interpretados? Por que a regra correspondeu à atividade? O alerta faz sentido no contexto? Ele é uma possibilidade de aprendizado, com requisitos de recursos e configuração que precisam ser avaliados. Não há um lab Wazuh implementado neste repositório ainda.
+A proposta é usar esse ambiente para formular perguntas: o evento chegou? Quais campos foram interpretados? Por que a regra correspondeu à atividade? O alerta faz sentido no contexto? Ele é uma possibilidade de aprendizado, com requisitos de recursos e configuração que precisam ser avaliados. A [página de Wazuh](06-SIEM-na-Pratica/wazuh.md) e os [labs de SIEM](06-SIEM-na-Pratica/labs/README.md) já oferecem um percurso. Instalar e validar a coleta no seu ambiente é uma etapa prática, não algo provisionado automaticamente pelo repositório.
 
 ### Splunk e pesquisa com SPL
 
 Splunk oferece outra abordagem para busca, análise, dashboards, correlação, alertas e investigação. SPL, Search Processing Language, faz parte desse ecossistema de pesquisa. A [referência oficial de SPL](https://help.splunk.com/en/splunk-enterprise/spl-search-reference/9.4/introduction/welcome-to-the-search-reference) é um ponto de consulta para seus comandos e funções.
 
-Splunk aparece aqui como uma plataforma relevante para estudo. Uma introdução a ingestão, pesquisa com SPL e análise de eventos está entre as expansões planejadas, sem pressupor experiência avançada ou conteúdo já disponível.
+A [introdução ao Splunk](06-SIEM-na-Pratica/splunk.md) trata a plataforma, e a [referência de SPL](07-Buscas-e-Queries-em-SIEM/spl.md) desenvolve consultas. Os exemplos exigem conferir índice, source, extrações e aliases antes de executar.
 
 ### IBM QRadar e outra arquitetura de SIEM
 
 QRadar permite estudar a relação entre eventos, flows, regras, correlação e offenses. Eventos registram atividades; flows descrevem comunicação de rede. Uma offense reúne contexto de atividades correlacionadas para investigação, conforme a lógica configurada. Consulte a [documentação de eventos e flows](https://www.ibm.com/support/pages/what-are-qradar-events-and-how-do-they-differ-flows).
 
-O interesse é conhecer essa organização e, futuramente, explorar conceitos de pesquisa com AQL. A trilha é planejada e não representa domínio declarado da ferramenta. Conhecer outras arquiteturas ajuda a distinguir conceitos gerais de decisões específicas de cada plataforma.
+A [página de QRadar](06-SIEM-na-Pratica/qradar.md) apresenta essa organização, e a [referência de AQL](07-Buscas-e-Queries-em-SIEM/aql.md) explica a consulta de eventos. Propriedades DSM, coalescência e fuso precisam ser conferidos no ambiente. O material disponível não declara domínio profissional ou execução de todos os exemplos.
 
 ### Microsoft Sentinel dentro do ciclo de investigação
 
@@ -207,147 +383,6 @@ Sentinel faz parte da trilha para estudar SIEM em ecossistemas Microsoft. O obje
 Log Analytics e suas tabelas dão contexto ao armazenamento e à consulta dos logs; KQL permite explorar esses dados. Analytics Rules, incidentes e automação entram depois que a fonte e a lógica estão compreendidas. Automatizar uma decisão também exige tratar erros, permissões e impacto.
 
 O [módulo SIEM na Prática](06-SIEM-na-Pratica/README.md) e o [Lab 05](12-Labs-Praticos/05-Microsoft-Sentinel/README.md) já possuem roteiros. O módulo compara Wazuh, Splunk, QRadar e Sentinel; o lab aprofunda uma implementação desses conceitos. O raciocínio sobre coleta, qualidade, contexto e resposta também será útil em outras plataformas.
-
-<a id="caminho"></a>
-
-## Caminho das pedras
-
-O percurso abaixo é uma orientação de estudo. Você pode voltar aos fundamentos quando encontrar uma lacuna, praticar uma etapa enquanto estuda outra e aprofundar uma ferramenta conforme sua necessidade. Não existe obrigação de dominar todos os SIEMs para começar em segurança.
-
-```mermaid
-flowchart TD
-    A[Fundamentos de TI] --> B[Redes]
-    B --> C[Windows e Linux]
-    C --> D[Active Directory e identidade]
-    D --> E[Segurança da Informação]
-    E --> F[Logs e telemetria]
-    F --> G[SOC e Blue Team]
-    G --> H[Conceitos de SIEM]
-    H --> I[Elasticsearch, Wazuh, Sentinel, Splunk e QRadar]
-    I --> J[Consultas e análise de dados]
-    J --> K[Investigação e Incident Response]
-    K --> L[Detection Engineering]
-    L --> M[Threat Hunting]
-    N[MITRE ATT&CK: contexto e comportamento] -.-> K
-    N -.-> L
-    N -.-> M
-    classDef base fill:#e8f1f8,stroke:#24577a,color:#152c3b
-    classDef practice fill:#e5f3ef,stroke:#267363,color:#153d33
-    class A,B,C,D,E,F base
-    class G,H,I,J,K,L,M practice
-```
-
-MITRE ATT&CK acompanha a investigação, a detecção e o hunting como uma linguagem para descrever comportamentos. O [roadmap com entregas por nível](14-Roadmap/README.md) ajuda a transformar essa visão em objetivos menores.
-
-<a id="comece-aqui"></a>
-
-## Comece aqui
-
-1. **Identifique seu ponto de partida.** Abra o [roadmap](14-Roadmap/README.md) e a [trilha iniciante](14-Roadmap/iniciante.md). Escolha fundamentos que ainda não consegue explicar ou demonstrar.
-2. **Entenda o sistema que gera o dado.** Estude [Windows, Linux e auditoria](03-Linux-e-Windows/README.md), usuários, serviços e autenticação.
-3. **Prepare um laboratório simples.** Use uma VM própria, rede controlada e snapshot. Comece pelos eventos locais, sem depender de assinatura Azure.
-4. **Execute uma atividade pequena.** Siga os Labs 01 e 02 para observar falha de autenticação e criação de conta. Verifique o evento original antes de pensar em alerta.
-5. **Aprenda a pesquisar.** Use [consultas com dados sintéticos](07-Buscas-e-Queries-em-SIEM/fundamentos-de-consulta.md). Para as queries com telemetria do Sentinel, faça o Lab 05 antes dessa etapa.
-6. **Explore a coleta em outra plataforma quando fizer sentido.** Wazuh é uma opção para estudo próprio com a documentação oficial; o roteiro específico daqui ainda está planejado.
-7. **Documente o que realmente aconteceu.** Copie o [template de lab](12-Labs-Praticos/TEMPLATE-LAB.md), registre erros e publique apenas evidências anonimizadas.
-8. **Aumente a complexidade aos poucos.** Modifique filtros, compare contextos, teste correlações e avance para Detection Engineering e Threat Hunting. Conhecer outra plataforma será mais útil quando você souber qual pergunta deseja responder.
-
-<a id="como-estudar"></a>
-
-## Como estudar por este repositório
-
-| Etapa | Pergunta que orienta a prática |
-| --- | --- |
-| 1. Entenda o conceito | O que estou estudando e por que isso importa? |
-| 2. Veja como funciona | Quais componentes, identidades e processos participam? |
-| 3. Crie um laboratório | Como reproduzir o comportamento em um ambiente controlado? |
-| 4. Gere telemetria | Qual atividade produzirá os eventos necessários? |
-| 5. Colete os dados | Como confirmar o caminho da origem até a plataforma? |
-| 6. Pesquise | Quais campos, filtros e linguagem estão disponíveis? |
-| 7. Investigue | Quem fez o quê, em qual ativo, quando e em qual sequência? |
-| 8. Detecte | Esse comportamento justifica uma regra acionável? |
-| 9. Mapeie | Existe correspondência válida com uma técnica ATT&CK? |
-| 10. Documente | Quais evidências, erros, hipóteses e conclusões sustentam o relato? |
-| 11. Evolua | O que muda com outra condição, exceção, fonte ou plataforma? |
-
-O ciclo pode exigir voltar algumas etapas. Se o campo necessário não foi coletado, a solução talvez esteja na auditoria ou no parser, antes da consulta. Se a hipótese não se sustentar, registre o que a análise permitiu aprender.
-
-<a id="modulos"></a>
-
-## Os 14 módulos
-
-Estes são os módulos existentes. Wazuh, Splunk, QRadar e Microsoft Sentinel são estudados juntos no módulo 06, com conceitos e labs comparáveis. Elasticsearch permanece como direção de expansão.
-
-| Módulo | O que você vai aprender | Acesso |
-| --- | --- | --- |
-| 01: Fundamentos de TI | Recursos de uma máquina, sistemas, virtualização, terminal e Git. | [Abrir módulo](01-Fundamentos/README.md) |
-| 02: Redes | TCP/IP, OSI, DNS, DHCP, protocolos e análise de tráfego. | [Abrir módulo](02-Redes/README.md) |
-| 03: Linux e Windows | Administração, PowerShell, eventos, Active Directory e Sysmon. | [Abrir módulo](03-Linux-e-Windows/README.md) |
-| 04: Segurança da Informação | Risco, identidade, criptografia, hardening e segurança em nuvem. | [Abrir módulo](04-Seguranca-da-Informacao/README.md) |
-| 05: SOC e Blue Team | Telemetria, alertas, triagem, contexto e investigação. | [Abrir módulo](05-SOC-Blue-Team/README.md) |
-| 06: SIEM na Prática | Pipeline, pesquisa, detecção e investigação em Wazuh, Splunk, QRadar e Sentinel. | [Abrir módulo](06-SIEM-na-Pratica/README.md) |
-| 07: Buscas e Queries em SIEM | Perguntas, campos, filtros, tempo e correlação em KQL, SPL, AQL e Wazuh/OpenSearch. | [Abrir módulo](07-Buscas-e-Queries-em-SIEM/README.md) |
-| 08: Detection Engineering | Casos de uso, qualidade dos dados, testes, tuning e Sigma. | [Abrir módulo](08-Detection-Engineering/README.md) |
-| 09: Threat Hunting | Hipóteses, IoCs, TTPs, pesquisa e interpretação de evidências. | [Abrir módulo](09-Threat-Hunting/README.md) |
-| 10: Incident Response | Preparação, identificação, contenção, recuperação e melhoria. | [Abrir módulo](10-Incident-Response/README.md) |
-| 11: MITRE ATT&CK | Táticas, técnicas e mapeamento justificado por comportamento. | [Abrir módulo](11-MITRE-ATTACK/README.md) |
-| 12: Labs práticos | Roteiros reproduzíveis, evidências e resultados documentados. | [Abrir módulo](12-Labs-Praticos/README.md) |
-| 13: Certificações | Objetivos de estudo, guias oficiais e conexão com a prática. | [Abrir módulo](13-Certificacoes/README.md) |
-| 14: Roadmap | Prioridades e entregas para cada etapa do aprendizado. | [Abrir módulo](14-Roadmap/README.md) |
-
-<a id="labs-praticos"></a>
-
-## Labs práticos
-
-Os seis labs possuem **roteiros iniciais em desenvolvimento**. A existência de um roteiro não comprova execução. Resultados, capturas e aprendizados observados precisam ser registrados depois de realizar o exercício.
-
-| Laboratório | Prática | Situação |
-| --- | --- | --- |
-| [Lab 01: Falhas de autenticação (4625)](12-Labs-Praticos/01-EventID-4625/README.md) | Investigar uma falha de autenticação Windows sem assumir que ela é maliciosa. | Em desenvolvimento: roteiro inicial |
-| [Lab 02: Criação de usuário (4720)](12-Labs-Praticos/02-EventID-4720/README.md) | Identificar criação de conta e distinguir ator, alvo e escopo local. | Em desenvolvimento: roteiro inicial |
-| [Lab 03: Sysmon Process Creation](12-Labs-Praticos/03-Sysmon-EventID-1/README.md) | Relacionar processo, pai e linha de comando usando Event ID 1 do Sysmon. | Em desenvolvimento: roteiro inicial |
-| [Lab 04: Falhas seguidas de login com sucesso](12-Labs-Praticos/04-BruteForce-Login-Sucesso/README.md) | Correlacionar falhas anteriores a um sucesso sem confundir ordem, conta ou origem. | Em desenvolvimento: roteiro inicial |
-| [Lab 05: Coleta e investigação no Sentinel](12-Labs-Praticos/05-Microsoft-Sentinel/README.md) | Montar e verificar o caminho entre evento Windows e consulta no workspace. | Em desenvolvimento: roteiro inicial |
-| [Lab 06: Hunt baseado em hipótese](12-Labs-Praticos/06-Threat-Hunting/README.md) | Testar se relações pouco frequentes de PowerShell precisam de investigação adicional. | Em desenvolvimento: roteiro inicial |
-
-**Legenda de status:** planejado significa ideia ainda sem roteiro; em desenvolvimento indica preparação ou revisão do material; executado exige registro da realização; documentado exige relato dos resultados, evidências revisadas e limitações. Um lab documentado ainda pode receber melhorias.
-
-Nenhum dos seis labs está declarado como executado. Prints, dados e resultados reais continuam marcados como TODO. O [índice de labs](12-Labs-Praticos/README.md) reúne pré-requisitos e ordem de execução. Os Labs 01 a 03 podem começar pelo Event Viewer; a etapa KQL com dados coletados depende do ambiente descrito no Lab 05.
-
-### Ideias de laboratórios futuros
-
-| Ideia | Fluxo proposto | Objetivo | Status |
-| --- | --- | --- | --- |
-| Wazuh | Windows ou Linux → agente → coleta → alerta → investigação | Visualizar monitoramento de endpoints e o caminho dos eventos. | Planejado |
-| Elastic | Logs → Elasticsearch → pesquisa → filtros → agregações | Explorar dados de segurança e construir contexto para investigar. | Planejado |
-| Splunk | Ingestão → pesquisa com SPL → investigação → alerta | Conhecer outra abordagem de busca e análise de logs. | Planejado |
-| QRadar | Eventos e flows → correlação → offense → investigação | Entender conceitos de outra arquitetura de SIEM e pesquisa com AQL. | Planejado |
-
-Essas ideias ainda não têm roteiros ou resultados no repositório. Uma expansão posterior poderá comparar o raciocínio aplicado ao mesmo comportamento em plataformas diferentes, respeitando seus esquemas e capacidades.
-
-<a id="consultas"></a>
-
-## Consultas e raciocínio sobre dados
-
-Uma boa pesquisa começa com uma pergunta. Depois vêm os dados disponíveis, os campos relevantes, os filtros, a correlação e a interpretação. Esse raciocínio pode ser praticado em várias ferramentas.
-
-> Pergunta → Dados disponíveis → Campos relevantes → Filtro → Correlação → Contexto → Conclusão
-
-### KQL como parte da trilha
-
-![KQL](https://img.shields.io/badge/queries-KQL-5C2D91)
-
-Quero usar o [módulo Buscas e Queries em SIEM](07-Buscas-e-Queries-em-SIEM/README.md) para evoluir de consultas simples até investigações e detecções que exijam mais contexto:
-
-> Filtrar dados → Selecionar campos → Agrupar eventos → Correlacionar informações → Criar contexto → Identificar comportamento → Investigar → Detectar
-
-O [catálogo KQL](queries/kql/README.md) contém seis exemplos com intenção, funcionamento, falsos positivos e possibilidades de melhoria. As consultas distinguem `SecurityEvent` de `WindowsEvent`; a tabela e os campos reais precisam ser conferidos antes da execução.
-
-### Levando o raciocínio para outras ferramentas
-
-SPL no Splunk, AQL no contexto do QRadar, consultas no Elasticsearch e mecanismos de pesquisa e regras do Wazuh oferecem outras formas de trabalhar com dados. As sintaxes, os tipos, a normalização e os recursos de correlação variam. As linguagens não são equivalentes e uma query não deve ser transportada apenas trocando palavras.
-
-O que pode ser levado de um ambiente para outro é o método: definir o comportamento, identificar a telemetria necessária, escolher chaves e janelas, conferir resultados e procurar explicações alternativas.
 
 <a id="soc-identidade"></a>
 
@@ -399,7 +434,7 @@ Hunting começa com uma hipótese que possa ser investigada, com escopo e dados 
 
 Uma hipótese pode ser confirmada, refutada ou permanecer inconclusiva por falta de dados. Todos esses resultados podem trazer aprendizado quando o raciocínio e a cobertura ficam documentados. Uma atividade rara também pode ser legítima; ausência de resultados não prova ausência de ameaça.
 
-O [módulo de Threat Hunting](09-Threat-Hunting/README.md) e o Lab 06 trabalham essa abordagem. A pesquisa pode acontecer em plataformas diferentes; formular a hipótese e interpretar evidências continuam sendo tarefas centrais.
+O [módulo de Threat Hunting](09-Threat-Hunting/README.md) e o [lab integrador de hunting](12-Labs-Praticos/06-Threat-Hunting/README.md) trabalham essa abordagem. A pesquisa pode acontecer em plataformas diferentes; formular a hipótese e interpretar evidências continuam sendo tarefas centrais.
 
 ### MITRE ATT&CK aplicado aos estudos
 
@@ -457,8 +492,8 @@ Esses problemas merecem registro: o que era esperado, o que foi observado, quais
 | --- | --- |
 | Sistemas e infraestrutura | Windows, Linux, Active Directory, PowerShell, redes e Git/GitHub. |
 | Telemetria | Windows Event Logs, Sysmon, identidade, endpoints, firewalls e análise de tráfego com Wireshark. |
-| SIEM e análise | Sentinel nos roteiros atuais; Elasticsearch no contexto da experiência e expansão; Wazuh, Splunk e QRadar em estudos planejados. |
-| Consultas e pesquisa | KQL disponível; conceitos de busca e agregação no Elastic, SPL e AQL como aprofundamentos futuros. |
+| SIEM e análise | Wazuh, Splunk, QRadar e Sentinel no módulo 06; Elasticsearch como contexto de pesquisa e possibilidade de expansão prática. |
+| Consultas e pesquisa | KQL, SPL, AQL e Wazuh/OpenSearch no módulo 07, com exemplos por intenção e contratos de dados. |
 | Operação de segurança | SOC, Blue Team, Incident Response, Detection Engineering, Threat Hunting e Threat Intelligence. |
 | Ecossistema Microsoft | Sentinel, Log Analytics, Azure Monitor, Defender, Entra ID e Microsoft 365. |
 | Formatos e frameworks | Sigma para regras e MITRE ATT&CK para descrever comportamentos e cobertura. |
@@ -490,6 +525,9 @@ Caminho-das-Pedras-CyberSecurity/
   13-Certificacoes/
   14-Roadmap/
   queries/
+    authentication/
+    account-creation/
+    process-creation/
     kql/
     sigma/
     tests/
@@ -508,13 +546,13 @@ Os módulos organizam os estudos; os labs conectam os conceitos; `queries` reún
 | --- | --- |
 | Estrutura e navegação | Base organizada em 14 módulos, com referências e roadmap. |
 | Conteúdo didático | Em evolução, com conceitos, práticas e entregas propostas. |
-| Labs atuais | Seis roteiros iniciais; execução real e evidências pendentes. |
-| KQL | Seis exemplos e um exercício de correlação sintética; validação no workspace pendente. |
+| Laboratórios | Nove labs em SIEM, dez em consultas e seis roteiros integradores; resultados reais nos produtos devem ser documentados. |
+| Consultas | KQL, SPL, AQL e Wazuh/OpenSearch; catálogo por casos de uso e exemplos KQL anteriores preservados. Execução nos produtos pendente. |
 | Sigma e detecções | Regra experimental e template; conversão, tuning e validação no ambiente alvo pendentes. |
 | Playbooks | Roteiros manuais educacionais, sem automação de contenção implantada. |
-| Elastic, Wazuh, Splunk e QRadar | Expansões planejadas, ainda sem módulos específicos. |
+| Plataformas SIEM | Wazuh, Splunk, QRadar e Sentinel com páginas e percursos no módulo 06. Lab dedicado a Elastic Stack ainda não disponível. |
 
-A prioridade é executar e documentar os roteiros existentes com dados de laboratório. Depois, aprofundar análise de logs em Elasticsearch, preparar um lab Wazuh e introduzir SPL, Splunk, QRadar e AQL conforme a evolução dos estudos. A [lista de pendências](TODO.md) acompanha outros trabalhos previstos.
+A prioridade é executar e documentar os roteiros existentes, validar as consultas no produto escolhido e registrar diferenças entre resultado esperado e obtido. O aprofundamento em Elastic Stack pode ampliar esse percurso depois. A [lista de pendências](TODO.md) acompanha outros trabalhos previstos.
 
 O repositório não provisiona infraestrutura automaticamente. Exemplos não equivalem a detecções prontas para produção, e resultados esperados não são evidências de execução.
 
@@ -526,7 +564,7 @@ Contribuições são bem-vindas: correções técnicas, melhorias de documentaç
 
 Antes de publicar, revise `git diff` e os arquivos preparados para commit. `.gitignore` ajuda a evitar arquivos indesejados, mas não detecta segredos dentro de documentos nem remove dados já versionados. Revise também capturas, linhas de comando e identificadores.
 
-O comando `python scripts/validate_docs.py` verifica a estrutura básica e os links locais dos documentos. Novas âncoras, diagramas e apresentação visual também precisam de revisão no GitHub.
+O script `scripts/validate_docs.py` verifica estrutura básica e links locais. Templates de Issue com frontmatter precisam de tratamento específico na conferência de títulos. Âncoras, diagramas e apresentação visual também exigem revisão no GitHub.
 
 As [referências do projeto](REFERENCIAS.md) priorizam documentação oficial e fontes técnicas confiáveis. Interfaces, esquemas, recursos e objetivos de certificação podem mudar; confira a documentação da versão utilizada e registre as condições do seu teste.
 
