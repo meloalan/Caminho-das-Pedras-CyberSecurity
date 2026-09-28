@@ -1,0 +1,5 @@
+host,domain,user,image,parent_image,executions,first_seen,last_seen,synthetic
+WIN-LAB02,LAB,svc.lab,powershell.exe,taskeng.exe,14,2026-09-17T09:00:00Z,2026-09-23T17:00:00Z,true
+WIN-LAB01,LAB,alan.lab,powershell.exe,explorer.exe,3,2026-09-18T08:08:00Z,2026-09-23T08:08:00Z,true
+WIN-LAB01,LAB,admin.lab,inventory.exe,explorer.exe,1,2026-09-23T11:00:00Z,2026-09-23T11:00:00Z,true
+WIN-LAB01,LAB,finance.lab,WINWORD.EXE,explorer.exe,20,2026-09-17T08:00:00Z,2026-09-23T17:00:00Z,true

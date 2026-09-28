@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="750" viewBox="0 0 640 750" role="img" aria-labelledby="title desc"><title id="title">Investigar, voltar, concluir</title><desc id="desc">O ciclo admite retornos; não exige encontrar um incidente.</desc>
+<rect width="640" height="750" rx="20" fill="#0b1526"/>
+<g font-family="Arial,sans-serif"><text x="32" y="35" font-size="17" fill="#61e0dd">CAMINHO DAS PEDRAS / THREAT HUNTING</text><text x="32" y="80" font-size="30" fill="#eff7ff" font-weight="bold">Investigar, voltar, concluir</text>
+<rect x="32" y="110" width="576" height="116" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="54" y="144" font-size="25" fill="#61e0dd" font-weight="bold">CONTEXTO E HIPÓTESE</text>
+<text x="54" y="177" font-size="21" fill="#bdd1e5">Definir risco, pergunta e alternativa.</text>
+<text x="54" y="206" font-size="21" fill="#bdd1e5">Delimitar escopo e condição de saída.</text>
+<path d="M320 229 v17 m-6 -6 l6 7 6 -7" fill="none" stroke="#3288ff" stroke-width="3"/>
+<rect x="32" y="255" width="576" height="116" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="54" y="289" font-size="25" fill="#61e0dd" font-weight="bold">COBERTURA E PESQUISA</text>
+<text x="54" y="322" font-size="21" fill="#bdd1e5">Verificar dados antes da consulta.</text>
+<text x="54" y="351" font-size="21" fill="#bdd1e5">Analisar fatos e limites.</text>
+<path d="M320 374 v17 m-6 -6 l6 7 6 -7" fill="none" stroke="#3288ff" stroke-width="3"/>
+<rect x="32" y="400" width="576" height="116" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="54" y="434" font-size="25" fill="#61e0dd" font-weight="bold">PIVOT E NOVA PERGUNTA</text>
+<text x="54" y="467" font-size="21" fill="#bdd1e5">Outra entidade pode exigir nova fonte.</text>
+<text x="54" y="496" font-size="21" fill="#bdd1e5">Voltar à hipótese quando necessário.</text>
+<path d="M320 519 v17 m-6 -6 l6 7 6 -7" fill="none" stroke="#3288ff" stroke-width="3"/>
+<rect x="32" y="545" width="576" height="116" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="54" y="579" font-size="25" fill="#61e0dd" font-weight="bold">CONCLUSÃO E MELHORIA</text>
+<text x="54" y="612" font-size="21" fill="#bdd1e5">Investigação, detecção ou coleta.</text>
+<text x="54" y="641" font-size="21" fill="#bdd1e5">O outcome pode iniciar outro hunt.</text>
+<text x="32" y="725" font-size="18" fill="#bdd1e5">O ciclo admite retornos; não exige encontrar um incidente.</text>
+</g></svg>

@@ -1,19 +1,47 @@
-# Registro de hunts
+# Catálogo e registro de hunts
 
-[← Índice do módulo](README.md) · [Página principal](../README.md)
+<!-- markdownlint-configure-file {"MD033": {"allowed_elements": ["details", "summary"]}} -->
 
-## Conceito
+[← Tópico anterior](multisiem-hunting.md) · [↑ Índice do módulo](README.md) · [Página principal](../README.md) · [Próximo tópico →](hunt-journal.md)
 
-Um registro reproduzível contém versão da consulta, janela, cobertura, achados e decisão. Ausência de achado não garante ausência de ameaça.
+## Continuidade do conteúdo original
 
-## Prática orientada
+Este caminho foi preservado. O conceito de registro reproduzível, com consulta, janela, cobertura, achados e decisão, foi ampliado no [Hunt Journal](hunt-journal.md). Ausência de achado continua dependendo de cobertura conhecida.
 
-Use o roteiro do [Lab 06](../12-Labs-Praticos/06-Threat-Hunting/README.md). Salve uma versão da query e registre sinais ausentes ou campos vazios.
+## Dez hunts completos
 
-## Entrega para o portfólio
+| Hunt | Tema |
+| --- | --- |
+| [HUNT-WIN-001](../hunts/authentication/hunt-01-falhas-sucesso.md) | Falhas seguidas de sucesso |
+| [HUNT-WIN-002](../hunts/identity/hunt-02-conta-criada.md) | Conta recém-criada com atividade posterior |
+| [HUNT-WIN-003](../hunts/process/hunt-03-processo-incomum.md) | Processo incomum em população conhecida |
+| [HUNT-WIN-004](../hunts/process/hunt-04-powershell.md) | PowerShell com contexto de execução |
+| [HUNT-WIN-005](../hunts/identity/hunt-05-grupo-privilegiado.md) | Mudança de grupo e privilégio |
+| [HUNT-WIN-006](../hunts/identity/hunt-06-log-limpo.md) | Limpeza do log de segurança |
+| [HUNT-WIN-007](../hunts/network/hunt-07-processo-conexao.md) | Processo e conexão |
+| [HUNT-WIN-008](../hunts/network/hunt-08-dns-processo.md) | DNS e processo |
+| [HUNT-WIN-009](../hunts/persistence/hunt-09-servico-tarefa.md) | Serviço ou tarefa criada |
+| [HUNT-WIN-010](../hunts/process/hunt-10-administracao-abuso.md) | Administração legítima ou potencial abuso |
 
-Relatório com status confirmado, refutado ou inconclusivo e uma melhoria de coleta.
+## Como escolher
 
-## Critério de conclusão
+Comece pela pergunta e pelas fontes existentes. Autenticação e identidade exigem papéis bem separados; processo/rede exige chaves de execução; tarefa/serviço exige configuração e evidência de execução. Cada pack possui limites e alternativas próprios.
 
-Explique o resultado com suas palavras, registre as limitações e diferencie o que foi observado do que foi inferido. Dados de laboratório devem ser anonimizados antes da publicação.
+Use o [exemplo completo](exemplo-hunt-completo.md) para entender o nível de conclusão esperado e os [labs](labs/README.md) para praticar. O [lab integrador original](../12-Labs-Praticos/06-Threat-Hunting/README.md) permanece disponível como exercício complementar.
+
+## Regra de documentação
+
+Guarde versão da consulta e fonte de cada resultado. Classifique a hipótese como sustentada, enfraquecida, refutada no escopo ou inconclusiva. O antigo uso genérico de “confirmado” não deve ser interpretado como incidente confirmado. Status de trabalho e conclusão investigativa são dimensões diferentes.
+
+## Checkpoint
+
+**Onde registrar um hunt depois de escolher o pack?**
+
+<details>
+<summary>Ver resposta</summary>
+
+No template e no Hunt Journal, preservando versão, escopo, consultas, resultados obtidos, limitações e outcome. O catálogo não substitui o registro.
+
+</details>
+
+[← Tópico anterior](multisiem-hunting.md) · [↑ Índice do módulo](README.md) · [Página principal](../README.md) · [Próximo tópico →](hunt-journal.md)

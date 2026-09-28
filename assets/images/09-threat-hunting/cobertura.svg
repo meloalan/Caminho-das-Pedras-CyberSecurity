@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="605" viewBox="0 0 640 605" role="img" aria-labelledby="title desc"><title id="title">Zero resultados, qual alcance?</title><desc id="desc">Um host sem dados não é um host comprovadamente seguro.</desc>
+<rect width="640" height="605" rx="20" fill="#0b1526"/>
+<g font-family="Arial,sans-serif"><text x="32" y="35" font-size="17" fill="#61e0dd">CAMINHO DAS PEDRAS / THREAT HUNTING</text><text x="32" y="80" font-size="30" fill="#eff7ff" font-weight="bold">Zero resultados, qual alcance?</text>
+<rect x="32" y="110" width="576" height="116" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="54" y="144" font-size="25" fill="#61e0dd" font-weight="bold">POPULAÇÃO E PERÍODO</text>
+<text x="54" y="177" font-size="21" fill="#bdd1e5">Inventário e janela explícitos.</text>
+<text x="54" y="206" font-size="21" fill="#bdd1e5">Quem poderia produzir o observável?</text>
+<path d="M320 229 v17 m-6 -6 l6 7 6 -7" fill="none" stroke="#3288ff" stroke-width="3"/>
+<rect x="32" y="255" width="576" height="116" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="54" y="289" font-size="25" fill="#61e0dd" font-weight="bold">FONTE E CAMPOS</text>
+<text x="54" y="322" font-size="21" fill="#bdd1e5">Coleta, retenção, parsing e perdas.</text>
+<text x="54" y="351" font-size="21" fill="#bdd1e5">Controle positivo e permissões.</text>
+<path d="M320 374 v17 m-6 -6 l6 7 6 -7" fill="none" stroke="#3288ff" stroke-width="3"/>
+<rect x="32" y="400" width="576" height="116" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="54" y="434" font-size="25" fill="#61e0dd" font-weight="bold">RESULTADO E LIMITE</text>
+<text x="54" y="467" font-size="21" fill="#bdd1e5">Não observado no escopo pesquisado.</text>
+<text x="54" y="496" font-size="21" fill="#bdd1e5">Ausência de fonte não refuta atividade.</text>
+<text x="32" y="580" font-size="18" fill="#bdd1e5">Um host sem dados não é um host comprovadamente seguro.</text>
+</g></svg>

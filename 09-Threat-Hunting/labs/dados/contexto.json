@@ -1,0 +1,66 @@
+[
+  {
+    "id": "C01",
+    "synthetic": true,
+    "evidence_ids": [
+      "E04",
+      "E06"
+    ],
+    "statement": "Demanda administrativa mencionada, sem ticket ou confirmação suficiente para esta sessão. Autorização não demonstrada."
+  },
+  {
+    "id": "C02",
+    "synthetic": true,
+    "evidence_ids": [
+      "N07",
+      "N08",
+      "N09",
+      "N10"
+    ],
+    "host": "WIN-LAB01",
+    "domain": "LAB",
+    "user": "admin.lab",
+    "process_guid": "{77777777-2222-3333-4444-555555555555}",
+    "window_start": "2026-09-24T09:00:00Z",
+    "window_end": "2026-09-24T09:20:00Z",
+    "statement": "Registro independente fictício CHG-LAB-009 e confirmação do instrutor: exercício benigno de monitoramento interativo, consultas periódicas simuladas. A linha Get-Date não implementa essas conexões. Não é comprovação de execução da tarefa N06."
+  },
+  {
+    "id": "C03",
+    "synthetic": true,
+    "evidence_ids": [
+      "E09",
+      "E14",
+      "N01",
+      "N02",
+      "N03"
+    ],
+    "domain": "LAB",
+    "user": "novo.lab",
+    "sid": "S-1-5-21-111111111-222222222-333333333-1200",
+    "statement": "Inventário fictício resolve LAB/novo.lab para este SID somente na janela do exercício. Onboarding é alegado, mas autorização de privilégios não fornecida."
+  },
+  {
+    "id": "C04",
+    "synthetic": true,
+    "evidence_ids": [
+      "N05",
+      "N06"
+    ],
+    "statement": "Implantação de inventário e tarefa de relógio são explicações possíveis. Não há aprovação ou execução posterior comprovadas por identificador de tarefa/serviço."
+  },
+  {
+    "id": "C05",
+    "synthetic": true,
+    "evidence_ids": [
+      "E20"
+    ],
+    "statement": "Manutenção possível, porém sem ticket correspondente. Limpeza não comprova ocultação adversária."
+  },
+  {
+    "id": "C06",
+    "synthetic": true,
+    "evidence_ids": [],
+    "statement": "inventory.exe observado uma vez no baseline possui aprovação fictícia CHG-LAB-008, WIN-LAB01, admin.lab, 2026-09-23T11:00Z, finalidade inventário. Aprovação não abrange outros processos."
+  }
+]

@@ -29,7 +29,7 @@ Um caminho possível para quem quer entrar em Cybersecurity, fortalecer a base t
 | Investigar com KQL, SPL, AQL ou Wazuh/OpenSearch | [Buscas e Queries em SIEM](07-Buscas-e-Queries-em-SIEM/README.md) |
 | Praticar sem instalar um SIEM | [Campos e evidências, lab offline](07-Buscas-e-Queries-em-SIEM/labs/lab-01-entendendo-campos.md) |
 
-**O que já existe:** 14 módulos, nove labs no módulo de SIEM, dez no módulo de consultas, onze em Detection Engineering e seis roteiros integradores no módulo 12. Esses conjuntos têm objetivos que se complementam. Material disponível e resultado esperado não significam execução comprovada em produtos.
+**O que já existe:** 14 módulos, nove labs no módulo de SIEM, dez no módulo de consultas, onze em Detection Engineering, doze em Threat Hunting e seis roteiros integradores no módulo 12. Esses conjuntos têm objetivos que se complementam. Material disponível e resultado esperado não significam execução comprovada em produtos.
 
 ## Navegação
 
@@ -92,7 +92,7 @@ Estes são os módulos existentes. Wazuh, Splunk, QRadar e Microsoft Sentinel s�
 | 06: SIEM na Prática | Pipeline, pesquisa, detecção e investigação em Wazuh, Splunk, QRadar e Sentinel. | [Abrir módulo](06-SIEM-na-Pratica/README.md) |
 | 07: Buscas e Queries em SIEM | Perguntas, campos, filtros, tempo e correlação em KQL, SPL, AQL e Wazuh/OpenSearch. | [Abrir módulo](07-Buscas-e-Queries-em-SIEM/README.md) |
 | 08: Detection Engineering | Hipóteses, telemetria, testes, tuning, Sigma, cobertura e manutenção. | [Abrir módulo](08-Detection-Engineering/README.md) |
-| 09: Threat Hunting | Hipóteses, IoCs, TTPs, pesquisa e interpretação de evidências. | [Abrir módulo](09-Threat-Hunting/README.md) |
+| 09: Threat Hunting | Hipóteses, cobertura, dez hunts, pivots, alternativas e relatórios. | [Abrir módulo](09-Threat-Hunting/README.md) |
 | 10: Incident Response | Preparação, identificação, contenção, recuperação e melhoria. | [Abrir módulo](10-Incident-Response/README.md) |
 | 11: MITRE ATT&CK | Táticas, técnicas e mapeamento justificado por comportamento. | [Abrir módulo](11-MITRE-ATTACK/README.md) |
 | 12: Labs práticos | Roteiros reproduzíveis, evidências e resultados documentados. | [Abrir módulo](12-Labs-Praticos/README.md) |
@@ -103,16 +103,17 @@ Estes são os módulos existentes. Wazuh, Splunk, QRadar e Microsoft Sentinel s�
 
 ## Labs práticos
 
-Há quatro conjuntos de prática, com propósitos diferentes:
+Há cinco conjuntos de prática, com propósitos diferentes:
 
 | Percurso | Material disponível | Melhor momento para usar |
 | --- | --- | --- |
 | [Labs de SIEM](06-SIEM-na-Pratica/labs/README.md) | Nove labs: pipeline, consulta, regra, tuning e investigação | Ao estudar a plataforma e a qualidade da telemetria |
 | [Labs de consultas](07-Buscas-e-Queries-em-SIEM/labs/README.md) | Dez labs: campos, filtros, agregações, correlação e investigação final | Ao transformar perguntas em consultas e conferir resultados |
 | [Labs de Detection Engineering](08-Detection-Engineering/labs/README.md) | Onze labs: hipótese, testes, tuning, Sigma e ciclo completo | Ao transformar queries em detecções operáveis |
+| [Labs de Threat Hunting](09-Threat-Hunting/labs/README.md) | Onze labs progressivos e um final, com dados fictícios e soluções | Ao investigar hipóteses e documentar conclusões |
 | [Labs integradores](12-Labs-Praticos/README.md) | Seis roteiros Windows, Sysmon, Sentinel e hunting | Ao montar o ambiente e produzir sua própria documentação |
 
-Os módulos 06, 07 e 08 incluem dados fictícios e conferência offline. A execução nos produtos depende de ambiente, coleta e schema compatíveis.
+Os módulos 06, 07, 08 e 09 incluem dados fictícios e conferência offline. A execução nos produtos depende de ambiente, coleta e schema compatíveis.
 
 ### Seis roteiros integradores do módulo 12
 
@@ -433,9 +434,9 @@ Hunting começa com uma hipótese que possa ser investigada, com escopo e dados 
 
 > Hipótese → Dados → Pesquisa → Investigação → Evidência → Conclusão
 
-Uma hipótese pode ser confirmada, refutada ou permanecer inconclusiva por falta de dados. Todos esses resultados podem trazer aprendizado quando o raciocínio e a cobertura ficam documentados. Uma atividade rara também pode ser legítima; ausência de resultados não prova ausência de ameaça.
+Uma hipótese pode ser sustentada, enfraquecida, refutada no escopo ou permanecer inconclusiva por falta de dados. Todos esses resultados podem trazer aprendizado quando o raciocínio e a cobertura ficam documentados. Uma atividade rara também pode ser legítima; ausência de resultados não prova ausência de ameaça.
 
-O [módulo de Threat Hunting](09-Threat-Hunting/README.md) e o [lab integrador de hunting](12-Labs-Praticos/06-Threat-Hunting/README.md) trabalham essa abordagem. A pesquisa pode acontecer em plataformas diferentes; formular a hipótese e interpretar evidências continuam sendo tarefas centrais.
+O [módulo de Threat Hunting](09-Threat-Hunting/README.md) oferece dez [packs de hunts](hunts/README.md), doze labs, Hunt Journal e relatório com conclusões limitadas pela cobertura. O [lab integrador de hunting](12-Labs-Praticos/06-Threat-Hunting/README.md) complementa essa abordagem. A pesquisa pode acontecer em plataformas diferentes; formular a hipótese e interpretar evidências continuam sendo tarefas centrais.
 
 ### MITRE ATT&CK aplicado aos estudos
 
@@ -533,6 +534,7 @@ Caminho-das-Pedras-CyberSecurity/
     sigma/
     tests/
   detections/
+  hunts/
   playbooks/
   assets/images/
   scripts/
@@ -548,7 +550,7 @@ Os módulos organizam os estudos; os labs conectam os conceitos; `queries` reún
 | --- | --- |
 | Estrutura e navegação | Base organizada em 14 módulos, com referências e roadmap. |
 | Conteúdo didático | Em evolução, com conceitos, práticas e entregas propostas. |
-| Laboratórios | Nove labs em SIEM, dez em consultas, onze em engenharia de detecção e seis roteiros integradores; resultados reais nos produtos devem ser documentados. |
+| Laboratórios | Nove labs em SIEM, dez em consultas, onze em engenharia de detecção, doze em hunting e seis roteiros integradores; resultados reais nos produtos devem ser documentados. |
 | Consultas | KQL, SPL, AQL e Wazuh/OpenSearch; catálogo por casos de uso e exemplos KQL anteriores preservados. Execução nos produtos pendente. |
 | Sigma e detecções | Especificação, Sigma, XML Wazuh, testes fictícios e template ampliado. Integração no ambiente alvo pendente. |
 | Playbooks | Roteiros manuais educacionais, sem automação de contenção implantada. |

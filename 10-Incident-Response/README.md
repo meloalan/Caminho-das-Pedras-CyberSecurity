@@ -1,6 +1,6 @@
 # 10 — Incident Response
 
-[← Voltar para página principal](../README.md)
+[← Módulo 09: Threat Hunting](../09-Threat-Hunting/README.md) · [Página principal](../README.md)
 
 As seis etapas abaixo são uma organização didática e iterativa, não uma atribuição literal de fases ao NIST atual.
 

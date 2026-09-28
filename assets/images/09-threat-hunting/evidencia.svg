@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="605" viewBox="0 0 640 605" role="img" aria-labelledby="title desc"><title id="title">Da observação à conclusão</title><desc id="desc">Uma inferência precisa ser identificada como inferência.</desc>
+<rect width="640" height="605" rx="20" fill="#0b1526"/>
+<g font-family="Arial,sans-serif"><text x="32" y="35" font-size="17" fill="#61e0dd">CAMINHO DAS PEDRAS / THREAT HUNTING</text><text x="32" y="80" font-size="30" fill="#eff7ff" font-weight="bold">Da observação à conclusão</text>
+<rect x="32" y="110" width="576" height="116" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="54" y="144" font-size="25" fill="#61e0dd" font-weight="bold">OBSERVAÇÃO</text>
+<text x="54" y="177" font-size="21" fill="#bdd1e5">O registro mostra um processo.</text>
+<text x="54" y="206" font-size="21" fill="#bdd1e5">ID, fonte, horário e entidades.</text>
+<path d="M320 229 v17 m-6 -6 l6 7 6 -7" fill="none" stroke="#3288ff" stroke-width="3"/>
+<rect x="32" y="255" width="576" height="116" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="54" y="289" font-size="25" fill="#61e0dd" font-weight="bold">EXPLICAÇÕES CONCORRENTES</text>
+<text x="54" y="322" font-size="21" fill="#bdd1e5">Administração, software ou abuso?</text>
+<text x="54" y="351" font-size="21" fill="#bdd1e5">Qual dado permite diferenciá-los?</text>
+<path d="M320 374 v17 m-6 -6 l6 7 6 -7" fill="none" stroke="#3288ff" stroke-width="3"/>
+<rect x="32" y="400" width="576" height="116" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="54" y="434" font-size="25" fill="#61e0dd" font-weight="bold">CONCLUSÃO LIMITADA</text>
+<text x="54" y="467" font-size="21" fill="#bdd1e5">Sustentada, enfraquecida ou refutada.</text>
+<text x="54" y="496" font-size="21" fill="#bdd1e5">Inconclusiva quando falta evidência.</text>
+<text x="32" y="580" font-size="18" fill="#bdd1e5">Uma inferência precisa ser identificada como inferência.</text>
+</g></svg>

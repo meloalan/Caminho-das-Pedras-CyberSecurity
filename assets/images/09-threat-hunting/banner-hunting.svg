@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc"><title id="title">09 Threat Hunting</title><desc id="desc">Da hipótese aos dados, busca, pista, pivot, evidência e conclusão.</desc><rect width="1600" height="520" fill="#0b1526"/><g font-family="Arial,sans-serif">
+<rect x="70" y="55" width="10" height="72" rx="5" fill="#3288ff"/>
+<text x="104" y="78" font-size="20" fill="#bdd1e5" font-weight="normal">CAMINHO DAS PEDRAS • CYBERSECURITY</text>
+<text x="1400" y="78" font-size="20" fill="#bdd1e5" font-weight="normal">MÓDULO 09</text>
+<text x="70" y="236" font-size="115" fill="#3288ff" font-weight="bold">09</text>
+<text x="245" y="193" font-size="60" fill="#eff7ff" font-weight="bold">THREAT</text>
+<text x="245" y="258" font-size="60" fill="#eff7ff" font-weight="bold">HUNTING</text>
+<text x="74" y="337" font-size="24" fill="#eff7ff" font-weight="normal">Comece com uma pergunta. Conclua com evidências.</text>
+<text x="74" y="377" font-size="20" fill="#bdd1e5" font-weight="normal">Hipótese • cobertura • contexto • pensamento crítico</text>
+<rect x="900" y="146" width="120" height="145" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="912" y="181" font-size="19" fill="#61e0dd" font-weight="normal">01</text>
+<text x="910" y="224" font-size="16" fill="#eff7ff" font-weight="bold">HIPÓTESE</text>
+<text x="910" y="261" font-size="18" fill="#bdd1e5" font-weight="normal">Pergunta</text>
+<path d="M1021 213 h8" stroke="#61e0dd" stroke-width="2"/>
+<rect x="1030" y="146" width="120" height="145" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="1042" y="181" font-size="19" fill="#61e0dd" font-weight="normal">02</text>
+<text x="1040" y="224" font-size="16" fill="#eff7ff" font-weight="bold">DADOS</text>
+<text x="1040" y="261" font-size="18" fill="#bdd1e5" font-weight="normal">Cobertura</text>
+<path d="M1151 213 h8" stroke="#61e0dd" stroke-width="2"/>
+<rect x="1160" y="146" width="120" height="145" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="1172" y="181" font-size="19" fill="#61e0dd" font-weight="normal">03</text>
+<text x="1170" y="224" font-size="16" fill="#eff7ff" font-weight="bold">BUSCA</text>
+<text x="1170" y="261" font-size="18" fill="#bdd1e5" font-weight="normal">Pista</text>
+<path d="M1281 213 h8" stroke="#61e0dd" stroke-width="2"/>
+<rect x="1290" y="146" width="120" height="145" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="1302" y="181" font-size="19" fill="#61e0dd" font-weight="normal">04</text>
+<text x="1300" y="224" font-size="16" fill="#eff7ff" font-weight="bold">PIVOT</text>
+<text x="1300" y="261" font-size="18" fill="#bdd1e5" font-weight="normal">Contexto</text>
+<path d="M1411 213 h8" stroke="#61e0dd" stroke-width="2"/>
+<rect x="1420" y="146" width="120" height="145" rx="12" fill="#12243a" stroke="#32536f"/>
+<text x="1432" y="181" font-size="19" fill="#61e0dd" font-weight="normal">05</text>
+<text x="1430" y="224" font-size="16" fill="#eff7ff" font-weight="bold">EVIDÊNCIA</text>
+<text x="1430" y="261" font-size="18" fill="#bdd1e5" font-weight="normal">Conclusão</text>
+<path d="M1480 311 v48 H950 v-40" fill="none" stroke="#3288ff" stroke-width="3"/><path d="M950 312 l-7 13 h14Z" fill="#3288ff"/>
+<text x="1040" y="392" font-size="18" fill="#61e0dd" font-weight="normal">NOVA PERGUNTA → NOVO PIVOT</text>
+<path d="M70 457 H1530" stroke="#32536f"/>
+<text x="74" y="490" font-size="19" fill="#bdd1e5" font-weight="normal">IDENTIDADE  •  PROCESSOS  •  REDE  •  TIMELINE  •  ALTERNATIVAS  •  HUNT TO DETECTION</text>
+</g></svg>

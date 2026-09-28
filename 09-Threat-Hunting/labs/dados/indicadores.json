@@ -1,0 +1,30 @@
+[
+  {
+    "id": "IOC-LAB-001",
+    "synthetic": true,
+    "type": "domain",
+    "value": "updates.example.test",
+    "source": "Exercício do projeto",
+    "confidence": "low",
+    "first_seen": "2026-09-23T00:00:00Z",
+    "last_seen": "2026-09-24T08:10:00Z",
+    "valid_from": "2026-09-23T00:00:00Z",
+    "expires_at": "2026-09-25T00:00:00Z",
+    "owner": "Equipe LAB",
+    "note": "Valor reservado, sem reputação maliciosa real"
+  },
+  {
+    "id": "IOC-LAB-002",
+    "synthetic": true,
+    "type": "ip",
+    "value": "198.51.100.20",
+    "source": "Exercício do projeto",
+    "confidence": "low",
+    "first_seen": "2026-09-20T00:00:00Z",
+    "last_seen": "2026-09-21T00:00:00Z",
+    "valid_from": "2026-09-20T00:00:00Z",
+    "expires_at": "2026-09-22T00:00:00Z",
+    "owner": "Equipe LAB",
+    "note": "Expirado na janela do hunt; não usar como indicador ativo"
+  }
+]

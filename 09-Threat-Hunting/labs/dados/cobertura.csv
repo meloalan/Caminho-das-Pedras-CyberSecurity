@@ -1,0 +1,8 @@
+host,source,event_ids,retention_start,retention_end,coverage_status,synthetic
+WIN-LAB01,Security,4624|4625|4672|4688|4697|4698|4732,2026-09-17T00:00:00Z,2026-09-25T00:00:00Z,available,true
+WIN-LAB01,Sysmon,1|3|22,2026-09-17T00:00:00Z,2026-09-25T00:00:00Z,available,true
+WIN-LAB02,Security,4624|4625|4688|4732|1102,2026-09-17T00:00:00Z,2026-09-25T00:00:00Z,available,true
+WIN-LAB02,Sysmon,1,2026-09-17T00:00:00Z,2026-09-25T00:00:00Z,network_dns_disabled,true
+WIN-LAB03,Security,4624|4625,2026-09-24T12:00:00Z,2026-09-25T00:00:00Z,window_not_retained,true
+WIN-LAB03,Sysmon,,2026-09-24T12:00:00Z,2026-09-25T00:00:00Z,not_installed,true
+DC-LAB01,Security,4720|4728|4740|4768|4769|4771,2026-09-17T00:00:00Z,2026-09-25T00:00:00Z,available,true
