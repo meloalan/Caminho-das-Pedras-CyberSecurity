@@ -1,0 +1,40 @@
+# Formato educacional do projeto. Nao e Sigma nem importacao de SIEM.
+id: DET-WIN-ACCOUNT-001
+name: Windows Account Created - Triage Baseline
+version: '1.0'
+status: experimental
+owner: Equipe LAB ficticia
+hypothesis: Criacao de conta deve ter autorizacao e uso posterior conferidos.
+risk: Persistencia por identidade criada sem autorizacao.
+scope: Hosts e DCs Windows com auditoria e coleta confirmadas.
+data_sources:
+  provider: Microsoft-Windows-Security-Auditing
+  channel: Security
+  event_id: 4720
+required_fields: [host, timestamp, actor, actor_domain, user, domain]
+logic:
+  selection: provider and channel and event_id match data_sources
+  missing_context: preserve candidate and report missing fields
+  threshold: one matching event
+  authority: confirm local or domain using original source and asset context
+  duplicates: use source-scoped event identity; do not count retries as new events
+severity: low baseline; reconsider with asset and investigation context
+confidence: event occurrence is not proof of malicious intent
+mitre:
+  candidate: T1136
+  refinement: T1136.001 for confirmed local scope; T1136.002 for confirmed domain scope
+false_positives: [Authorized provisioning, Approved maintenance]
+false_negatives: [Missing audit, Missing collection, Unsupported source]
+exceptions: []
+implementation: See module 08 multisiem-detection.md; no deployment performed
+tests:
+  fixture: detections/tests/account-cases.json
+  command: python -B -m unittest discover -s detections/tests -v
+runbook: 08-Detection-Engineering/runbooks.md
+health: source arrival, required fields, rule execution, delay, alert delivery
+review: before pilot, after parser changes, and on a risk-based schedule
+retirement: record reason, replacement, coverage impact and approval
+changelog:
+  - date: '2026-09-28'
+    version: '1.0'
+    change: Initial educational specification with synthetic tests

@@ -1,6 +1,6 @@
 # 09 — Threat Hunting
 
-[← Voltar para página principal](../README.md)
+[← Módulo 08: Detection Engineering](../08-Detection-Engineering/README.md) · [Página principal](../README.md)
 
 Hunting busca testar uma hipótese; resultado negativo também precisa de cobertura conhecida.
 

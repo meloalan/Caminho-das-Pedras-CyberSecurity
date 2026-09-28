@@ -1,0 +1,9 @@
+<group name="local,windows,account_management,">
+  <rule id="100820" level="8">
+    <if_sid>60109</if_sid>
+    <field name="win.system.providerName">^Microsoft-Windows-Security-Auditing$</field>
+    <field name="win.system.channel">^Security$</field>
+    <field name="win.system.eventID">^4720$</field>
+    <description>LAB: Windows account created; verify authorization</description>
+  </rule>
+</group>

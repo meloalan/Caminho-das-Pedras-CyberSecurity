@@ -1,0 +1,38 @@
+[
+  {
+    "id": "P01",
+    "synthetic": true,
+    "provider": "Microsoft-Windows-Sysmon",
+    "event_id": 1,
+    "host": "WIN-LAB01",
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "ParentImage": "C:\\Program Files\\Microsoft Office\\WINWORD.EXE",
+    "CommandLine": "powershell.exe -NoProfile -Command Get-Date",
+    "expected_selection": true,
+    "notes": "Expected selection is not a maliciousness verdict."
+  },
+  {
+    "id": "P02",
+    "synthetic": true,
+    "provider": "Microsoft-Windows-Sysmon",
+    "event_id": 1,
+    "host": "WIN-LAB01",
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "CommandLine": "powershell.exe -NoProfile -Command Get-Date",
+    "expected_selection": false,
+    "notes": "Expected selection is not a maliciousness verdict."
+  },
+  {
+    "id": "P03",
+    "synthetic": true,
+    "provider": "Microsoft-Windows-Sysmon",
+    "event_id": 1,
+    "host": "WIN-LAB01",
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "ParentImage": null,
+    "CommandLine": "powershell.exe -NoProfile -Command Get-Date",
+    "expected_selection": false,
+    "notes": "Expected selection is not a maliciousness verdict."
+  }
+]

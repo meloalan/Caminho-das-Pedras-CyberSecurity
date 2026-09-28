@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="750" viewBox="0 0 640 750" role="img" aria-labelledby="title desc">
+<title id="title">Cobertura exige evidência</title><desc id="desc">Cobertura exige evidência</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="750" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / DETECTION ENGINEERING</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Cobertura exige evidência</text>
+<rect x="32" y="116" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="130" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="152" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">POPULAÇÃO</text>
+<text x="54" y="184" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Inventário, ativos elegíveis e período.</text>
+<path d="M320 230 L320 243" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="249" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="263" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="285" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">FONTE E CAMPOS</text>
+<text x="54" y="317" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Coleta, qualidade e lacunas conhecidas.</text>
+<path d="M320 363 L320 376" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="382" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="396" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="418" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">REGRA E TESTE</text>
+<text x="54" y="450" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Implantação e resultado demonstrados.</text>
+<path d="M320 496 L320 509" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="515" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="529" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="551" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">LIMITES</text>
+<text x="54" y="583" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">O que permanece fora do alcance?</text>
+<text x="32" y="722" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Uma tag ATT&amp;CK não comprova cobertura.</text>
+</g></svg>

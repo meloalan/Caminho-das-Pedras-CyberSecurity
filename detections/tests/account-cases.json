@@ -1,0 +1,104 @@
+[
+  {
+    "name": "positive",
+    "input": {
+      "id": "A01",
+      "synthetic": true,
+      "provider": "Microsoft-Windows-Security-Auditing",
+      "channel": "Security",
+      "event_id": 4720,
+      "host": "WIN-LAB01",
+      "timestamp": "2026-09-28T10:15:00Z",
+      "actor": "admin.lab",
+      "actor_domain": "LAB",
+      "user": "novo.lab",
+      "domain": "WIN-LAB01"
+    },
+    "expected": {
+      "match": true,
+      "missing_context": []
+    }
+  },
+  {
+    "name": "negative",
+    "input": {
+      "id": "A01",
+      "synthetic": true,
+      "provider": "Microsoft-Windows-Security-Auditing",
+      "channel": "Security",
+      "event_id": 4624,
+      "host": "WIN-LAB01",
+      "timestamp": "2026-09-28T10:15:00Z",
+      "actor": "admin.lab",
+      "actor_domain": "LAB",
+      "user": "novo.lab",
+      "domain": "WIN-LAB01"
+    },
+    "expected": {
+      "match": false,
+      "missing_context": []
+    }
+  },
+  {
+    "name": "wrong-provider",
+    "input": {
+      "id": "A01",
+      "synthetic": true,
+      "provider": "Microsoft-Windows-Sysmon",
+      "channel": "Security",
+      "event_id": 4720,
+      "host": "WIN-LAB01",
+      "timestamp": "2026-09-28T10:15:00Z",
+      "actor": "admin.lab",
+      "actor_domain": "LAB",
+      "user": "novo.lab",
+      "domain": "WIN-LAB01"
+    },
+    "expected": {
+      "match": false,
+      "missing_context": []
+    }
+  },
+  {
+    "name": "null",
+    "input": {
+      "id": "A01",
+      "synthetic": true,
+      "provider": "Microsoft-Windows-Security-Auditing",
+      "channel": "Security",
+      "event_id": 4720,
+      "host": "WIN-LAB01",
+      "timestamp": "2026-09-28T10:15:00Z",
+      "actor": null,
+      "actor_domain": "LAB",
+      "user": "novo.lab",
+      "domain": "WIN-LAB01"
+    },
+    "expected": {
+      "match": true,
+      "missing_context": [
+        "actor"
+      ]
+    }
+  },
+  {
+    "name": "zero-threshold-single-event",
+    "input": {
+      "id": "A02",
+      "synthetic": true,
+      "provider": "Microsoft-Windows-Security-Auditing",
+      "channel": "Security",
+      "event_id": 4720,
+      "host": "WIN-LAB01",
+      "timestamp": "2026-09-28T10:15:00Z",
+      "actor": "admin.lab",
+      "actor_domain": "LAB",
+      "user": "novo.lab",
+      "domain": "WIN-LAB01"
+    },
+    "expected": {
+      "match": true,
+      "missing_context": []
+    }
+  }
+]

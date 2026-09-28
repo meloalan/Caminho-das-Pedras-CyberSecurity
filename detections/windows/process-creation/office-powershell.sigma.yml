@@ -1,0 +1,29 @@
+title: Office Parent Launching PowerShell - Educational Review
+id: b327b11e-1e3a-4e64-a604-dedc4cd97513
+status: experimental
+description: Selects a specific Office to PowerShell process chain for contextual review. A match does not prove malicious execution.
+references:
+  - https://attack.mitre.org/techniques/T1059/001/
+  - https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+author: meloalan
+date: 2026-09-28
+tags:
+  - attack.execution
+  - attack.t1059.001
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  child:
+    Image|endswith:
+      - '\powershell.exe'
+      - '\pwsh.exe'
+  parent:
+    ParentImage|endswith:
+      - '\winword.exe'
+      - '\excel.exe'
+  condition: child and parent
+falsepositives:
+  - Authorized Office automation launching PowerShell
+  - Controlled educational tests
+level: medium

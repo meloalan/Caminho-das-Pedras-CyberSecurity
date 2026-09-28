@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="883" viewBox="0 0 640 883" role="img" aria-labelledby="title desc">
+<title id="title">Desenvolver, operar, revisar</title><desc id="desc">Desenvolver, operar, revisar</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#61e0dd"/></marker></defs>
+<rect width="640" height="883" rx="20" fill="#0b1526"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="36" font-size="16" fill="#61e0dd" text-anchor="start" font-weight="bold">CAMINHO DAS PEDRAS / DETECTION ENGINEERING</text>
+<text x="32" y="80" font-size="30" fill="#eff7ff" text-anchor="start" font-weight="bold">Desenvolver, operar, revisar</text>
+<rect x="32" y="116" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="130" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="152" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">HIPÓTESE</text>
+<text x="54" y="184" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Risco e comportamento observável.</text>
+<path d="M320 230 L320 243" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="249" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="263" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="285" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">TELEMETRIA E LÓGICA</text>
+<text x="54" y="317" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Fonte, campos, condições e limites.</text>
+<path d="M320 363 L320 376" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="382" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="396" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="418" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">TESTE E VALIDAÇÃO</text>
+<text x="54" y="450" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Positivos, negativos e qualidade.</text>
+<path d="M320 496 L320 509" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="515" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="529" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="551" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">OPERAÇÃO</text>
+<text x="54" y="583" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Alerta, triagem, saúde e owner.</text>
+<path d="M320 629 L320 642" fill="none" stroke="#61e0dd" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="32" y="648" width="576" height="110" rx="12" fill="#12243a" stroke="#32536f"/>
+<rect x="32" y="662" width="4" height="82" rx="2" fill="#61e0dd"/>
+<text x="54" y="684" font-size="25" fill="#61e0dd" text-anchor="start" font-weight="bold">FEEDBACK E MANUTENÇÃO</text>
+<text x="54" y="716" font-size="22" fill="#bdd1e5" text-anchor="start" font-weight="normal">Rever hipótese, dados, lógica e versão.</text>
+<text x="32" y="855" font-size="19" fill="#bdd1e5" text-anchor="start" font-weight="normal">Testes e feedback fazem o ciclo voltar.</text>
+</g></svg>
