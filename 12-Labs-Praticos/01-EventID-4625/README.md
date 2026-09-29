@@ -1,4 +1,6 @@
-# Lab 01 — Falhas de autenticação (4625)
+# Lab 01: Falhas de autenticação (4625)
+
+> Referência aprofundada preservada. Na trilha progressiva, use [Lab 02: entendendo e gerando logs](../lab-02-logs/README.md) para a prática de origem e [Lab 06: correlação de falhas e sucesso](../lab-06-brute-force/README.md) para o cenário de detecção.
 
 [← Índice dos labs](../README.md) · [← Voltar para página principal](../../README.md)
 
@@ -14,7 +16,7 @@ Uma conta local de teste em VM Windows independente, com uma tentativa manual de
 
 ## Arquitetura
 
-VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01–03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
+VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01-03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
 
 ## Pré-requisitos
 

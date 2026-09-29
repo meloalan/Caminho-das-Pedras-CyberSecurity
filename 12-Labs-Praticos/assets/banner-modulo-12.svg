@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#09121c"/><stop offset="1" stop-color="#0d1a25"/></linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" fill="none" stroke="#183043" stroke-width="1" opacity=".56"/></pattern>
+    <filter id="glow" x="-.4" y="-.4" width="1.8" height="1.8"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="520" fill="url(#bg)"/><rect x="805" y="0" width="795" height="455" fill="url(#grid)"/>
+  <rect x="70" y="56" width="11" height="70" rx="6" fill="#2f81f7"/>
+  <text x="105" y="78" fill="#9baab8" font-family="Arial,sans-serif" font-size="18" letter-spacing="1">CAMINHO DAS PEDRAS  •  CYBERSECURITY</text>
+  <text x="1427" y="78" fill="#607284" font-family="Arial,sans-serif" font-size="18" letter-spacing="1">MÓDULO 12</text>
+  <text x="72" y="228" fill="#2f81f7" font-family="Arial,sans-serif" font-weight="700" font-size="112">12</text>
+  <text x="230" y="205" fill="#f0f4f8" font-family="Arial,sans-serif" font-weight="700" font-size="48" letter-spacing="1">PROJETOS PRÁTICOS</text>
+  <text x="74" y="287" fill="#c2ccd5" font-family="Arial,sans-serif" font-size="25">Do laboratório isolado ao projeto SOC end-to-end</text>
+  <text x="74" y="332" fill="#9eacb9" font-family="Arial,sans-serif" font-size="19" letter-spacing="1">TELEMETRIA  •  DETECÇÃO  •  INVESTIGAÇÃO  •  RESPOSTA</text>
+  <g fill="#101f2b" stroke="#24445b" stroke-width="1.2"><rect x="875" y="150" width="174" height="155" rx="13"/><rect x="1082" y="150" width="174" height="155" rx="13"/><rect x="1289" y="150" width="174" height="155" rx="13"/></g>
+  <g stroke="#48a3ff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M916 216h92m-81-22h70v46h-70zm10 12 10 10-10 10m21 0h24"/>
+    <circle cx="1169" cy="216" r="27"/><path d="M1169 196v20l15 9"/>
+    <path d="M1363 231v-22a20 20 0 0 1 40 0v22m-46 0h52v34h-52zM1389 242v11"/>
+  </g>
+  <g fill="#e4ebf1" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><text x="962" y="278">LABORATÓRIO</text><text x="1169" y="278">INVESTIGAÇÃO</text><text x="1388" y="278">PROJETO SOC</text></g>
+  <path d="M891 352H1437" stroke="#2f81f7" stroke-width="3"/><path d="m1437 352-15-8v16z" fill="#2f81f7"/>
+  <g fill="#9eacb9" font-family="Arial,sans-serif" font-size="15"><text x="875" y="378">eventos</text><text x="1125" y="378">evidências</text><text x="1387" y="378">portfólio</text></g>
+  <path d="M70 455H1530" stroke="#263745"/><text x="74" y="490" fill="#788b9b" font-family="Arial,sans-serif" font-size="17" letter-spacing="1">APRENDER  •  PRATICAR  •  INVESTIGAR  •  DOCUMENTAR</text>
+</svg>

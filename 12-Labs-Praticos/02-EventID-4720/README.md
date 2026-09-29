@@ -1,4 +1,6 @@
-# Lab 02 — Criação de usuário (4720)
+# Lab 02: Criação de usuário (4720)
+
+> Referência aprofundada preservada. A sequência nova começa por [Lab 02: logs](../lab-02-logs/README.md), continua em [Lab 05: detecção de criação de conta](../lab-05-detection/README.md) e conclui o mapping em [Lab 12: MITRE ATT&CK](../lab-12-mitre/README.md).
 
 [← Índice dos labs](../README.md) · [← Voltar para página principal](../../README.md)
 
@@ -14,7 +16,7 @@ Criação autorizada de conta local descartável em VM que não é controlador d
 
 ## Arquitetura
 
-VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01–03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
+VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01-03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
 
 ## Pré-requisitos
 
@@ -56,7 +58,7 @@ Baseline de 4720 com severidade baixa para estudo. Provisionamento aprovado é c
 
 ## MITRE ATT&CK
 
-[T1136 — Create Account](https://attack.mitre.org/techniques/T1136/) → [T1136.001 — Local Account](https://attack.mitre.org/techniques/T1136/001/). O mapeamento vale porque este roteiro cria conta local. A atividade é benigna e autorizada.
+[T1136, Create Account](https://attack.mitre.org/techniques/T1136/) → [T1136.001, Local Account](https://attack.mitre.org/techniques/T1136/001/). O mapeamento vale porque este roteiro cria conta local. A atividade é benigna e autorizada.
 
 ## Resultado esperado
 

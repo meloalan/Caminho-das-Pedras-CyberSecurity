@@ -1,4 +1,6 @@
-# Lab 03 — Sysmon Process Creation
+# Lab 03: Sysmon Process Creation
+
+> Referência aprofundada preservada. O percurso principal de endpoint fica em [Lab 03: Sysmon e telemetria](../lab-03-sysmon/README.md); use esta página para o roteiro detalhado de Event ID 1 e integração Sentinel.
 
 [← Índice dos labs](../README.md) · [← Voltar para página principal](../../README.md)
 
@@ -14,7 +16,7 @@ Execução benigna de `powershell.exe -NoProfile -Command "Get-Date"` em VM.
 
 ## Arquitetura
 
-VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01–03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
+VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01-03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
 
 ## Pré-requisitos
 

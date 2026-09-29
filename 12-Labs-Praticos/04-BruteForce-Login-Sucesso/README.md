@@ -1,4 +1,6 @@
-# Lab 04 — Falhas seguidas de login com sucesso
+# Lab 04: Falhas seguidas de login com sucesso
+
+> Referência aprofundada preservada. O fluxo principal usa [Lab 06: correlação de falhas e sucesso](../lab-06-brute-force/README.md) e inclui opções além do Sentinel.
 
 [← Índice dos labs](../README.md) · [← Voltar para página principal](../../README.md)
 
@@ -14,7 +16,7 @@ Sequência controlada com conta de teste; começar pela matriz sintética. Não 
 
 ## Arquitetura
 
-VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01–03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
+VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01-03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
 
 ## Pré-requisitos
 
@@ -56,7 +58,7 @@ Candidata experimental: cinco falhas em dez minutos antes de um sucesso; frequê
 
 ## MITRE ATT&CK
 
-[T1110.001 — Password Guessing](https://attack.mitre.org/techniques/T1110/001/) como hipótese. Sucesso não comprova abuso de conta válida nem comprometimento.
+[T1110.001, Password Guessing](https://attack.mitre.org/techniques/T1110/001/) como hipótese. Sucesso não comprova abuso de conta válida nem comprometimento.
 
 ## Resultado esperado
 

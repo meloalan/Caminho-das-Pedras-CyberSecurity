@@ -111,30 +111,30 @@ Há cinco conjuntos de prática, com propósitos diferentes:
 | [Labs de consultas](07-Buscas-e-Queries-em-SIEM/labs/README.md) | Dez labs: campos, filtros, agregações, correlação e investigação final | Ao transformar perguntas em consultas e conferir resultados |
 | [Labs de Detection Engineering](08-Detection-Engineering/labs/README.md) | Onze labs: hipótese, testes, tuning, Sigma e ciclo completo | Ao transformar queries em detecções operáveis |
 | [Labs de Threat Hunting](09-Threat-Hunting/labs/README.md) | Onze labs progressivos e um final, com dados fictícios e soluções | Ao investigar hipóteses e documentar conclusões |
-| [Labs integradores](12-Labs-Praticos/README.md) | Seis roteiros Windows, Sysmon, Sentinel e hunting | Ao montar o ambiente e produzir sua própria documentação |
+| [Trilha integradora](12-Labs-Praticos/README.md) | Quatorze etapas progressivas, de laboratório isolado a projeto SOC para portfólio | Ao consolidar telemetria, detecção, investigação e resposta |
 
 Os módulos 06, 07, 08 e 09 incluem dados fictícios e conferência offline. A execução nos produtos depende de ambiente, coleta e schema compatíveis.
 
-### Seis roteiros integradores do módulo 12
+### Trilha progressiva do módulo 12
 
-Estes roteiros continuam em desenvolvimento. Resultados, capturas e aprendizados observados precisam ser registrados depois de realizar cada exercício.
+O módulo 12 organiza uma sequência de 14 etapas, preserva os seis roteiros detalhados existentes e adiciona um projeto SOC de ponta a ponta. Resultados, capturas e aprendizados observados precisam ser registrados depois de realizar cada exercício.
 
-| Laboratório | Prática | Situação |
+| Etapa detalhada | Prática de referência | Situação |
 | --- | --- | --- |
-| [Lab 01: Falhas de autenticação (4625)](12-Labs-Praticos/01-EventID-4625/README.md) | Investigar uma falha de autenticação Windows sem assumir que ela é maliciosa. | Em desenvolvimento: roteiro inicial |
-| [Lab 02: Criação de usuário (4720)](12-Labs-Praticos/02-EventID-4720/README.md) | Identificar criação de conta e distinguir ator, alvo e escopo local. | Em desenvolvimento: roteiro inicial |
-| [Lab 03: Sysmon Process Creation](12-Labs-Praticos/03-Sysmon-EventID-1/README.md) | Relacionar processo, pai e linha de comando usando Event ID 1 do Sysmon. | Em desenvolvimento: roteiro inicial |
-| [Lab 04: Falhas seguidas de login com sucesso](12-Labs-Praticos/04-BruteForce-Login-Sucesso/README.md) | Correlacionar falhas anteriores a um sucesso sem confundir ordem, conta ou origem. | Em desenvolvimento: roteiro inicial |
-| [Lab 05: Coleta e investigação no Sentinel](12-Labs-Praticos/05-Microsoft-Sentinel/README.md) | Montar e verificar o caminho entre evento Windows e consulta no workspace. | Em desenvolvimento: roteiro inicial |
-| [Lab 06: Hunt baseado em hipótese](12-Labs-Praticos/06-Threat-Hunting/README.md) | Testar se relações pouco frequentes de PowerShell precisam de investigação adicional. | Em desenvolvimento: roteiro inicial |
+| [Event ID 4625](12-Labs-Praticos/01-EventID-4625/README.md) | Investigar uma falha de autenticação Windows sem assumir que ela é maliciosa. | Roteiro disponível, execução pendente |
+| [Event ID 4720](12-Labs-Praticos/02-EventID-4720/README.md) | Identificar criação de conta e distinguir ator, alvo e escopo local. | Roteiro disponível, execução pendente |
+| [Sysmon Process Creation](12-Labs-Praticos/03-Sysmon-EventID-1/README.md) | Relacionar processo, pai e linha de comando usando Event ID 1 do Sysmon. | Roteiro disponível, execução pendente |
+| [Correlação de autenticação](12-Labs-Praticos/04-BruteForce-Login-Sucesso/README.md) | Correlacionar falhas anteriores a um sucesso sem confundir ordem, conta ou origem. | Roteiro disponível, execução pendente |
+| [Coleta e investigação no Sentinel](12-Labs-Praticos/05-Microsoft-Sentinel/README.md) | Montar e verificar o caminho entre evento Windows e consulta no workspace. | Roteiro disponível, execução pendente |
+| [Hunt baseado em hipótese](12-Labs-Praticos/06-Threat-Hunting/README.md) | Testar se relações pouco frequentes de PowerShell precisam de investigação adicional. | Roteiro disponível, execução pendente |
 
-**Legenda de status:** planejado significa ideia ainda sem roteiro; em desenvolvimento indica preparação ou revisão do material; executado exige registro da realização; documentado exige relato dos resultados, evidências revisadas e limitações. Um lab documentado ainda pode receber melhorias.
+**Legenda de status:** roteiro disponível significa que há passos para seguir; execução pendente indica que o ambiente ainda precisa ser operado pelo estudante; executado exige registro da realização; documentado exige relato dos resultados, evidências revisadas e limitações. Um lab documentado ainda pode receber melhorias.
 
-Nenhum dos seis labs está declarado como executado. Prints, dados e resultados reais continuam marcados como TODO. O [índice de labs](12-Labs-Praticos/README.md) reúne pré-requisitos e ordem de execução. Os Labs 01 a 03 podem começar pelo Event Viewer; a etapa KQL com dados coletados depende do ambiente descrito no Lab 05.
+Os seis roteiros detalhados existentes não estão declarados como executados. Prints, dados e resultados reais continuam pendentes até que cada exercício seja realizado. O [índice da trilha](12-Labs-Praticos/README.md) reúne as 14 etapas, pré-requisitos e ordem de execução. O caminho de SIEM é opcional e aceita Wazuh, Elastic, Sentinel, Splunk ou QRadar.
 
 ### Próximas entregas práticas
 
-Os percursos de Wazuh, Splunk e QRadar já estão descritos no módulo 06, com consultas complementares no módulo 07. O trabalho seguinte é executar em ambientes próprios, documentar versões e diferenças de schema e registrar resultados obtidos. Um lab dedicado a Elastic Stack continua como possibilidade de expansão.
+Os percursos de Wazuh, Splunk e QRadar estão descritos no módulo 06, com consultas complementares no módulo 07. O módulo 12 agora também apresenta alternativas Sentinel e Elastic e permite concluir a trilha com dados sintéticos, sem declarar execução em uma plataforma que não foi usada.
 
 <a id="consultas"></a>
 

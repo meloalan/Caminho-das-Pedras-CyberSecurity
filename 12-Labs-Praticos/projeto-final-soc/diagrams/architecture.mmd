@@ -1,0 +1,11 @@
+flowchart LR
+    WIN[Windows VM<br/>Security e Sysmon] --> AG[Agente ou collector]
+    LNX[Linux VM opcional<br/>auth e syslog] --> AG
+    FW[Firewall lab ou fixture] --> AG
+    AG --> SIEM[SIEM escolhido]
+    DATA[Fixture JSONL sintética] --> SIEM
+    SIEM --> RULE[Detecção e triagem]
+    RULE --> SOC[Investigação e hunting]
+    SOC --> ATT[ATT&CK com evidência e versão]
+    ATT --> IR[Decisão de resposta e relatório]
+    IR --> GAP[Lessons learned e gaps]

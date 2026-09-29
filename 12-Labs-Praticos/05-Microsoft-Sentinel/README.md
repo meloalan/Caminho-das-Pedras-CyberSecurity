@@ -1,4 +1,6 @@
-# Lab 05 — Coleta e investigação no Sentinel
+# Lab 05: Coleta e investigação no Sentinel
+
+> Roteiro Sentinel preservado como opção de plataforma. Compare com o [Lab 04: escolhendo e montando um SIEM](../lab-04-siem/README.md), que oferece Wazuh, Elastic, Sentinel, Splunk e QRadar sem obrigar a instalar todos.
 
 [← Índice dos labs](../README.md) · [← Voltar para página principal](../../README.md)
 
@@ -14,7 +16,7 @@ Um host de laboratório com coleta Windows Security Events via AMA para Security
 
 ## Arquitetura
 
-VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01–03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
+VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01-03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
 
 ## Pré-requisitos
 

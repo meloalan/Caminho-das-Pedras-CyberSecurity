@@ -1,4 +1,6 @@
-# Lab 06 — Hunt baseado em hipótese
+# Lab 06: Hunt baseado em hipótese
+
+> Referência aprofundada preservada. Na sequência progressiva, comece pela hipótese em [Lab 09: Threat Hunting](../lab-09-threat-hunting/README.md) e use este roteiro para a consulta detalhada de PowerShell com Sentinel.
 
 [← Índice dos labs](../README.md) · [← Voltar para página principal](../../README.md)
 
@@ -14,7 +16,7 @@ Hipótese: uma relação pai/filho incomum pode revelar execução que merece re
 
 ## Arquitetura
 
-VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01–03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
+VM Windows em rede de laboratório → canal de eventos local → agente/regra de coleta, quando configurados → Log Analytics/Sentinel. Os Labs 01-03 podem começar apenas pelo Event Viewer; KQL exige fonte correspondente. Nenhum ambiente foi provisionado por este repositório.
 
 ## Pré-requisitos
 
@@ -57,7 +59,7 @@ Hunt exploratório, sem alerta automático. Uma futura regra exige padrão está
 
 ## MITRE ATT&CK
 
-[T1059.001 — PowerShell](https://attack.mitre.org/techniques/T1059/001/) descreve o comportamento pesquisado. A técnica pode estar presente em uso legítimo; não inferir intenção.
+[T1059.001, PowerShell](https://attack.mitre.org/techniques/T1059/001/) descreve o comportamento pesquisado. A técnica pode estar presente em uso legítimo; não inferir intenção.
 
 ## Resultado esperado
 

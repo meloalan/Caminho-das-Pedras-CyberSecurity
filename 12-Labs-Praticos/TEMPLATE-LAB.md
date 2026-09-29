@@ -1,73 +1,78 @@
-# Template de laboratório
+# Template de projeto prático
 
-[← Índice dos labs](README.md) · [Página principal](../README.md)
+[← Índice dos projetos](README.md) · [Página principal](../README.md)
 
-Status: planejado. Não confundir resultado esperado com evidência observada.
+Este template serve para os 14 labs da trilha, do primeiro ambiente isolado ao Projeto Final SOC. Registre execução e resultados somente depois de realizar cada etapa.
 
-## Objetivo
+> **Uso seguro:** execute somente em laboratório próprio ou explicitamente autorizado. Remova nomes, IPs, contas, tokens e identificadores antes de publicar.
 
-Defina uma habilidade e o critério de sucesso.
+## Objetivo e critério de sucesso
 
-## Cenário
+Que pergunta o laboratório responde? Como será possível demonstrar que o resultado esperado ocorreu?
 
-Descreva somente o ambiente autorizado e a atividade simulada.
+## Etapa da trilha e pré-requisitos
+
+- Lab anterior concluído:
+- Conhecimentos necessários:
+- Permissões e custos:
+- Condições de isolamento e snapshot:
+
+## Cenário e hipótese
+
+Descreva o comportamento e a pergunta de análise. Diferencie hipótese defensiva de fato observado.
 
 ## Arquitetura
 
-Registre hosts, rede, canais, coleta e destino; use nomes fictícios.
+Liste VMs, sistema, papel, endereço anonimizado, rede, coletor, SIEM e caminho do dado. Inclua o diagrama editável em `diagrams/` quando aplicável.
 
-## Pré-requisitos
+## Ferramentas e versões
 
-Liste permissões, auditoria, isolamento, snapshot, custo e limpeza.
+| Ferramenta | Versão e edição | Motivo de uso | Fonte oficial |
+| --- | --- | --- | --- |
+| | | | |
 
-## Ferramentas utilizadas
+## Execução autorizada
 
-Informe ferramentas, versões e configurações.
+Registre passos numerados, comandos executados, verificações, resultado e procedimento de reversão. Use contas descartáveis e limites conservadores. Não cole segredo ou dado real.
 
-## Execução
+## Telemetria esperada
 
-Numere ações reproduzíveis; inclua verificação e reversão.
+| Fonte ou canal | Evento | Campos relevantes | Ativo gerador | Retenção |
+| --- | --- | --- | --- | --- |
+| | | | | |
 
-## Logs gerados
+## Query ou regra
 
-Informe eventos esperados, provedor, canal, campos e horário UTC.
-
-## Evidências
-
-TODO: adicionar evidência real do laboratório
-
-## Investigação
-
-Separe fatos, hipóteses, alternativas legítimas e lacunas.
-
-## Query
-
-Vincule arquivo e explicação; declare tabela, campos e filtros.
-
-## Regra de detecção
-
-Defina lógica, limiar, frequência, janela, entidades, falsos positivos e testes.
+Inclua a intenção, pressupostos de tabela ou schema, janela, limiar, entidades, código, falsos positivos, adaptação por plataforma e testes positivos e negativos.
 
 ## MITRE ATT&CK
 
-Justifique técnica/subtécnica pelo comportamento observado e cite fonte oficial.
+Registre domínio, versão, data, ID candidato e evidência comportamental. Uma ferramenta ou Event ID isolado não determina técnica, subtécnica ou intenção.
 
-## Resultado esperado
+## Investigação
 
-Declare condições observáveis, incluindo caso negativo.
+- Fatos observados:
+- Inferências e confiança local:
+- Alternativas legítimas:
+- Lacunas de telemetria:
+- Pivots e evidências relacionadas:
 
-## Resultado obtido
+## Resultado esperado e resultado obtido
 
-TODO: adicionar evidência real do laboratório
+Declare-os separadamente. Se não executou, indique isso. Não apresente saída de exemplo como evidência real.
 
-## O que aprendi
+## Evidências e privacidade
 
-TODO: adicionar evidência real do laboratório
+Anote local seguro, hash, horário UTC e processo de redação. Evidência bruta permanece fora do Git. Em portfólio, publique capturas redigidas e dados sintéticos redistribuíveis.
 
-## Possíveis melhorias
+## Limitações, aprendizado e melhoria
 
-Identifique lacuna de coleta, lógica ou documentação.
+Que parte da hipótese não foi testada? Que fonte, lógica, esquema, janela ou população ficou fora do escopo? O que você faria depois?
 
-## Próximos passos
+## Próximos passos e limpeza
 
-Registre limpeza e próximo exercício.
+Registre snapshots restaurados, recursos cloud removidos, contas temporárias removidas e custos verificados. Linke a próxima etapa da trilha.
+
+---
+
+[← Índice dos projetos](README.md)
