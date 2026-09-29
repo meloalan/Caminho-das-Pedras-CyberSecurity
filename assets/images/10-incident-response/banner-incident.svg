@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Caminho das Pedras, Incident Response</title>
+  <desc id="desc">Módulo 10. Detectar, analisar, decidir, conter, recuperar e melhorar com evidências, escopo e coordenação.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07111b"/><stop offset="1" stop-color="#0d1924"/></linearGradient>
+    <linearGradient id="blue" x2="1"><stop stop-color="#1687ff"/><stop offset="1" stop-color="#45b4ff"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#173247" stroke-width="1" opacity=".68"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="520" fill="url(#bg)"/><rect x="800" width="800" height="450" fill="url(#grid)" opacity=".78"/>
+  <rect x="70" y="56" width="10" height="70" rx="5" fill="url(#blue)"/>
+  <text x="104" y="82" fill="#a8bac8" font-family="Arial,sans-serif" font-size="19" letter-spacing="1.1">CAMINHO DAS PEDRAS  •  CYBERSECURITY</text>
+  <text x="1518" y="82" text-anchor="end" fill="#70899b" font-family="Arial,sans-serif" font-size="18">MÓDULO 10</text>
+  <text x="70" y="226" fill="#238cff" font-family="Arial,sans-serif" font-size="108" font-weight="700">10</text>
+  <text x="230" y="200" fill="#f2f6fa" font-family="Arial,sans-serif" font-size="54" font-weight="700" letter-spacing="1">INCIDENT</text>
+  <text x="230" y="258" fill="#f2f6fa" font-family="Arial,sans-serif" font-size="54" font-weight="700" letter-spacing="1">RESPONSE</text>
+  <text x="74" y="326" fill="#c5d0d8" font-family="Arial,sans-serif" font-size="24">Transforme evidências e incertezas em decisões coordenadas.</text>
+  <text x="74" y="370" fill="#91a5b4" font-family="Arial,sans-serif" font-size="18">EVIDÊNCIA  •  ESCOPO  •  CONTENÇÃO  •  RECUPERAÇÃO  •  MELHORIA</text>
+  <line x1="70" y1="440" x2="1530" y2="440" stroke="#304453"/>
+  <text x="74" y="480" fill="#758d9e" font-family="Arial,sans-serif" font-size="17" letter-spacing=".6">EVIDÊNCIA + CONTEXTO + AUTORIDADE → RESPOSTA RESPONSÁVEL</text>
+  <text x="1530" y="480" text-anchor="end" fill="#647d90" font-family="Arial,sans-serif" font-size="16">PROCESSO ANTES DA FERRAMENTA</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <path d="M902 198H1467" stroke="url(#blue)" stroke-width="3" filter="url(#glow)"/>
+    <path d="m1467 190 16 8-16 8" fill="none" stroke="#45b4ff" stroke-width="3"/>
+    <g fill="#102433" stroke="#294456">
+      <rect x="850" y="126" width="178" height="142" rx="13"/><rect x="1035" y="126" width="178" height="142" rx="13"/><rect x="1220" y="126" width="178" height="142" rx="13"/><rect x="1405" y="126" width="145" height="142" rx="13"/>
+    </g>
+    <g fill="none" stroke="#38a5ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="939" cy="174" r="18"/><path d="M939 145v8m0 42v8m-29-29h8m42 0h8M918 153l6 6m30 30 6 6m0-42-6 6m-30 30-6 6"/>
+      <path d="M1094 154h60v42h-60zM1102 163h44M1103 174h16m-16 9h25"/>
+      <circle cx="1309" cy="169" r="18"/><path d="M1283 200h52m-45-12-7 12m45-12 7 12m-26-8v12"/>
+      <path d="M1447 153h58v43h-58zM1457 164l8 7-8 7m14 0h20"/>
+    </g>
+    <g fill="#eef5fa" font-weight="700" font-size="16"><text x="939" y="231">DETECTAR</text><text x="1124" y="231">ANALISAR</text><text x="1309" y="231">CONTER</text><text x="1477" y="231">RECUPERAR</text></g>
+    <g fill="#91a6b5" font-size="12"><text x="939" y="251">sinal e contexto</text><text x="1124" y="251">fatos e escopo</text><text x="1309" y="251">decisão registrada</text><text x="1477" y="251">validar e aprender</text></g>
+  </g>
+  <g transform="translate(865 318)">
+    <text x="0" y="0" fill="#667f91" font-family="Arial,sans-serif" font-size="13" letter-spacing="1">CASE TIMELINE • UTC</text>
+    <line x1="5" y1="39" x2="615" y2="39" stroke="#35556b" stroke-width="2"/>
+    <g fill="#0c1d2a" stroke="#35a2fa" stroke-width="2"><circle cx="10" cy="39" r="7"/><circle cx="160" cy="39" r="7"/><circle cx="310" cy="39" r="7"/><circle cx="460" cy="39" r="7"/><circle cx="610" cy="39" r="7"/></g>
+    <g fill="#98acba" font-family="Arial,sans-serif" font-size="12"><text x="0" y="67">evento</text><text x="139" y="67">análise</text><text x="282" y="67">decisão</text><text x="427" y="67">ação</text><text x="573" y="67">revisão</text></g>
+  </g>
+  <g transform="translate(820 290)" fill="none" stroke="#24628a" stroke-width="1.5" opacity=".75"><path d="M0 14h23m0 0 11-12m-11 12 11 12m-11-12h32"/><circle cx="0" cy="14" r="4" fill="#152b3a"/><circle cx="34" cy="2" r="4" fill="#152b3a"/><circle cx="34" cy="26" r="4" fill="#152b3a"/><circle cx="55" cy="14" r="4" fill="#152b3a"/></g>
+</svg>

@@ -18,15 +18,20 @@ documents = sorted(ROOT.rglob('*.md'))
 for path in documents:
     relative = path.relative_to(ROOT).as_posix()
     text = path.read_text(encoding='utf-8')
+    markdown = text
+    if relative.startswith('.github/ISSUE_TEMPLATE/') and text.startswith('---\n'):
+        front_matter_end = text.find('\n---\n', 4)
+        if front_matter_end != -1:
+            markdown = text[front_matter_end + 5:].lstrip('\r\n')
     if '\ufffd' in text:
         errors.append(f'{relative}: caractere de substituição Unicode')
-    if not text.startswith('# '):
+    if not markdown.startswith('# '):
         errors.append(f'{relative}: falta título H1 inicial')
-    if len(re.findall(r'^# ', text, re.M)) != 1:
+    if len(re.findall(r'^# ', markdown, re.M)) != 1:
         errors.append(f'{relative}: esperado exatamente um H1')
-    if len(re.findall(r'^```', text, re.M)) % 2:
+    if len(re.findall(r'^```', markdown, re.M)) % 2:
         errors.append(f'{relative}: bloco de código não fechado')
-    prose = re.sub(r'^```.*?^```[^\n]*', '', text, flags=re.M | re.S)
+    prose = re.sub(r'^```.*?^```[^\n]*', '', markdown, flags=re.M | re.S)
     last_level = 0
     for match in re.finditer(r'^(#{1,6}) ', prose, re.M):
         level = len(match[1])

@@ -1,0 +1,19 @@
+flowchart LR
+    D[Detectar] e1@--> A[Analisar]
+    A e2@--> S[Definir escopo]
+    S e3@--> C[Decidir contenção]
+    C e4@--> E[Erradicar]
+    E e5@--> R[Recuperar]
+    R e6@--> M[Monitorar]
+    M e7@--> L[Aprender]
+    L e8@--> P[Melhorar preparação]
+    A e9@<--> C
+    e1@{ animation: fast }
+    e2@{ animation: fast }
+    e3@{ animation: fast }
+    e4@{ animation: fast }
+    e5@{ animation: fast }
+    e6@{ animation: slow }
+    e7@{ animation: slow }
+    e8@{ animation: slow }
+    e9@{ animation: slow }

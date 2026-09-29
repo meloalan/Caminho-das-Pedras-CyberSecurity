@@ -93,7 +93,7 @@ Estes são os módulos existentes. Wazuh, Splunk, QRadar e Microsoft Sentinel s�
 | 07: Buscas e Queries em SIEM | Perguntas, campos, filtros, tempo e correlação em KQL, SPL, AQL e Wazuh/OpenSearch. | [Abrir módulo](07-Buscas-e-Queries-em-SIEM/README.md) |
 | 08: Detection Engineering | Hipóteses, telemetria, testes, tuning, Sigma, cobertura e manutenção. | [Abrir módulo](08-Detection-Engineering/README.md) |
 | 09: Threat Hunting | Hipóteses, cobertura, dez hunts, pivots, alternativas e relatórios. | [Abrir módulo](09-Threat-Hunting/README.md) |
-| 10: Incident Response | Preparação, identificação, contenção, recuperação e melhoria. | [Abrir módulo](10-Incident-Response/README.md) |
+| 10: Incident Response | Decisão coordenada, evidência, escopo, contenção responsável, recuperação e melhoria contínua. | [Abrir módulo](10-Incident-Response/README.md) |
 | 11: MITRE ATT&CK | Táticas, técnicas e mapeamento justificado por comportamento. | [Abrir módulo](11-MITRE-ATTACK/README.md) |
 | 12: Labs práticos | Roteiros reproduzíveis, evidências e resultados documentados. | [Abrir módulo](12-Labs-Praticos/README.md) |
 | 13: Certificações | Objetivos de estudo, guias oficiais e conexão com a prática. | [Abrir módulo](13-Certificacoes/README.md) |
