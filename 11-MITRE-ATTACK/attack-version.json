@@ -1,0 +1,15 @@
+{
+  "domain": "enterprise-attack",
+  "attackVersion": "19.2",
+  "validationDate": "2026-09-29",
+  "navigatorVersion": "5.3.2",
+  "layerFormatVersion": "4.5",
+  "automaticUpdates": false,
+  "notes": "Fotografia editorial para o módulo 11. Consulte as fontes oficiais antes de uso operacional ou após novas versões.",
+  "sources": {
+    "versionHistory": "https://attack.mitre.org/resources/versions/",
+    "updates": "https://attack.mitre.org/resources/updates/",
+    "dataAndTools": "https://attack.mitre.org/resources/working-with-attack/",
+    "navigator": "https://mitre-attack.github.io/attack-navigator/"
+  }
+}

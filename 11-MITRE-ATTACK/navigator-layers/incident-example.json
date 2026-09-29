@@ -1,0 +1,51 @@
+{
+  "name": "M11 | Investigação didática, exemplo fictício",
+  "versions": {
+    "attack": "19.2",
+    "navigator": "5.3.2",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "Exemplo sintético de hipótese comportamental durante uma investigação. Não representa um incidente real e não atribui atividade a um adversário.",
+  "filters": {
+    "platforms": [],
+    "stages": [],
+    "tactics": [],
+    "subtechniques": [],
+    "data_sources": [],
+    "impact_forced": false
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "showID": true,
+    "showName": true,
+    "showAggregateScores": false,
+    "countUnscored": false
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1136",
+      "tactic": "persistence",
+      "color": "#e0b43c",
+      "comment": "Observação fictícia: houve criação de uma conta num host de função ainda não confirmada. T1136 é apenas candidato; falta determinar escopo local, domínio ou cloud. Tática e intenção também não foram estabelecidas.",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": true
+    }
+  ],
+  "legendItems": [
+    {
+      "label": "Mapeamento candidato, evidência incompleta",
+      "color": "#e0b43c"
+    }
+  ],
+  "metadata": [],
+  "links": [],
+  "showTacticRowBackground": false,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false
+}

@@ -1,0 +1,51 @@
+{
+  "name": "M11 | Hipóteses de hunting, exemplo fictício",
+  "versions": {
+    "attack": "19.2",
+    "navigator": "5.3.2",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "Exemplo educacional de perguntas de hunting. Destaque não afirma observação ou presença de atividade adversária.",
+  "filters": {
+    "platforms": [],
+    "stages": [],
+    "tactics": [],
+    "subtechniques": [],
+    "data_sources": [],
+    "impact_forced": false
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "showID": true,
+    "showName": true,
+    "showAggregateScores": false,
+    "countUnscored": false
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1059.001",
+      "tactic": "execution",
+      "color": "#e0b43c",
+      "comment": "Hipótese fictícia: que fontes distinguem execução PowerShell administrativa habitual de atividade incomum no ambiente? Identifique população, campos e explicações alternativas antes da consulta.",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": false
+    }
+  ],
+  "legendItems": [
+    {
+      "label": "Hipótese de hunting, sem confirmação",
+      "color": "#e0b43c"
+    }
+  ],
+  "metadata": [],
+  "links": [],
+  "showTacticRowBackground": false,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false
+}

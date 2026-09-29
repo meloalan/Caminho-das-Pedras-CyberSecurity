@@ -1,0 +1,73 @@
+{
+  "name": "M11 | Cobertura didática, exemplo fictício",
+  "versions": {
+    "attack": "19.2",
+    "navigator": "5.3.2",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "Exemplo sintético. Nenhuma observação representa ambiente real. Verde é uma manifestação validada apenas no escopo fictício do comentário; amarelo requer validação adicional.",
+  "filters": {
+    "platforms": [],
+    "stages": [],
+    "tactics": [],
+    "subtechniques": [],
+    "data_sources": [],
+    "impact_forced": false
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "showID": true,
+    "showName": true,
+    "showAggregateScores": false,
+    "countUnscored": false
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1136.001",
+      "tactic": "persistence",
+      "color": "#2f9e63",
+      "comment": "Fictício: detecção de criação de conta local validada apenas numa imagem Windows de laboratório. Não representa cobertura total de T1136.001 nem de outros ambientes.",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": false
+    },
+    {
+      "techniqueID": "T1136.002",
+      "tactic": "persistence",
+      "color": "#e0b43c",
+      "comment": "Fictício: fonte de auditoria candidata identificada. A lógica e os ativos ainda não foram validados.",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": false
+    }
+  ],
+  "legendItems": [
+    {
+      "label": "Exemplo fictício validado no escopo comentado",
+      "color": "#2f9e63"
+    },
+    {
+      "label": "Telemetria candidata, validação pendente",
+      "color": "#e0b43c"
+    },
+    {
+      "label": "Lacuna conhecida no escopo fictício",
+      "color": "#cf4446"
+    },
+    {
+      "label": "Fora do escopo da avaliação fictícia",
+      "color": "#8b929a"
+    }
+  ],
+  "metadata": [],
+  "links": [],
+  "showTacticRowBackground": false,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false
+}

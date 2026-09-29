@@ -94,7 +94,7 @@ Estes são os módulos existentes. Wazuh, Splunk, QRadar e Microsoft Sentinel s�
 | 08: Detection Engineering | Hipóteses, telemetria, testes, tuning, Sigma, cobertura e manutenção. | [Abrir módulo](08-Detection-Engineering/README.md) |
 | 09: Threat Hunting | Hipóteses, cobertura, dez hunts, pivots, alternativas e relatórios. | [Abrir módulo](09-Threat-Hunting/README.md) |
 | 10: Incident Response | Decisão coordenada, evidência, escopo, contenção responsável, recuperação e melhoria contínua. | [Abrir módulo](10-Incident-Response/README.md) |
-| 11: MITRE ATT&CK | Táticas, técnicas e mapeamento justificado por comportamento. | [Abrir módulo](11-MITRE-ATTACK/README.md) |
+| 11: MITRE ATT&CK | Comportamento, evidência, telemetria, hunting, detecção e cobertura honesta. | [Abrir módulo](11-MITRE-ATTACK/README.md) |
 | 12: Labs práticos | Roteiros reproduzíveis, evidências e resultados documentados. | [Abrir módulo](12-Labs-Praticos/README.md) |
 | 13: Certificações | Objetivos de estudo, guias oficiais e conexão com a prática. | [Abrir módulo](13-Certificacoes/README.md) |
 | 14: Roadmap | Prioridades e entregas para cada etapa do aprendizado. | [Abrir módulo](14-Roadmap/README.md) |
@@ -440,7 +440,7 @@ O [módulo de Threat Hunting](09-Threat-Hunting/README.md) oferece dez [packs de
 
 ### MITRE ATT&CK aplicado aos estudos
 
-O [módulo MITRE ATT&CK](11-MITRE-ATTACK/README.md) apresenta táticas, técnicas e subtécnicas como uma linguagem para contextualizar comportamentos. No projeto, ele ajuda a mapear os labs, organizar a cobertura de detecção e enriquecer investigações.
+O [módulo MITRE ATT&CK](11-MITRE-ATTACK/README.md) ensina a mapear comportamentos com evidência, relacionar técnicas à telemetria e avaliar limites reais de hunting e detecção. Uma tag não equivale a cobertura completa.
 
 Um Event ID isolado não prova que uma técnica adversária ocorreu. O 4720 registra criação de conta, inclusive em atividade administrativa autorizada. Associá-lo à criação de conta local exige confirmar o escopo; interpretar a intenção exige mais contexto. O mapeamento deve explicar essa relação e suas limitações.
 
